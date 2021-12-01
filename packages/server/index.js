@@ -29452,7 +29452,7 @@ let user = {
     if (!mp.vehicles.exists(vehicle)) return null;
     let driver;
     vehicle.getOccupants().forEach(p => {
-      if (p.seat == -1) {
+      if (p.seat == 0) {
         driver = p;
       }
     });
@@ -49567,7 +49567,7 @@ mp.events.addRemoteCounted('server:user:getTaxi', (player, type, price) => {
   mp.vehicles.forEach(function (v) {
     if ((v.getVariable('job') == 'taxi1' || v.getVariable('job') == 'taxi2') && v.getOccupants().length > 0) {
       v.getOccupants().forEach(function (p) {
-        if (_user.user.isLogin(p) && (_user.user.get(p, 'job') == 'taxi1' || _user.user.get(p, 'job') == 'taxi2') && p.seat == -1) {
+        if (_user.user.isLogin(p) && (_user.user.get(p, 'job') == 'taxi1' || _user.user.get(p, 'job') == 'taxi2') && p.seat == 0) {
           switch (type) {
             case 0:
               if (_methods.methods.getVehicleInfo(v.model).display_name == 'Primo' || _methods.methods.getVehicleInfo(v.model).display_name == 'Taxi' || _methods.methods.getVehicleInfo(v.model).display_name == 'Oracle2' || _methods.methods.getVehicleInfo(v.model).display_name == 'Schafter4' || _methods.methods.getVehicleInfo(v.model).display_name == 'Revolter' || _methods.methods.getVehicleInfo(v.model).display_name == 'SC1') _dispatcher.dispatcher.sendTaxiPosForPlayer(p, _user.user.getPhone(player), 'Клиент вызвал такси ~b~эконом ~s~класса. Цена: ~g~$' + price, price, player.position, ids);
@@ -49615,16 +49615,16 @@ mp.events.addRemoteCounted('server:user:sendTaxiAccept', (player, phone, id) => 
       p.notify(`~y~Пожалуйста оставайтесь на месте`);
     }
 
-    if (p.vehicle && p.seat == -1 && _user.user.get(p, 'job') == _user.user.get(player, 'job')) p.notifyWithPicture(_user.user.getRpName(player), 'Диспетчер', `Заказ ~b~#${id}~s~ был принят`, iconPic, 1, false, -1, -1, [77, 77, 77, 200]);
+    if (p.vehicle && p.seat == 0 && _user.user.get(p, 'job') == _user.user.get(player, 'job')) p.notifyWithPicture(_user.user.getRpName(player), 'Диспетчер', `Заказ ~b~#${id}~s~ был принят`, iconPic, 1, false, -1, -1, [77, 77, 77, 200]);
   });
 });
 mp.events.add('playerEnterVehicle', (player, vehicle, seat) => {
-  if (seat == -1) return;
+  if (seat == 0) return;
   if (!_user.user.has(player, 'taxiType')) return;
 
   if (vehicle.getVariable('job') == 'taxi1' || vehicle.getVariable('job') == 'taxi2') {
     vehicle.getOccupants().forEach(function (p) {
-      if (p.seat == -1) {
+      if (p.seat == 0) {
         if (_user.user.getLevel(player) == _level.levelAccess.freeTaxi) player.notify('~g~Акция от компании, поездка бесплатна');
         p.notify('~g~Ваш клиент сел к вам в такси');
         player.notify('~g~По завершению поездки будет выставлен счёт');

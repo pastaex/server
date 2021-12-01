@@ -3,7 +3,6 @@ import { CEF } from 'api';
 import { connect } from 'react-redux';
 import $ from 'jquery';
 
-import logo from './logo-login.png';
 
 interface Reg {
   promocode: React.RefObject<HTMLInputElement>;
@@ -98,7 +97,7 @@ class Reg extends Component<any, any> {
     if (email !== '' && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email))
       return CEF.alert.setAlert(
         'error',
-        'Некорректный адрес электронной почты. Пример: admin@ren-play.ru'
+        'Некорректный адрес электронной почты. Пример: admin@mail.ru'
       );
     mp.events.callServer('server:user:account:register', rp_name, password, email, referrer, promocode, age);
     this.setState({ sended: true });
@@ -106,80 +105,73 @@ class Reg extends Component<any, any> {
 
   render() {
     return (
-      <section className="section-view reg-section">
+      <section className="section-view login-section">
         <div className="box-white box-login">
-          <div className="login-header">
-            <img src={logo} alt="" />
-          </div>
-          <div className="white-box-content posrev">
-            <div className="title-wrap">
-              <h2>Регистрация</h2>
-              <p>
-                <a href="#" className="hrefer go-login" onClick={() => CEF.gui.setGui('login')}>
-                  Вернуться назад
-                </a>
-              </p>
-            </div>
-            <form>
-              <div className="input-wrap">
-                <div className="icon-left">
-                  <span className="glyphicons glyphicons-user"></span>
-                </div>
+        <div className="logo"></div>
+              <div className="loginwelcome">Для игры на сервере Вам необходимо
+пройти регистрацию.</div>
+                <div className="regwelcome">Есть аккаунт?</div>
+                <div className="regwelcome2" onClick={() => CEF.gui.setGui('login')}>Авторизация</div>
+       <div className="effecttext">РЕГИСТРАЦИЯ</div>
+              <div className="effects2"></div> 
+              <div className="effects3"></div>
+              <div className="krug1"></div>
+              <div className="krug2"></div>
+              <div className="krug3"></div>
+              <div className="krug4"></div>
+              <div className="krug5"></div>
+              <div className="krug6"></div>
+              <div className="krug7"></div>
+              <div className="krug8"></div>
+              <div className="krug9"></div>
+              <div className="krug10"></div>
+            <div className="box1"></div>
+              <div className="box2"></div>
+              <div className="box3"></div>
+              <div className="box4"></div>
+              <div className="box5"></div>
+              <div className="inputname">
                 <input
                   type="text"
                   placeholder="Никнейм"
-                  className="primary-input"
+                  className="inputinfo"
                   ref={this.rp_name}
                 />
               </div>
-              <div className="input-wrap">
-                <div className="icon-left">
-                  <span className="glyphicons glyphicons-envelope"></span>
-                </div>
+              <div className="inputemail">
                 <input
                   type="text"
                   placeholder="Ваша почта"
-                  className="primary-input"
+                  className="inputinfo"
                   ref={this.email}
                 />
               </div>
-              <div className="input-wrap">
-                <div className="icon-left">
-                  <span className="glyphicons glyphicons-lock"></span>
-                </div>
+              <div className="inputpassword">
                 <input
                   type="password"
                   placeholder="Пароль"
-                  className="primary-input"
+                  className="inputinfo"
                   ref={this.password}
                 />
               </div>
-              <div className="input-wrap">
-                <div className="icon-left">
-                  <span className="glyphicons glyphicons-lock"></span>
-                </div>
+              <div className="inputpassnew">
                 <input
                   type="password"
                   placeholder="Повторите пароль"
-                  className="primary-input"
+                  className="inputinfo"
                   ref={this.password2}
                 />
               </div>
-              <div className="input-wrap">
-                <div className="icon-left">
-                  <span className="glyphicon glyphicon-flag"></span>
-                </div>
+              <div className="inputage">
                 <input
+                  min="16"
                   type="number"
                   placeholder="Возраст персонажа"
-                  className="primary-input"
+                  className="inputinfo"
                   ref={this.age}
                 />
               </div>
-              <div className="input-wrap">
-                <div className="icon-left">
-                  <span className="glyphicons glyphicons-user"></span>
-                </div>
+              {/* <div className="input-wrap">
                 <input
                   type="text"
                   placeholder="Кто пригласил"
@@ -188,24 +180,20 @@ class Reg extends Component<any, any> {
                 />
               </div>
               <div className="input-wrap mb30">
-                <div className="icon-left">
-                  <span className="glyphicons glyphicons-user"></span>
-                </div>
                 <input
                   type="text"
                   placeholder="Промокод"
                   className="primary-input"
                   ref={this.promocode}
                 />
-              </div>
-              <div className="button-center">
+              </div> */}
+              <div className="regbutton" onClick={this.handleClick}></div>
+{/*               <div className="button-center">
                 <button type="submit" className="primary-button mb30" onClick={this.handleClick}>
                   <span>Создать</span>
                 </button>
-              </div>
-            </form>
+              </div> */}
           </div>
-        </div>
       </section>
     );
   }

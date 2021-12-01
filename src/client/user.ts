@@ -447,7 +447,7 @@ const user = {
     //* find GPS blip
 
     try {
-      let entity = mp.players.local.vehicle && mp.players.local.vehicle.getPedInSeat(-1) == mp.players.local.handle ? mp.players.local.vehicle : mp.players.local
+      let entity = mp.players.local.vehicle && mp.players.local.vehicle.getPedInSeat(0) == mp.players.local.handle ? mp.players.local.vehicle : mp.players.local
       let pos = methods.getWaypointPosition();
       if (pos.x != 0) {
         user.teleport(pos.x, pos.y, pos.z);

@@ -185,29 +185,21 @@ class Auth extends Component<AuthProps, AuthState> {
                 ref={this.password}
               />
             </div>
-            {/* <div className="input-wrap mb30">
+             <div className="checkspawn">
               <Select
                 name="WantedReasons"
+                className="checkinfo"
                 onChange={this.changeSpawn.bind(this)}
                 options={!this.state.inputted ? this.props.spawnPos[this.state.active] : []}
                 value={!this.state.inputted ? this.state.currentSpawnPos : null}
                 isSearchable={false}
                 in
                 placeholder="Выберите место спавна"
-                styles={{
-                  control: (base: any) => ({
-                    ...base,
-                    minHeight: 50,
-                    minWidth: 265,
-                    backgroundColor: 'transparent',
-                    boxShadow: 'inset 0px 0px 0px 2px rgba(220, 228, 235, 0.97)',
-                  }),
-                }}
               />
-            </div> */}
+            </div>
               <div className="authbutton" onClick={this.handleClick.bind(this)}></div>
-             <div className="button-res">Забыли пароль?</div>
-                <div className="button-res1" onClick={() => CEF.gui.setGui('newpass')}>Восстановить аккаунт</div> 
+{/*              <div className="button-res">Забыли пароль?</div>
+                <div className="button-res1" onClick={() => CEF.gui.setGui('newpass')}>Восстановить аккаунт</div>  */}
           </div>
       </section>
     );

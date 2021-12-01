@@ -2884,7 +2884,7 @@ export let user = {
     if(!mp.vehicles.exists(vehicle)) return null;
     let driver: PlayerMp;
     vehicle.getOccupants().forEach((p) => {
-      if (p.seat == -1) {
+      if (p.seat == 0) {
         driver = p;
       }
     });

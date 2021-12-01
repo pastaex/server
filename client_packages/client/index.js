@@ -132,7 +132,7 @@ const SET_RAGE_BETA = () => {
 };
 
 exports.SET_RAGE_BETA = SET_RAGE_BETA;
-},{}],"Z8LL":[function(require,module,exports) {
+},{}],"Z8L+":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -224,9 +224,8 @@ exports.MainEvent = MainEvent;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.formatTime = void 0;
 exports.getRandomInt = getRandomInt;
-exports.wait = exports.testJSON = exports.sleep = exports.randomArrayEl = exports.getTime = void 0;
+exports.formatTime = exports.randomArrayEl = exports.getTime = exports.wait = exports.sleep = exports.testJSON = void 0;
 
 const testJSON = text => {
   if (typeof text !== 'string') {
@@ -315,7 +314,7 @@ const formatTime = time => {
 };
 
 exports.formatTime = formatTime;
-},{}],"Edcz":[function(require,module,exports) {
+},{}],"5Edc":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -546,13 +545,13 @@ class Container {
 }
 
 exports.Container = Container;
-},{"./methods":"qXSp"}],"bNis":[function(require,module,exports) {
+},{"./methods":"+qXS"}],"bNis":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.weaponCost = exports.stockSize = exports.mafiaCarsUnlockCdtimer = exports.mafiaCarsCdtimer = exports.mafiaCars = exports.kitchenIntDataUtil = exports.itemCosts = exports.businessNalog = exports.PillBoxCost = void 0;
+exports.PillBoxCost = exports.itemCosts = exports.weaponCost = exports.businessNalog = exports.stockSize = exports.mafiaCarsUnlockCdtimer = exports.mafiaCarsCdtimer = exports.mafiaCars = exports.kitchenIntDataUtil = void 0;
 const kitchenIntDataUtil = [[349.8293, -932.1685, 45.36568, 20000], [-1909.91, -575.0604, 18.09722, 20000], [-1282.89, 446.3326, 96.89471, 20000], [-1153.151, -1521.806, 9.642298, 20000], [-897.9225, -441.7401, 93.05853, 20000], [-852.9263, 688.3412, 151.8529, 20000], [-782.1923, 330.5791, 186.3132, 20000], [-758.5352, 610.5003, 143.1406, 20000], [-674.4797, 595.6437, 144.3797, 20000], [-618.301, 42.6407, 96.60004, 20000], [-566.1242, 656.9935, 144.832, 20000], [-111.3519, -6.549356, 69.51958, 20000], [-10.52031, -1428.414, 30.10148, 20000], [124.1809, 557.1547, 183.2971, 20000], [265.3231, -995.9853, -100.0086, 20000], [343.0825, 429.4016, 148.3808, 20000], [343.7529, -1002.998, -100.1962, 20000], [379.4201, 418.8586, 144.9001, 20000], [1395.23, 1145.007, 113.3336, 20000], [1975.355, 3818.645, 32.43632, 20000], [-9.682148, 520.001, 173.628, 30000], [-797.776, 187.5312, 71.60544, 30000], [-1440.387, 6759.043, 7.98046, 30000], [-769.8837, 340.0439, 210.397, 20000], [-787.7949, 330.3934, 157.599, 20000], [-782.215, 329.8719, 216.0382, 20000], [-778.6613, 327.9729, 195.086, 20000], [-1459.873, -534.1923, 54.52639, 20000], [-1473.994, -537.3419, 72.44417, 20000], [-31.02146, -587.9935, 87.71225, 20000], [-11.44843, -584.9959, 78.43073, 20000], [-896.725, -446.5864, 124.1319, 20000], [-912.0232, -371.7621, 83.07791, 20000], [-917.9376, -379.2882, 107.0377, 20000], [-918.7728, -386.1582, 112.6746, 20000], [-468.6447, -695.6874, 74.68432, 20000], [120.4625, -884.7316, 123.2703, 20000], [-674.1874, -858.9833, 40.64307, 20000], [-440.8985, 6274.877, 10.75166, 20000], [-57.75088, -620.3068, 75.99939, 20000], [930.5132, -548.4226, 42.63166, 20000]];
 exports.kitchenIntDataUtil = kitchenIntDataUtil;
 const mafiaCars = {
@@ -632,7 +631,7 @@ exports.PillBoxCost = PillBoxCost;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.propMutil = exports.propFutil = exports.printListUtil = exports.maxAmountTransferItem = exports.itemsUtil = exports.itemsChoise = exports.isWeapon = exports.isAmmoBox = exports.inventoryTypesUtil = exports.houseFridgeCost = exports.houseFridgeAmount = exports.healItemCost3 = exports.healItemCost2 = exports.healItemCost = exports.groupItems = exports.getItemWeightInKGById = exports.getItemWeightById = exports.getItemNameHashById = exports.getItemNameById = exports.getItemName = exports.getItemHashById = exports.getItemChoises = exports.getDefaultCount = exports.convertInventoryItemObjectToArray = exports.convertInventoryItemArrayToObject = exports.clothMutil = exports.clothFutil = exports.canEquip = exports.ammoItemIdToMaxCountUtil = void 0;
+exports.houseFridgeCost = exports.houseFridgeAmount = exports.printListUtil = exports.propMutil = exports.propFutil = exports.clothMutil = exports.clothFutil = exports.itemsChoise = exports.healItemCost3 = exports.healItemCost2 = exports.healItemCost = exports.inventoryTypesUtil = exports.itemsUtil = exports.getDefaultCount = exports.ammoItemIdToMaxCountUtil = exports.getItemChoises = exports.convertInventoryItemObjectToArray = exports.convertInventoryItemArrayToObject = exports.groupItems = exports.isWeapon = exports.canEquip = exports.getItemNameHashById = exports.getItemHashById = exports.getItemNameById = exports.getItemName = exports.isAmmoBox = exports.getItemWeightInKGById = exports.getItemWeightById = exports.maxAmountTransferItem = void 0;
 const maxAmountTransferItem = 10;
 exports.maxAmountTransferItem = maxAmountTransferItem;
 
@@ -1015,21 +1014,21 @@ const houseFridgeAmount = [100000, 500000, 1000000];
 exports.houseFridgeAmount = houseFridgeAmount;
 const houseFridgeCost = 250000;
 exports.houseFridgeCost = houseFridgeCost;
-},{}],"ZRYf":[function(require,module,exports) {
+},{}],"9ZRY":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.enums = exports._vehicleInfo = exports._tprint = exports._tattooList = exports._shopList = exports._propM = exports._propF = exports._overlays = exports._clothM = exports._clothF = void 0;
+exports.enums = exports._vehicleInfo = exports._tattooList = exports._tprint = exports._overlays = exports._shopList = exports._propF = exports._clothF = exports._propM = exports._clothM = void 0;
 
 var _sharedData = require("../util/sharedData");
 
 var _inventory = require("../util/inventory");
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -1102,7 +1101,7 @@ let enums = {
     let en = _vehicleInfo.find(v => v.id === id);
 
     if (en) {
-      en = _objectSpread(_objectSpread({}, en), value);
+      en = _objectSpread({}, en, {}, value);
     }
   },
   kitchenIntData: _sharedData.kitchenIntDataUtil,
@@ -1205,7 +1204,7 @@ const weather = {
     return _methods.methods.parseInt(weatherId);
   },
   syncDateTime: (min, hour, day, month, year) => {
-    mp.discord.update('Veyrom RolePlay' + (_user.user.testServer ? ' [TEST MOD]' : ''), 'gta-5.ru');
+    mp.discord.update('Veyron RolePlay' + (_user.user.testServer ? ' [TEST MOD]' : ''), 'gta-5.ru');
     DayName = DayNames[new Date(year, month, day).getDay()];
     Day = day;
     Month = month;
@@ -1281,7 +1280,7 @@ const weather = {
   }
 };
 exports.weather = weather;
-},{"../modules/methods":"qXSp","../user":"QE3B"}],"ir2T":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3"}],"+ir2":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1308,9 +1307,9 @@ var _weather = require("../managers/weather");
 
 var _mask = require("../../util/mask");
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -1467,7 +1466,7 @@ mp.keys.bind(119, false, function () {
   if (gui.currentGui) return;
   mp.events.callSocket("server:show:quests");
 });
-},{"../user":"QE3B","./methods":"qXSp","./ui":"zOnK","../managers/weather":"uehX","../../util/mask":"ir2T"}],"zOnK":[function(require,module,exports) {
+},{"../user":"+QE3","./methods":"+qXS","./ui":"zOnK","../managers/weather":"uehX","../../util/mask":"+ir2"}],"zOnK":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1783,7 +1782,7 @@ let ui = {
   }
 };
 exports.ui = ui;
-},{"./methods":"qXSp","./gui":"bk91","../../util/newrage":"mgLX"}],"sKID":[function(require,module,exports) {
+},{"./methods":"+qXS","./gui":"bk91","../../util/newrage":"mgLX"}],"sKID":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1807,7 +1806,7 @@ let coffer = {
     mp.events.callSocket('server:coffer:setMoney', money);
   },
   getMoney: async () => {
-    return _methods.methods.parseInt(await _data.Container.Get(containerId, 'cofferMoney'));
+    return _methods.methods.parseInt((await _data.Container.Get(containerId, 'cofferMoney')));
   },
   getAllData: async () => {
     return await _data.Container.GetAll(containerId);
@@ -1837,7 +1836,7 @@ let coffer = {
   }
 };
 exports.coffer = coffer;
-},{"./modules/data":"Edcz","./modules/methods":"qXSp"}],"y5vZ":[function(require,module,exports) {
+},{"./modules/data":"5Edc","./modules/methods":"+qXS"}],"y5vZ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1884,7 +1883,7 @@ let business = {
   }
 };
 exports.business = business;
-},{"./modules/methods":"qXSp"}],"kwVd":[function(require,module,exports) {
+},{"./modules/methods":"+qXS"}],"89kw":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1994,7 +1993,7 @@ var _weapons = require("../util/weapons");
 
 const weapons = _weapons.weaponsUtil;
 exports.weapons = weapons;
-},{"../util/weapons":"kwVd"}],"A2KQ":[function(require,module,exports) {
+},{"../util/weapons":"89kw"}],"A2KQ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2158,7 +2157,7 @@ mp.events.add('render', () => {
     });
   }
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../modules/menu":"Aiz7"}],"bsac":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../modules/menu":"Aiz7"}],"bsac":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2283,13 +2282,13 @@ const dispatcher = {
   }
 };
 exports.dispatcher = dispatcher;
-},{"../user":"QE3B","../modules/methods":"qXSp"}],"ygeq":[function(require,module,exports) {
+},{"../user":"+QE3","../modules/methods":"+qXS"}],"ygeq":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.teleportProtection = exports.healProtection = void 0;
+exports.healProtection = exports.teleportProtection = void 0;
 
 var _user = require("../user");
 
@@ -2459,7 +2458,7 @@ const sendCheater = (reason, more) => {
     }, 30000);
   }
 };
-},{"../user":"QE3B","./methods":"qXSp","../weapons":"YeMF","./data":"Edcz","../../util/weapons":"kwVd"}],"GDbQ":[function(require,module,exports) {
+},{"../user":"+QE3","./methods":"+qXS","../weapons":"YeMF","./data":"5Edc","../../util/weapons":"89kw"}],"GDbQ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2725,7 +2724,7 @@ mp.events.add('client:user:spawn:reg', function (name, surname, email, pass1, pa
     _data.Container.ResetLocally(mp.players.local.remoteId, 'isAuthTimeout');
   }, 10000);
 });
-},{"../modules/methods":"qXSp","../modules/ui":"zOnK","../user":"QE3B","../modules/data":"Edcz","../modules/ach":"ygeq"}],"o0SG":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../modules/ui":"zOnK","../user":"+QE3","../modules/data":"5Edc","../modules/ach":"ygeq"}],"7o0S":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2901,7 +2900,7 @@ let updateStats = () => {
   mp.game.stats.statSetInt(mp.game.joaat('SP2_STEALTH_ABILITY'), _user.user.get('mp0_stealth_ability'), true);
   mp.game.stats.statSetInt(mp.game.joaat('SP2_SHOOTING_ABILITY'), _user.user.get('mp0_shooting_ability'), true);
 };
-},{"./modules/data":"Edcz","./modules/methods":"qXSp","./user":"QE3B"}],"Vike":[function(require,module,exports) {
+},{"./modules/data":"5Edc","./modules/methods":"+qXS","./user":"+QE3"}],"Vike":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3114,7 +3113,7 @@ mp.events.add('client:methods:deleteGlobalPed', id => {
     }
   });
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../business":"y5vZ","../../util/methods":"Z5QB"}],"MpJF":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../business":"y5vZ","../../util/methods":"Z5QB"}],"MpJF":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3142,7 +3141,7 @@ const levelAccess = {
   oldmoney: 25
 };
 exports.levelAccess = levelAccess;
-},{}],"MASL":[function(require,module,exports) {
+},{}],"58MA":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3443,7 +3442,7 @@ let jail = {
   }
 };
 exports.jail = jail;
-},{"../modules/methods":"qXSp","../modules/data":"Edcz","../user":"QE3B","../coffer":"sKID","../../util/level":"MpJF","../modules/ach":"ygeq"}],"Lio2":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../modules/data":"5Edc","../user":"+QE3","../coffer":"sKID","../../util/level":"MpJF","../modules/ach":"ygeq"}],"Lio2":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3530,7 +3529,7 @@ let cloth = {
   }
 };
 exports.cloth = cloth;
-},{"../modules/methods":"qXSp","../enums":"ZRYf"}],"yieC":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../enums":"9ZRY"}],"yieC":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3940,7 +3939,7 @@ mp.events.add({
     }
   }
 });
-},{"./modules/methods":"qXSp","./user":"QE3B","./managers/checkpoint":"j7m4","./modules/gui":"bk91","./managers/spawn":"GDbQ","./modules/ui":"zOnK","./modules/timer":"BpKR","./skills":"o0SG","./jobs/taxi":"Vike","./managers/jail":"MASL","./managers/weather":"uehX","./enums":"ZRYf","./business/cloth":"Lio2","./modules/ach":"ygeq"}],"E081":[function(require,module,exports) {
+},{"./modules/methods":"+qXS","./user":"+QE3","./managers/checkpoint":"j7m4","./modules/gui":"bk91","./managers/spawn":"GDbQ","./modules/ui":"zOnK","./modules/timer":"29Bp","./skills":"7o0S","./jobs/taxi":"Vike","./managers/jail":"58MA","./managers/weather":"uehX","./enums":"9ZRY","./business/cloth":"Lio2","./modules/ach":"ygeq"}],"E081":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4258,7 +4257,7 @@ mp.events.add({
     mp.events.callRemote('server:autosalon:buyCar', id, colorId);
   }
 });
-},{"../modules/gui":"bk91","../user":"QE3B","../control":"E081","../../util/methods":"Z5QB"}],"pYYy":[function(require,module,exports) {
+},{"../modules/gui":"bk91","../user":"+QE3","../control":"E081","../../util/methods":"Z5QB"}],"pYYy":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -6717,7 +6716,7 @@ setTimeout(() => {
     return mp.game.gameplay.getGroundZFor3dCoord(mp.players.local.position.x, mp.players.local.position.y, mp.players.local.position.z, 0.0, false);
   });
 }, 1000);
-},{"./modules/methods":"qXSp","./user":"QE3B","./modules/data":"Edcz","./auth":"yieC","./business/autosalon":"V6sO"}],"waLt":[function(require,module,exports) {
+},{"./modules/methods":"+qXS","./user":"+QE3","./modules/data":"5Edc","./auth":"yieC","./business/autosalon":"V6sO"}],"waLt":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7174,7 +7173,7 @@ mp.events.add('entityStreamIn', entity => {
     _methods.methods.debug(e);
   }
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../vehicles":"pYYy","../../util/newrage":"mgLX"}],"BpKR":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../vehicles":"pYYy","../../util/newrage":"mgLX"}],"29Bp":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7583,7 +7582,7 @@ mp.events.add('render', () => {
     mp.game.controls.disableControlAction(0, 60, true);
   }
 });
-},{"../user":"QE3B","../managers/weather":"uehX","./methods":"qXSp","../weapons":"YeMF","../vehicles":"pYYy","./data":"Edcz","./ui":"zOnK","../managers/vSync":"waLt","../inventory":"m5ow","../enums":"ZRYf","../managers/dispatcher":"bsac","./gui":"bk91"}],"MdNj":[function(require,module,exports) {
+},{"../user":"+QE3","../managers/weather":"uehX","./methods":"+qXS","../weapons":"YeMF","../vehicles":"pYYy","./data":"5Edc","./ui":"zOnK","../managers/vSync":"waLt","../inventory":"4m5o","../enums":"9ZRY","../managers/dispatcher":"bsac","./gui":"bk91"}],"MdNj":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7637,7 +7636,7 @@ let stock = {
   }
 };
 exports.stock = stock;
-},{"./user":"QE3B","./modules/data":"Edcz","./modules/methods":"qXSp"}],"MuUD":[function(require,module,exports) {
+},{"./user":"+QE3","./modules/data":"5Edc","./modules/methods":"+qXS"}],"MuUD":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7697,7 +7696,7 @@ let condo = {
   }
 };
 exports.condo = condo;
-},{"./user":"QE3B","./modules/data":"Edcz","./modules/methods":"qXSp"}],"AmGY":[function(require,module,exports) {
+},{"./user":"+QE3","./modules/data":"5Edc","./modules/methods":"+qXS"}],"6AmG":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7801,7 +7800,7 @@ let jobPoint = {
   }
 };
 exports.jobPoint = jobPoint;
-},{"../modules/ui":"zOnK","../modules/methods":"qXSp"}],"KnNo":[function(require,module,exports) {
+},{"../modules/ui":"zOnK","../modules/methods":"+qXS"}],"8KnN":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7986,7 +7985,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) cleaner.workProcess();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"AmGY","../modules/minigame":"KnNo","../modules/gui":"bk91"}],"iDVm":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"6AmG","../modules/minigame":"8KnN","../modules/gui":"bk91"}],"iDVm":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8126,7 +8125,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) roadWorker.workProcess();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"AmGY","../modules/minigame":"KnNo","../modules/gui":"bk91"}],"BSgz":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"6AmG","../modules/minigame":"8KnN","../modules/gui":"bk91"}],"92BS":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8249,7 +8248,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) mainer.workProcess();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"AmGY","../modules/minigame":"KnNo","../modules/gui":"bk91"}],"uLEY":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"6AmG","../modules/minigame":"8KnN","../modules/gui":"bk91"}],"uLEY":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8307,7 +8306,7 @@ let houses = {
   }
 };
 exports.houses = houses;
-},{"./user":"QE3B","./modules/data":"Edcz","./modules/methods":"qXSp"}],"SscJ":[function(require,module,exports) {
+},{"./user":"+QE3","./modules/data":"5Edc","./modules/methods":"+qXS"}],"SscJ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8423,7 +8422,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
 mp.events.add("client:jobs:bugstars:findHouse", (x, y, z) => {
   bugstars.findHouseEvent(x, y, z);
 });
-},{"../modules/data":"Edcz","../modules/methods":"qXSp","../user":"QE3B","../houses":"buna","../managers/jobPoint":"AmGY","../modules/gui":"bk91"}],"Wq1B":[function(require,module,exports) {
+},{"../modules/data":"5Edc","../modules/methods":"+qXS","../user":"+QE3","../houses":"buna","../managers/jobPoint":"6AmG","../modules/gui":"bk91"}],"3Wq1":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8507,7 +8506,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
     sunBleach.workProcess();
   }
 });
-},{"../modules/data":"Edcz","../modules/methods":"qXSp","../user":"QE3B","../houses":"buna","../managers/jobPoint":"AmGY","../modules/gui":"bk91"}],"YpKT":[function(require,module,exports) {
+},{"../modules/data":"5Edc","../modules/methods":"+qXS","../user":"+QE3","../houses":"buna","../managers/jobPoint":"6AmG","../modules/gui":"bk91"}],"YpKT":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8555,7 +8554,7 @@ let waterPower = {
 
     mp.game.ui.notifications.show(`~b~Номер счета: ${randomNum}`);
     setTimeout(async function () {
-      let num = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput("Введите номер счёта", "", 4));
+      let num = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput("Введите номер счёта", "", 4)));
 
       _user.user.stopScenario();
 
@@ -8585,7 +8584,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
     waterPower.workProcess();
   }
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../modules/menu":"Aiz7","../houses":"buna","../managers/jobPoint":"AmGY"}],"tWKG":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../modules/menu":"Aiz7","../houses":"buna","../managers/jobPoint":"6AmG"}],"tWKG":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8663,7 +8662,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) gardener.workProcess();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../managers/jobPoint":"AmGY","../modules/gui":"bk91"}],"EjBH":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../managers/jobPoint":"6AmG","../modules/gui":"bk91"}],"EjB+":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8752,7 +8751,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) photo.workProcess();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../managers/jobPoint":"AmGY","../modules/gui":"bk91"}],"tqRS":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../managers/jobPoint":"6AmG","../modules/gui":"bk91"}],"tqRS":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8942,7 +8941,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) bus.nextCheckpoint();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../managers/jobPoint":"AmGY","../modules/gui":"bk91"}],"x8sI":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../managers/jobPoint":"6AmG","../modules/gui":"bk91"}],"x8sI":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9029,7 +9028,7 @@ let mail = {
   }
 };
 exports.mail = mail;
-},{"../modules/data":"Edcz","../modules/methods":"qXSp","../user":"QE3B"}],"VeeO":[function(require,module,exports) {
+},{"../modules/data":"5Edc","../modules/methods":"+qXS","../user":"+QE3"}],"VeeO":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9145,7 +9144,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
     burgershot.workProcess();
   }
 });
-},{"../modules/data":"Edcz","../modules/methods":"qXSp","../user":"QE3B","../houses":"buna","../managers/jobPoint":"AmGY","../modules/gui":"bk91"}],"O54w":[function(require,module,exports) {
+},{"../modules/data":"5Edc","../modules/methods":"+qXS","../user":"+QE3","../houses":"buna","../managers/jobPoint":"6AmG","../modules/gui":"bk91"}],"O54w":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9366,7 +9365,7 @@ mp.events.add("playerEnterVehicle", function (vehicle, seat) {
     }
   }
 });
-},{"../modules/methods":"qXSp","../modules/data":"Edcz","../user":"QE3B","../managers/jobPoint":"AmGY","../managers/weather":"uehX","../business":"y5vZ","../modules/minigame":"KnNo","../modules/gui":"bk91"}],"kruA":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../modules/data":"5Edc","../user":"+QE3","../managers/jobPoint":"6AmG","../managers/weather":"uehX","../business":"y5vZ","../modules/minigame":"8KnN","../modules/gui":"bk91"}],"kruA":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9548,7 +9547,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
     }
   }
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../coffer":"sKID","../managers/jobPoint":"AmGY"}],"Gt5n":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../coffer":"sKID","../managers/jobPoint":"6AmG"}],"1Gt5":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9611,7 +9610,7 @@ let phone = {
     }
 
     setTimeout(() => {
-      phone.ingameBrowser = mp.browsers.new(`https://rp.gta-5.ru/faq?ingame`);
+      phone.ingameBrowser = mp.browsers.new(`https://alamo-rp.com/faq`);
       mp.gui.chat.activate(false);
       mp.gui.cursor.show(true, true);
       mp.game.graphics.transitionToBlurred(1);
@@ -9924,13 +9923,13 @@ mp.events.add('entityStreamIn', entity => {
   if (entity.vehicle) dict += "in_car@ds";
   entity.taskPlayAnim(dict, 'cellphone_call_listen_base', 4.0, -1, -1, 50, 0, false, false, false);
 });
-},{"./chat":"MuUD","./user":"QE3B","./modules/menu":"Aiz7","./modules/data":"Edcz","./business":"y5vZ","./managers/dispatcher":"bsac","./modules/methods":"qXSp"}],"p3bl":[function(require,module,exports) {
+},{"./chat":"MuUD","./user":"+QE3","./modules/menu":"Aiz7","./modules/data":"5Edc","./business":"y5vZ","./managers/dispatcher":"bsac","./modules/methods":"+qXS"}],"p3bl":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.noClipSwitch = exports.noClip = exports.isNoClipEnable = exports.getNoClipSpeedName = void 0;
+exports.getNoClipSpeedName = exports.isNoClipEnable = exports.noClip = exports.noClipSwitch = void 0;
 
 var _user = require("./user");
 
@@ -10160,7 +10159,7 @@ mp.events.add('render', () => {
     noClipEntity.setCollision(true, true);
   }
 });
-},{"./user":"QE3B","./modules/methods":"qXSp"}],"WXxh":[function(require,module,exports) {
+},{"./user":"+QE3","./modules/methods":"+qXS"}],"WXxh":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10204,7 +10203,7 @@ const chests = {
   }
 };
 exports.chests = chests;
-},{"../managers/weather":"uehX","./methods":"qXSp","../user":"QE3B"}],"ehdN":[function(require,module,exports) {
+},{"../managers/weather":"uehX","./methods":"+qXS","../user":"+QE3"}],"ehdN":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10408,7 +10407,7 @@ mp.events.add("render", () => {
     mp.game.controls.disableControlAction(0, 257, true);
   }
 });
-},{"./gui":"bk91","../user":"QE3B"}],"SYvm":[function(require,module,exports) {
+},{"./gui":"bk91","../user":"+QE3"}],"SYvm":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -10605,14 +10604,14 @@ function getPlayerByRemoteId(remoteId) {
 
   return pla;
 }
-},{"../user":"QE3B","../modules/gui":"bk91","../ragevoice":"VUJK"}],"VUJK":[function(require,module,exports) {
+},{"../user":"+QE3","../modules/gui":"bk91","../ragevoice":"0VUJ"}],"0VUJ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.pressVoice = void 0;
 exports.restartVoice = restartVoice;
+exports.pressVoice = void 0;
 
 var _user = require("./user");
 
@@ -10935,16 +10934,16 @@ mp.events.add({
   }
 });
 let radioSpeakers = [];
-},{"./user":"QE3B","./modules/methods":"qXSp","../util/voice":"SYvm","./modules/ui":"zOnK","./modules/gui":"bk91","./managers/fingerpoint":"Tpi6"}],"Qkcg":[function(require,module,exports) {
+},{"./user":"+QE3","./modules/methods":"+qXS","../util/voice":"SYvm","./modules/ui":"zOnK","./modules/gui":"bk91","./managers/fingerpoint":"Tpi6"}],"8Qkc":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.fixString = fixString;
-exports.getColor = getColor;
-exports.getFirstColor = getFirstColor;
 exports.gtaStrToHtml = gtaStrToHtml;
+exports.getFirstColor = getFirstColor;
+exports.getColor = getColor;
 
 String.prototype.regexIndexOf = function (regex, startpos) {
   var indexOf = this.substring(startpos || 0).search(regex);
@@ -11070,13 +11069,13 @@ function getColor(fnd) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.menuid = exports.currentMenu = exports.MenuClass = void 0;
+exports.MenuClass = exports.currentMenu = exports.menuid = void 0;
 
 var _string = require("../../util/string");
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -11344,7 +11343,7 @@ function openMenu(id, title, subtitle, items, customParams, workAnyTime = false,
   if (sprite) m.spriteName = sprite;
   m.serverid = id;
   items.map(item => {
-    m.newItem(_objectSpread(_objectSpread({}, item), {}, {
+    m.newItem(_objectSpread({}, item, {
       onpress: (_, index) => {
         mp.events.callSocket('client:menu:itemSelect', id, index);
       },
@@ -11365,7 +11364,7 @@ function openMenu(id, title, subtitle, items, customParams, workAnyTime = false,
   m.open(customParams.selected);
   reopen = false;
 }
-},{"../../util/string":"Qkcg"}],"sFsE":[function(require,module,exports) {
+},{"../../util/string":"8Qkc"}],"sFsE":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11618,7 +11617,7 @@ let menuList = {
       }
 
       if (item == setPinItem) {
-        let pass = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Пароль', '', 5));
+        let pass = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Пароль', '', 5)));
 
         if (pass < 1) {
           mp.game.ui.notifications.show('~r~Пароль должен быть больше нуля');
@@ -11656,7 +11655,7 @@ let menuList = {
           if (passProtect >= passProtectMax) return _user.user.notify("~r~Подождите перед вводом пароля");
           passProtect++;
 
-          let pass = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Введите пинкод', '', 10, 'password'));
+          let pass = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Введите пинкод', '', 10, 'password')));
 
           if (pass == h.get('pin')) _condo.condo.enter(h.get('id'), h.get('int_x'), h.get('int_y'), h.get('int_z'));else mp.game.ui.notifications.show('~r~Вы ввели не правильный пинкод');
         } else _condo.condo.enter(h.get('id'), h.get('int_x'), h.get('int_y'), h.get('int_z'));
@@ -11692,7 +11691,7 @@ let menuList = {
           if (passProtect >= passProtectMax) return _user.user.notify("~r~Подождите перед вводом пароля");
           passProtect++;
 
-          let pass = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Введите пинкод', '', 10, 'password'));
+          let pass = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Введите пинкод', '', 10, 'password')));
 
           if (pass == h.get('pin1')) _stock.stock.enter(h.get('id'));else {
             _stock.stock.addLog(_user.user.get('rp_name'), `Ввёл не правильно пинкод (${pass})`, h.get('id'));
@@ -11763,7 +11762,7 @@ let menuList = {
       _menu.default.Menu.HideMenu();
 
       if (item == exitItem) mp.events.callRemote('server:events:showApartmentListMenu', data.get('build_id'));else if (item == buyItem) mp.events.callRemote('server:apartments:buy', data.get('id'));else if (item.doName == 'changePin') {
-        let pass = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Пинкод', '', 5));
+        let pass = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Пинкод', '', 5)));
 
         if (pass == 0) {
           mp.game.ui.notifications.show('~r~Можно ставить только цифры');
@@ -11791,13 +11790,13 @@ let menuList = {
 
       if (item == closeItem) return;
 
-      let pin = _methods.methods.parseInt(await _data.Container.Get(-100000 + _methods.methods.parseInt(item.apartId), 'pin'));
+      let pin = _methods.methods.parseInt((await _data.Container.Get(-100000 + _methods.methods.parseInt(item.apartId), 'pin')));
 
       if (pin != 0) {
         if (passProtect >= passProtectMax) return _user.user.notify("~r~Подождите перед вводом пароля");
         passProtect++;
 
-        let pass = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Введите пинкод', '', 10, 'password'));
+        let pass = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Введите пинкод', '', 10, 'password')));
 
         if (pass == pin) mp.events.callRemote('server:apartments:enter', _methods.methods.parseInt(item.apartId));else {
           mp.game.ui.notifications.show('~r~Вы ввели не правильный пинкод');
@@ -12295,8 +12294,8 @@ let menuList = {
       if (item.doName == 'jail') {
         _menu.default.Menu.HideMenu();
 
-        let id = parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 10));
-        let min = parseInt(await _menu.default.Menu.GetUserInput('Кол-во минут', '', 10));
+        let id = parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 10)));
+        let min = parseInt((await _menu.default.Menu.GetUserInput('Кол-во минут', '', 10)));
         let reason = await _menu.default.Menu.GetUserInput('Причина', '', 100);
         if (isNaN(id) || id < 0) return mp.game.ui.notifications.show(`ID указан не верно`);
         if (isNaN(min) || min < 0) return mp.game.ui.notifications.show(`Время указано не верно`);
@@ -12307,13 +12306,13 @@ let menuList = {
       }
 
       if (item.doName == 'tptoid') {
-        let id = parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 10));
+        let id = parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 10)));
         if (isNaN(id) || id < 0) return mp.game.ui.notifications.show(`ID указан не верно`);
         mp.events.callRemote('server:user:tpTo', id);
       }
 
       if (item.doName == 'tptome') {
-        let id = parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 10));
+        let id = parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 10)));
         if (isNaN(id) || id < 0) return mp.game.ui.notifications.show(`ID указан не верно`);
         mp.events.callRemote('server:user:tpToMe', id);
       }
@@ -12351,7 +12350,7 @@ let menuList = {
       if (item.eventName == 'server:user:adrenaline') {
         _menu.default.Menu.HideMenu();
 
-        let id = parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 10));
+        let id = parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 10)));
         if (isNaN(id) || id < 0) return mp.game.ui.notifications.show(`ID указан не верно`);
 
         _methods.methods.saveLog('AdminHealPlayer', `${_user.user.get('rp_name')} | Adrenaline to id: ${id}`);
@@ -12362,7 +12361,7 @@ let menuList = {
       if (item.eventName == 'server:user:healFirstAdmin') {
         _menu.default.Menu.HideMenu();
 
-        let id = parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 10));
+        let id = parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 10)));
         if (isNaN(id) || id < 0) return mp.game.ui.notifications.show(`ID указан не верно`);
 
         _methods.methods.saveLog('AdminHealPlayer', `${_user.user.get('rp_name')} | Heal to id: ${id}`);
@@ -12636,7 +12635,7 @@ let menuList = {
       _menu.default.Menu.HideMenu();
 
       if (item.eventName == 'server:giveRank2') {
-        let rank = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Ранг', '', 2));
+        let rank = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Ранг', '', 2)));
 
         if (isNaN(rank) || rank < 1 || rank > 10) {
           mp.game.ui.notifications.show('~r~Число должно быть выше 0 и ниже 11');
@@ -12748,7 +12747,7 @@ let menuList = {
       if (item == closeButton) _menu.default.Menu.HideMenu();else if (item == backButton) {
         menuList.showPlayerMenu();
       } else if (item.doName == 'frequency') {
-        let num = parseInt(await _menu.default.Menu.GetUserInput('До точки', '', 4));
+        let num = parseInt((await _menu.default.Menu.GetUserInput('До точки', '', 4)));
         num = _methods.methods.parseInt(num);
 
         if (num > 3520 || num < 30) {
@@ -12761,7 +12760,7 @@ let menuList = {
           return;
         }
 
-        let num2 = parseInt(await _menu.default.Menu.GetUserInput('После точки', '', 3));
+        let num2 = parseInt((await _menu.default.Menu.GetUserInput('После точки', '', 3)));
         num2 = _methods.methods.parseInt(num2);
 
         if (num2 < 0) {
@@ -12858,7 +12857,7 @@ let menuList = {
 
       try {
         if (item.remoteId >= 0) {
-          let money = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма', '', 9));
+          let money = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма', '', 9)));
 
           if (money < 1) {
             mp.game.ui.notifications.show('~r~Нельзя передавать меньше 1$');
@@ -13974,7 +13973,7 @@ let menuList = {
         return;
       }
 
-      let playerId = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 9));
+      let playerId = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 9)));
 
       if (playerId < 0) {
         mp.game.ui.notifications.show('~r~ID Игркоа не может быть меньше нуля');
@@ -14378,7 +14377,7 @@ let menuList = {
 
       if (item == closeItem) return;
       if (item.doName == 'showBankMenu') menuList.showBankMenu(0, 10);
-      if (item.doName == 'showMazeBankOfficeSellHvbMenu') menuList.showMazeBankOfficeSellHvbMenu(await _coffer.coffer.getAllData());
+      if (item.doName == 'showMazeBankOfficeSellHvbMenu') menuList.showMazeBankOfficeSellHvbMenu((await _coffer.coffer.getAllData()));
       if (item.doName == 'showMazeBankOfficeTaxMenu') menuList.showMazeBankOfficeTaxMenu();
       if (item.doName == 'showMazeBankHousePeopleMenu') menuList.showMazeBankHousePeopleMenu();
     });
@@ -14467,14 +14466,14 @@ let menuList = {
             mp.game.ui.notifications.show('~r~Таймаут 1 минута');
           }
 
-          let playerId = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 9));
+          let playerId = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 9)));
 
           if (playerId < 0) {
             mp.game.ui.notifications.show('~r~ID Игркоа не может быть меньше нуля');
             return;
           }
 
-          let sum = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма', '', 9));
+          let sum = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма', '', 9)));
 
           if (sum < 0) {
             mp.game.ui.notifications.show('~r~Сумма не может быть меньше нуля');
@@ -14509,7 +14508,7 @@ let menuList = {
         if (item == closeItem) return;
 
         if (item.eventName == 'server:houses:addUser') {
-          let playerId = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('ID Игрока', '', 9));
+          let playerId = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('ID Игрока', '', 9)));
 
           if (playerId < 0) {
             mp.game.ui.notifications.show('~r~ID Игрока не может быть меньше нуля');
@@ -14685,7 +14684,7 @@ let menuList = {
       if (item == closeItem) return;
 
       if (item.payTaxType >= 0) {
-        let sum = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма', '', 9));
+        let sum = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма', '', 9)));
 
         if (sum == 0) return;
 
@@ -14759,15 +14758,15 @@ let menuList = {
 
         mp.events.callRemote(item.eventName, money, 0);
       } else if (item.eventName == 'server:bank:transferMoney') {
-        let bankPrefix = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Префикс карты', '', 4));
+        let bankPrefix = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Префикс карты', '', 4)));
 
-        let bankNumber = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Номер карты', '', 9));
+        let bankNumber = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Номер карты', '', 9)));
 
-        let money = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма перевода', '', 9));
+        let money = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма перевода', '', 9)));
 
         mp.events.callRemote(item.eventName, bankPrefix, bankNumber, money);
       } else if (item.eventName == 'server:bank:changeCardNumber') {
-        let bankNumber = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Желаемый номер карты', '', 9));
+        let bankNumber = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Желаемый номер карты', '', 9)));
 
         mp.events.callRemote(item.eventName, bankNumber);
       } else if (item.eventName == 'server:bank:closeCard') {
@@ -17494,15 +17493,14 @@ mp.keys.bind(0x37, true, function () {
   mp.events.call('client:teleportWaypoint');
   mp.game.ui.notifications.show('~g~Ты телепортировался на метку');
 });
-},{"./modules/data":"Edcz","./modules/menu":"Aiz7","./modules/methods":"qXSp","./modules/timer":"BpKR","./managers/dispatcher":"bsac","./modules/ui":"zOnK","./user":"QE3B","./inventory":"m5ow","./enums":"ZRYf","./items_old":"A2KQ","./stock":"MdNj","./chat":"MuUD","./business":"y5vZ","./condo":"YoDO","./coffer":"sKID","./vehicles":"pYYy","./jobs/builder":"zK0g","./jobs/cleaner":"lN65","./jobs/roadWorker":"iDVm","./jobs/mainer":"BSgz","./business/licenseCenter":"uLEY","./jobs/bugstars":"SscJ","./jobs/sunBleach":"Wq1B","./jobs/waterPower":"YpKT","./jobs/gardener":"tWKG","./jobs/photo":"EjBH","./jobs/bus":"tqRS","./jobs/mail":"x8sI","./business/cloth":"Lio2","./jobs/burgetshot":"VeeO","./jobs/gr6":"O54w","./jobs/taxi":"Vike","./jobs/trucker":"kruA","./phone":"Gt5n","./fly":"p3bl","./modules/chests":"WXxh","../util/sharedData":"bNis","./modules/savezone":"ehdN","../util/level":"MpJF","./modules/gui":"bk91","./ragevoice":"VUJK","./modules/ach":"ygeq","../util/weapons":"kwVd","../util/inventory":"Jhu1","./managers/menu":"BkU5","../util/walkstyles":"sFsE","../util/shop":"Cj84"}],"d3wo":[function(require,module,exports) {
+},{"./modules/data":"5Edc","./modules/menu":"Aiz7","./modules/methods":"+qXS","./modules/timer":"29Bp","./managers/dispatcher":"bsac","./modules/ui":"zOnK","./user":"+QE3","./inventory":"4m5o","./enums":"9ZRY","./items_old":"A2KQ","./stock":"MdNj","./chat":"MuUD","./business":"y5vZ","./condo":"YoDO","./coffer":"sKID","./vehicles":"pYYy","./jobs/builder":"zK0g","./jobs/cleaner":"lN65","./jobs/roadWorker":"iDVm","./jobs/mainer":"92BS","./business/licenseCenter":"uLEY","./jobs/bugstars":"SscJ","./jobs/sunBleach":"3Wq1","./jobs/waterPower":"YpKT","./jobs/gardener":"tWKG","./jobs/photo":"EjB+","./jobs/bus":"tqRS","./jobs/mail":"x8sI","./business/cloth":"Lio2","./jobs/burgetshot":"VeeO","./jobs/gr6":"O54w","./jobs/taxi":"Vike","./jobs/trucker":"kruA","./phone":"1Gt5","./fly":"p3bl","./modules/chests":"WXxh","../util/sharedData":"bNis","./modules/savezone":"ehdN","../util/level":"MpJF","./modules/gui":"bk91","./ragevoice":"0VUJ","./modules/ach":"ygeq","../util/weapons":"89kw","../util/inventory":"Jhu1","./managers/menu":"BkU5","../util/walkstyles":"sFsE","../util/shop":"Cj84"}],"d3wo":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports._playerDisableAllControls = void 0;
 exports.blockSpeedMax = blockSpeedMax;
-exports.seatBelt = void 0;
+exports._playerDisableAllControls = exports.seatBelt = void 0;
 
 var _data = require("./data");
 
@@ -17552,9 +17550,9 @@ var _ragevoice = require("../ragevoice");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -18551,7 +18549,7 @@ mp.events.add('render', () => {
         let indicatorColor = '~m~•';
         if (isConnected && !isEnable) indicatorColor = '~m~•';else if (isConnected && isEnable) indicatorColor = '~w~•';
 
-        const headPosition = _objectSpread(_objectSpread({}, player.position), {}, {
+        const headPosition = _objectSpread({}, player.position, {
           z: player.position.z + 0.6
         });
 
@@ -19287,11 +19285,11 @@ mp.events.add('client:phone:transferBank', () => {
   _phone.phone.transferBank();
 });
 mp.events.add('client:phone:payTaxByNumber', async () => {
-  let number = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Счёт', '', 10));
+  let number = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Счёт', '', 10)));
 
   if (number == 0) return;
 
-  let sum = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма', '', 9));
+  let sum = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма', '', 9)));
 
   if (sum == 0) return;
   mp.events.callRemote('server:tax:payTax', 1, number, sum);
@@ -19606,7 +19604,7 @@ mp.events.add('client:uimenu:trigger', async action => {
       let act = action[0];
 
       if (act == 'giveMoney') {
-        let money = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма', '', 9));
+        let money = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма', '', 9)));
 
         if (money < 1) {
           mp.game.ui.notifications.show('~r~Нельзя передавать меньше 1$');
@@ -19750,7 +19748,7 @@ setInterval(() => {
     }
   });
 }, 2000);
-},{"./data":"Edcz","./menu":"Aiz7","./methods":"qXSp","../managers/weather":"uehX","../managers/checkpoint":"j7m4","../managers/dispatcher":"bsac","./ui":"zOnK","../menuList":"U1Al","../user":"QE3B","../inventory":"m5ow","../enums":"ZRYf","../items_old":"A2KQ","./timer":"BpKR","../phone":"Gt5n","../managers/jail":"MASL","../chat":"MuUD","../vehicles":"pYYy","../jobs/trucker":"kruA","../managers/vSync":"waLt","./gui":"bk91","../../util/methods":"Z5QB","../../util/mask":"ir2T","../ragevoice":"VUJK"}],"Aiz7":[function(require,module,exports) {
+},{"./data":"5Edc","./menu":"Aiz7","./methods":"+qXS","../managers/weather":"uehX","../managers/checkpoint":"j7m4","../managers/dispatcher":"bsac","./ui":"zOnK","../menuList":"U1Al","../user":"+QE3","../inventory":"4m5o","../enums":"9ZRY","../items_old":"A2KQ","./timer":"29Bp","../phone":"1Gt5","../managers/jail":"58MA","../chat":"MuUD","../vehicles":"pYYy","../jobs/trucker":"kruA","../managers/vSync":"waLt","./gui":"bk91","../../util/methods":"Z5QB","../../util/mask":"+ir2","../ragevoice":"0VUJ"}],"Aiz7":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -19899,7 +19897,7 @@ mp.events.add('render', () => {
 setTimeout(() => {
   mp.events.register("server:input", (title, value, limit) => {
     return new Promise(async resolve => {
-      resolve(await Menu.GetUserInput(title, value, limit));
+      resolve((await Menu.GetUserInput(title, value, limit)));
     });
   });
 }, 100);
@@ -19914,7 +19912,7 @@ var _default = {
   Menu
 };
 exports.default = _default;
-},{"./methods":"qXSp","../user":"QE3B","./gui":"bk91","../../util/methods":"Z5QB","./events":"d3wo","../managers/menu":"BkU5"}],"m5ow":[function(require,module,exports) {
+},{"./methods":"+qXS","../user":"+QE3","./gui":"bk91","../../util/methods":"Z5QB","./events":"d3wo","../managers/menu":"BkU5"}],"4m5o":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21551,7 +21549,7 @@ mp.events.add("server:inventory:equipItem", (id, itemId, prefix, number, keyId, 
 
   }
 });
-},{"./modules/menu":"Aiz7","./modules/methods":"qXSp","./modules/data":"Edcz","./chat":"MuUD","./items_old":"A2KQ","./user":"QE3B","./stock":"MdNj","./weapons":"YeMF","./enums":"ZRYf","./business/cloth":"Lio2","./modules/gui":"bk91","../util/sharedData":"bNis","../util/inventory":"Jhu1"}],"nuVl":[function(require,module,exports) {
+},{"./modules/menu":"Aiz7","./modules/methods":"+qXS","./modules/data":"5Edc","./chat":"MuUD","./items_old":"A2KQ","./user":"+QE3","./stock":"MdNj","./weapons":"YeMF","./enums":"9ZRY","./business/cloth":"Lio2","./modules/gui":"bk91","../util/sharedData":"bNis","../util/inventory":"Jhu1"}],"nuVl":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21648,7 +21646,7 @@ mp.events.add('client:items:updateItems', (requestID, returnItems) => {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.syncdata = exports.syncData = void 0;
+exports.syncData = exports.syncdata = void 0;
 
 var _savezone = require("../modules/savezone");
 
@@ -21703,13 +21701,13 @@ exports.syncData = syncData;
 setInterval(() => {
   syncData();
 }, 3000);
-},{"../modules/savezone":"ehdN","../user":"QE3B","../weapons":"YeMF","../items":"nuVl","../inventory":"m5ow","../modules/methods":"qXSp"}],"Zeqt":[function(require,module,exports) {
+},{"../modules/savezone":"ehdN","../user":"+QE3","../weapons":"YeMF","../items":"nuVl","../inventory":"4m5o","../modules/methods":"+qXS"}],"Zeqt":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.recLists = exports.fractionUtil = exports.fractionList = exports.fraction = void 0;
+exports.fractionUtil = exports.fraction = exports.fractionList = exports.recLists = void 0;
 const recLists = [{
   name: "Рецепт на марихуану",
   param: "allow_marg",
@@ -22052,7 +22050,7 @@ const fraction = {
 exports.fraction = fraction;
 const fractionUtil = fraction;
 exports.fractionUtil = fractionUtil;
-},{}],"jh2U":[function(require,module,exports) {
+},{}],"8jh2":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -22223,13 +22221,13 @@ const vipStatus = {
   }
 };
 exports.vipStatus = vipStatus;
-},{}],"QE3B":[function(require,module,exports) {
+},{}],"+QE3":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.userDataCh = exports.userData = exports.user = void 0;
+exports.user = exports.userDataCh = exports.userData = void 0;
 
 var _data = require("./modules/data");
 
@@ -22277,11 +22275,11 @@ const player = mp.players.local;
 mp.events.add('transferMoney', async () => {
   _gui.gui.setGui(null);
 
-  let bankPrefix = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Префикс карты', '', 4));
+  let bankPrefix = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Префикс карты', '', 4)));
 
-  let bankNumber = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Номер карты', '', 9));
+  let bankNumber = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Номер карты', '', 9)));
 
-  let money = _methods.methods.parseInt(await _menu.default.Menu.GetUserInput('Сумма перевода', '', 9));
+  let money = _methods.methods.parseInt((await _menu.default.Menu.GetUserInput('Сумма перевода', '', 9)));
 
   mp.events.callRemote('server:bank:transferMoney', bankPrefix, bankNumber, money);
 });
@@ -22647,7 +22645,7 @@ const user = {
   },
   tpToWaypoint: () => {
     try {
-      let entity = mp.players.local.vehicle && mp.players.local.vehicle.getPedInSeat(-1) == mp.players.local.handle ? mp.players.local.vehicle : mp.players.local;
+      let entity = mp.players.local.vehicle && mp.players.local.vehicle.getPedInSeat(0) == mp.players.local.handle ? mp.players.local.vehicle : mp.players.local;
 
       let pos = _methods.methods.getWaypointPosition();
 
@@ -23171,7 +23169,7 @@ const user = {
   }
 };
 exports.user = user;
-},{"./modules/data":"Edcz","./modules/methods":"qXSp","./modules/ui":"zOnK","./coffer":"sKID","./business":"y5vZ","./managers/weather":"uehX","./weapons":"YeMF","./items_old":"A2KQ","./inventory":"m5ow","./modules/gui":"bk91","./managers/jobPoint":"AmGY","./managers/sync.elements":"fsEp","../util/fractions":"Zeqt","../util/newrage":"mgLX","../util/vip":"jh2U","./modules/ach":"ygeq","./modules/menu":"Aiz7"}],"zK0g":[function(require,module,exports) {
+},{"./modules/data":"5Edc","./modules/methods":"+qXS","./modules/ui":"zOnK","./coffer":"sKID","./business":"y5vZ","./managers/weather":"uehX","./weapons":"YeMF","./items_old":"A2KQ","./inventory":"4m5o","./modules/gui":"bk91","./managers/jobPoint":"6AmG","./managers/sync.elements":"fsEp","../util/fractions":"Zeqt","../util/newrage":"mgLX","../util/vip":"8jh2","./modules/ach":"ygeq","./modules/menu":"Aiz7"}],"zK0g":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23347,7 +23345,7 @@ mp.events.add("playerEnterCheckpoint", checkpoint => {
   if (_checkpointId == -1 || _checkpointId == undefined) return;
   if (checkpoint.id == _checkpointId) builder.workProcess();
 });
-},{"../modules/methods":"qXSp","../user":"QE3B","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"AmGY","../modules/minigame":"KnNo","../modules/gui":"bk91"}],"iryQ":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../user":"+QE3","../coffer":"sKID","../menuList":"U1Al","../managers/jobPoint":"6AmG","../modules/minigame":"8KnN","../modules/gui":"bk91"}],"iry/":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23406,7 +23404,7 @@ const getCompanyName = company => {
 };
 
 exports.getCompanyName = getCompanyName;
-},{}],"qXSp":[function(require,module,exports) {
+},{}],"+qXS":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -24186,13 +24184,13 @@ let methods = {
   }
 };
 exports.methods = methods;
-},{"./data":"Edcz","../enums":"ZRYf","../jobs/builder":"zK0g","../jobs/cleaner":"lN65","./timer":"BpKR","../menuList":"U1Al","./menu":"Aiz7","../user":"QE3B","../jobs/roadWorker":"iDVm","../jobs/mainer":"BSgz","../inventory":"m5ow","./gui":"bk91","../../util/level":"MpJF","../../util/fractions":"Zeqt","../../util/company.names":"iryQ"}],"ARQI":[function(require,module,exports) {
+},{"./data":"5Edc","../enums":"9ZRY","../jobs/builder":"zK0g","../jobs/cleaner":"lN65","./timer":"29Bp","../menuList":"U1Al","./menu":"Aiz7","../user":"+QE3","../jobs/roadWorker":"iDVm","../jobs/mainer":"92BS","../inventory":"4m5o","./gui":"bk91","../../util/level":"MpJF","../../util/fractions":"Zeqt","../../util/company.names":"iry/"}],"ARQI":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ClientEventClass = exports.ClientEvent = void 0;
+exports.ClientEvent = exports.ClientEventClass = void 0;
 
 var _event = require("../util/event");
 
@@ -24227,7 +24225,7 @@ class ClientEventClass extends _event.MainEvent {
 
       for (let q in fncs) {
         let func = fncs[q];
-        values.push(await func.bind(func.prototype)(...args));
+        values.push((await func.bind(func.prototype)(...args)));
       }
 
       if (!values.length) {
@@ -24420,7 +24418,7 @@ mp.events.add('__customCallCefFromServer__', (name, id, ...args) => {
     `);
   });
 });
-},{"../util/event":"Z8LL","../util/methods":"Z5QB","./modules/methods":"qXSp"}],"X2Af":[function(require,module,exports) {
+},{"../util/event":"Z8L+","../util/methods":"Z5QB","./modules/methods":"+qXS"}],"X2Af":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("./methods");
@@ -24544,7 +24542,7 @@ setInterval(() => {
   if (!_user.user.isLogin()) return;
   lastKeyPressed = [];
 }, 60000);
-},{"./methods":"qXSp","../../util/vip":"jh2U","../user":"QE3B"}],"xTdX":[function(require,module,exports) {
+},{"./methods":"+qXS","../../util/vip":"8jh2","../user":"+QE3"}],"xTdX":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("./methods");
@@ -24622,7 +24620,7 @@ _methods.methods.createBlip(pickups.ConnorKeyPos, 50, 59, 0.4, 'Гараж ра�
 _methods.methods.createBlip(pickups.BgstarKeyPos, 50, 59, 0.4, 'Гараж рабочего транспорта');
 
 mp.game.ui.setNewWaypoint(mp.players.local.position.x, mp.players.local.position.y);
-},{"./methods":"qXSp"}],"ce6v":[function(require,module,exports) {
+},{"./methods":"+qXS"}],"ce+6":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -24903,7 +24901,7 @@ setTimeout(() => {
     });
   });
 }, 100);
-},{"../../util/methods":"Z5QB","./methods":"qXSp"}],"ia7M":[function(require,module,exports) {
+},{"../../util/methods":"Z5QB","./methods":"+qXS"}],"9ia7":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("../modules/methods");
@@ -25121,7 +25119,7 @@ mp.events.add('client:syncScenarioCoord', (playerId, x, y, z, r) => {
     _methods.methods.debug(e);
   }
 });
-},{"../modules/methods":"qXSp"}],"Pv0L":[function(require,module,exports) {
+},{"../modules/methods":"+qXS"}],"5Pv0":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25955,7 +25953,7 @@ mp.events.add('render', () => {
   });
 });
 mp.events.add('createScaleform', () => {});
-},{"../modules/methods":"qXSp"}],"R6P3":[function(require,module,exports) {
+},{"../modules/methods":"+qXS"}],"R6P3":[function(require,module,exports) {
 "use strict";
 
 var _shootingRange = require("../../util/shootingRange");
@@ -26055,7 +26053,7 @@ setTimeout(() => {
     });
   });
 }, 2000);
-},{"../../util/shootingRange":"Pv0L","./raycast":"BDJ2","./scaleForm":"VHum","../modules/ui":"zOnK"}],"Klt7":[function(require,module,exports) {
+},{"../../util/shootingRange":"5Pv0","./raycast":"BDJ2","./scaleForm":"VHum","../modules/ui":"zOnK"}],"Klt7":[function(require,module,exports) {
 let timeRender = 1;
 let timeRenderOld = 0;
 let timeRenderCountWarning = 0;
@@ -26330,7 +26328,7 @@ setInterval(() => {
   if (_phone.phone.isPhoneOpen() || mp.players.local.getVariable('call')) attachmentMngr.addLocal('phone'), mp.game.invoke("0x0725a4ccfded9a70", mp.players.local.handle, 0, 1, 1, 1);else attachmentMngr.removeLocal('phone');
   if (_user.user.isCuff()) attachmentMngr.addLocal('handcuff');else attachmentMngr.removeLocal('handcuff');
 }, 100);
-},{"../weapons":"YeMF","../user":"QE3B","../modules/gui":"bk91","../phone":"Gt5n"}],"ufbL":[function(require,module,exports) {
+},{"../weapons":"YeMF","../user":"+QE3","../modules/gui":"bk91","../phone":"1Gt5"}],"ufbL":[function(require,module,exports) {
 "use strict";
 
 var _gui = require("../modules/gui");
@@ -26374,7 +26372,7 @@ setInterval(() => {
     spbl();
   }
 }, 100);
-},{"../modules/gui":"bk91","../user":"QE3B","../phone":"Gt5n"}],"pqyY":[function(require,module,exports) {
+},{"../modules/gui":"bk91","../user":"+QE3","../phone":"1Gt5"}],"pqyY":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26639,7 +26637,7 @@ let npc = {
   }
 };
 exports.npc = npc;
-},{"../modules/methods":"qXSp"}],"o6Co":[function(require,module,exports) {
+},{"../modules/methods":"+qXS"}],"o6Co":[function(require,module,exports) {
 "use strict";
 
 var _user = require("../user");
@@ -26711,7 +26709,7 @@ mp.keys.bind(17, true, () => {
   lastpress = _methods.methods.getTimeStampMS();
   mp.events.callRemote("toggleCrouch");
 });
-},{"../user":"QE3B","../modules/methods":"qXSp"}],"FPvd":[function(require,module,exports) {
+},{"../user":"+QE3","../modules/methods":"+qXS"}],"FPvd":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("../modules/methods");
@@ -26797,7 +26795,7 @@ mp.events.add({
     soundpage.execute(`custom_sound.playCustomSound('${url}', ${volume}, ${dist}, ${x}, ${y}, ${z});`);
   }
 });
-},{"../modules/methods":"qXSp"}],"n1sh":[function(require,module,exports) {
+},{"../modules/methods":"+qXS"}],"n1sh":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("../../util/methods");
@@ -27178,7 +27176,7 @@ function respawn() {
 mp.events.add("race:vehground", () => {
   if (mp.players.local.vehicle) mp.players.local.vehicle.setOnGroundProperly();
 });
-},{"../../util/methods":"Z5QB","./methods":"qXSp","../user":"QE3B","./gui":"bk91"}],"WcPp":[function(require,module,exports) {
+},{"../../util/methods":"Z5QB","./methods":"+qXS","../user":"+QE3","./gui":"bk91"}],"WcPp":[function(require,module,exports) {
 const thisInfo = {
   browser: null,
   port: null,
@@ -27263,7 +27261,7 @@ mp.events.add('socketEvent', (name, jsArgs) => {
     mp.events.call(name, ...parsedData);
   } catch (error) {}
 });
-},{}],"zMA7":[function(require,module,exports) {
+},{}],"49zM":[function(require,module,exports) {
 "use strict";
 
 var _gui = require("../modules/gui");
@@ -27310,7 +27308,7 @@ mp.game.ui.notifications = {
   },
   showWithPicture: (title, sender, message, notifPic, icon = 0, flashing = false, textColor = -1, bgColor = -1, flashColor = [77, 77, 77, 200]) => mp.events.call('BN_ShowWithPicture', title, sender, message, notifPic, icon, flashing, textColor, bgColor, flashColor)
 };
-},{"../modules/gui":"bk91","../../util/string":"Qkcg"}],"o1IG":[function(require,module,exports) {
+},{"../modules/gui":"bk91","../../util/string":"8Qkc"}],"o1IG":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29067,7 +29065,7 @@ setInterval(() => {
     if (isClose == true) mp.game.invoke(_methods.methods.FREEZE_ENTITY_POSITION, mp.game.object.getClosestObjectOfType(x, y, z, 1, hash, false, false, false));
   });
 }, 4000);
-},{"../modules/methods":"qXSp"}],"nEWc":[function(require,module,exports) {
+},{"../modules/methods":"+qXS"}],"nEWc":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29198,7 +29196,7 @@ exports.breakLight = breakLight;
 mp.events.add('render', () => {
   if (_user.user.isLogin() && smoothDriving) breakLight.smoothDriving();
 });
-},{"../user":"QE3B"}],"Lsp6":[function(require,module,exports) {
+},{"../user":"+QE3"}],"Lsp6":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29450,7 +29448,7 @@ mp.events.add('renderHalf', () => {
     }
   }
 });
-},{"./modules/gui":"bk91","./user":"QE3B","./modules/methods":"qXSp","../util/fractions":"Zeqt","./business/autosalon":"V6sO"}],"Sf2B":[function(require,module,exports) {
+},{"./modules/gui":"bk91","./user":"+QE3","./modules/methods":"+qXS","../util/fractions":"Zeqt","./business/autosalon":"V6sO"}],"Sf2B":[function(require,module,exports) {
 const player = mp.players.local;
 let targetSpectate = null;
 mp.events.add('admin:spectate:stop', () => {
@@ -29478,9 +29476,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.doorsData = void 0;
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -30073,10 +30071,10 @@ let doorsData = {
     name: 'FIB LIFT',
     pair: 65
   },
-  '68': _objectSpread(_objectSpread({
+  '68': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(333.7885, -593.4055, 28.80277)), {}, {
+  }, new mp.Vector3(333.7885, -593.4055, 28.80277), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30084,10 +30082,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 69
   }),
-  '69': _objectSpread(_objectSpread({
+  '69': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(334.5754, -591.2445, 28.80277)), {}, {
+  }, new mp.Vector3(334.5754, -591.2445, 28.80277), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30095,20 +30093,20 @@ let doorsData = {
     name: 'Больницы',
     pair: 68
   }),
-  '70': _objectSpread(_objectSpread({
+  '70': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(337.2274, -584.0469, 28.81494)), {}, {
+  }, new mp.Vector3(337.2274, -584.0469, 28.81494), {
     hash: "v_ilev_cor_firedoorwide",
     locked: true,
     key: 'key_emc',
     permission: '16',
     name: 'Больницы'
   }),
-  '71': _objectSpread(_objectSpread({
+  '71': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(341.392, -572.5071, 28.81897)), {}, {
+  }, new mp.Vector3(341.392, -572.5071, 28.81897), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30116,10 +30114,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 72
   }),
-  '72': _objectSpread(_objectSpread({
+  '72': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(342.1784, -570.3473, 28.81897)), {}, {
+  }, new mp.Vector3(342.1784, -570.3473, 28.81897), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30127,10 +30125,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 71
   }),
-  '73': _objectSpread(_objectSpread({
+  '73': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(321.0088, -559.9609, 28.88031)), {}, {
+  }, new mp.Vector3(321.0088, -559.9609, 28.88031), {
     hash: "hei_prop_heist_cutscene_doorc_r",
     locked: true,
     key: 'key_emc',
@@ -30138,10 +30136,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 74
   }),
-  '74': _objectSpread(_objectSpread({
+  '74': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(318.7677, -561.0198, 28.88031)), {}, {
+  }, new mp.Vector3(318.7677, -561.0198, 28.88031), {
     hash: "hei_prop_heist_cutscene_doorc_r",
     locked: true,
     key: 'key_emc',
@@ -30149,10 +30147,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 73
   }),
-  '75': _objectSpread(_objectSpread({
+  '75': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(345.0586, -567.9648, 28.82051)), {}, {
+  }, new mp.Vector3(345.0586, -567.9648, 28.82051), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30160,10 +30158,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 76
   }),
-  '76': _objectSpread(_objectSpread({
+  '76': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(347.2267, -568.7333, 28.82051)), {}, {
+  }, new mp.Vector3(347.2267, -568.7333, 28.82051), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30171,10 +30169,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 75
   }),
-  '77': _objectSpread(_objectSpread({
+  '77': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(346.8181, -572.0256, 28.7973)), {}, {
+  }, new mp.Vector3(346.8181, -572.0256, 28.7973), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30182,10 +30180,10 @@ let doorsData = {
     name: 'Больницы',
     pair: 78
   }),
-  '78': _objectSpread(_objectSpread({
+  '78': _objectSpread({
     offset: -1.2,
     mystatus: false
-  }, new mp.Vector3(346.031, -574.1888, 28.7973)), {}, {
+  }, new mp.Vector3(346.031, -574.1888, 28.7973), {
     hash: "v_ilev_cor_firedoor",
     locked: true,
     key: 'key_emc',
@@ -30193,459 +30191,459 @@ let doorsData = {
     name: 'Больницы',
     pair: 77
   }),
-  '79': _objectSpread(_objectSpread({
+  '79': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(1851.132568359375, 3682.4052734375, 34.26708984375)), {}, {
+  }, new mp.Vector3(1851.132568359375, 3682.4052734375, 34.26708984375), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 80
   }),
-  '80': _objectSpread(_objectSpread({
+  '80': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(1850.132568359375, 3684.4052734375, 34.26708984375)), {}, {
+  }, new mp.Vector3(1850.132568359375, 3684.4052734375, 34.26708984375), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 79
   }),
-  '81': _objectSpread(_objectSpread({
+  '81': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(1847.132568359375, 3690.4052734375, 34.26708984375)), {}, {
+  }, new mp.Vector3(1847.132568359375, 3690.4052734375, 34.26708984375), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 82
   }),
-  '82': _objectSpread(_objectSpread({
+  '82': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(1849.132568359375, 3690.4052734375, 34.26708984375)), {}, {
+  }, new mp.Vector3(1849.132568359375, 3690.4052734375, 34.26708984375), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 81
   }),
-  '83': _objectSpread(_objectSpread({
+  '83': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-441.48, 6012.84, 31.72)), {}, {
+  }, new mp.Vector3(-441.48, 6012.84, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 84
   }),
-  '84': _objectSpread(_objectSpread({
+  '84': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-442.92, 6011.26, 31.72)), {}, {
+  }, new mp.Vector3(-442.92, 6011.26, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 83
   }),
-  '85': _objectSpread(_objectSpread({
+  '85': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-447.81, 6006.98, 31.72)), {}, {
+  }, new mp.Vector3(-447.81, 6006.98, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 86
   }),
-  '86': _objectSpread(_objectSpread({
+  '86': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-448.98, 6008.60, 31.72)), {}, {
+  }, new mp.Vector3(-448.98, 6008.60, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 85
   }),
-  '87': _objectSpread(_objectSpread({
+  '87': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-450.12, 6016.01, 31.72)), {}, {
+  }, new mp.Vector3(-450.12, 6016.01, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа'
   }),
-  '88': _objectSpread(_objectSpread({
+  '88': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-451.26, 6006.95, 31.83)), {}, {
+  }, new mp.Vector3(-451.26, 6006.95, 31.83), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа'
   }),
-  '89': _objectSpread(_objectSpread({
+  '89': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-446.65, 6001.78, 31.72)), {}, {
+  }, new mp.Vector3(-446.65, 6001.78, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа'
   }),
-  '90': _objectSpread(_objectSpread({
+  '90': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-440.91, 6008.02, 31.72)), {}, {
+  }, new mp.Vector3(-440.91, 6008.02, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 91
   }),
-  '91': _objectSpread(_objectSpread({
+  '91': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: -2023754432
-  }, new mp.Vector3(-442.31, 6009.10, 31.72)), {}, {
+  }, new mp.Vector3(-442.31, 6009.10, 31.72), {
     locked: true,
     key: 'key_lspd',
     permission: '7',
     name: 'Офис шерифа',
     pair: 90
   }),
-  '92': _objectSpread(_objectSpread({
+  '92': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-556.3757, -207.3055, 38.54186)), {}, {
+  }, new mp.Vector3(-556.3757, -207.3055, 38.54186), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 93
   }),
-  '93': _objectSpread(_objectSpread({
+  '93': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-557.6763, -205.053, 38.54773)), {}, {
+  }, new mp.Vector3(-557.6763, -205.053, 38.54773), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 92
   }),
-  '94': _objectSpread(_objectSpread({
+  '94': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-560.6801, -199.826, 38.54251)), {}, {
+  }, new mp.Vector3(-560.6801, -199.826, 38.54251), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 95
   }),
-  '95': _objectSpread(_objectSpread({
+  '95': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-559.3853, -202.0843, 38.53995)), {}, {
+  }, new mp.Vector3(-559.3853, -202.0843, 38.53995), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 94
   }),
-  '96': _objectSpread(_objectSpread({
+  '96': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_fib_doore_l"
-  }, new mp.Vector3(-562.6736, -196.3704, 37.37849)), {}, {
+  }, new mp.Vector3(-562.6736, -196.3704, 37.37849), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 97
   }),
-  '97': _objectSpread(_objectSpread({
+  '97': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_fib_doore_r"
-  }, new mp.Vector3(-563.4216, -195.0782, 37.38001)), {}, {
+  }, new mp.Vector3(-563.4216, -195.0782, 37.38001), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 96
   }),
-  '98': _objectSpread(_objectSpread({
+  '98': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-541.8019, -187.353, 38.38026)), {}, {
+  }, new mp.Vector3(-541.8019, -187.353, 38.38026), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 99
   }),
-  '99': _objectSpread(_objectSpread({
+  '99': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-543.1104, -185.1008, 38.38026)), {}, {
+  }, new mp.Vector3(-543.1104, -185.1008, 38.38026), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 98
   }),
-  '100': _objectSpread(_objectSpread({
+  '100': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-540.6802, -189.3759, 38.38026)), {}, {
+  }, new mp.Vector3(-540.6802, -189.3759, 38.38026), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 101
   }),
-  '101': _objectSpread(_objectSpread({
+  '101': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-539.3868, -191.6297, 38.38026)), {}, {
+  }, new mp.Vector3(-539.3868, -191.6297, 38.38026), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии',
     pair: 100
   }),
-  '102': _objectSpread(_objectSpread({
+  '102': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-537.7949, -192.7626, 38.3283)), {}, {
+  }, new mp.Vector3(-537.7949, -192.7626, 38.3283), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии'
   }),
-  '103': _objectSpread(_objectSpread({
+  '103': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ra_door2"
-  }, new mp.Vector3(-543.4396, -182.9641, 38.32299)), {}, {
+  }, new mp.Vector3(-543.4396, -182.9641, 38.32299), {
     locked: true,
     key: 'key_meria',
     permission: '1',
     name: 'Мэрии'
   }),
-  '104': _objectSpread(_objectSpread({
+  '104': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_gate_prison_01"
-  }, new mp.Vector3(79.33016, -689.0258, 30.5788)), {}, {
+  }, new mp.Vector3(79.33016, -689.0258, 30.5788), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB'
   }),
-  '105': _objectSpread(_objectSpread({
+  '105': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_gate_prison_01"
-  }, new mp.Vector3(191.0169, -727.006, 33.5188)), {}, {
+  }, new mp.Vector3(191.0169, -727.006, 33.5188), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB'
   }),
-  '106': _objectSpread(_objectSpread({
+  '106': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_gate_prison_01"
-  }, new mp.Vector3(399.8277, -551.13960000, 27.5677)), {}, {
+  }, new mp.Vector3(399.8277, -551.13960000, 27.5677), {
     locked: true,
     key: 'key_ems',
     permission: '16',
     name: 'EMS'
   }),
-  '107': _objectSpread(_objectSpread({
+  '107': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_fibl_door01"
-  }, new mp.Vector3(2521.207, -416.6346, 94.5519)), {}, {
+  }, new mp.Vector3(2521.207, -416.6346, 94.5519), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB',
     pair: 108
   }),
-  '108': _objectSpread(_objectSpread({
+  '108': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_fibl_door02"
-  }, new mp.Vector3(2518.207, -413.6346, 94.5519)), {}, {
+  }, new mp.Vector3(2518.207, -413.6346, 94.5519), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB',
     pair: 107
   }),
-  '109': _objectSpread(_objectSpread({
+  '109': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_facgate_05_r"
-  }, new mp.Vector3(2569.207, -325.6346, 94.12363)), {}, {
+  }, new mp.Vector3(2569.207, -325.6346, 94.12363), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB',
     pair: 110
   }),
-  '110': _objectSpread(_objectSpread({
+  '110': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_facgate_05_r"
-  }, new mp.Vector3(2559.207, -325.6346, 94.12363)), {}, {
+  }, new mp.Vector3(2559.207, -325.6346, 94.12363), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB',
     pair: 109
   }),
-  '111': _objectSpread(_objectSpread({
+  '111': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_doormaf"
-  }, new mp.Vector3(-1518.028, 851.5502, 181.7178)), {}, {
+  }, new mp.Vector3(-1518.028, 851.5502, 181.7178), {
     locked: true,
     key: 'key_ukr',
     permission: '11',
     name: 'Украинского посольства',
     pair: 112
   }),
-  '112': _objectSpread(_objectSpread({
+  '112': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_doormaf"
-  }, new mp.Vector3(-1515.028, 850.5502, 181.7178)), {}, {
+  }, new mp.Vector3(-1515.028, 850.5502, 181.7178), {
     locked: true,
     key: 'key_ukr',
     permission: '11',
     name: 'Украинского посольства',
     pair: 111
   }),
-  '113': _objectSpread(_objectSpread({
+  '113': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_doormaf"
-  }, new mp.Vector3(-1490.028, 851.5502, 181.7178)), {}, {
+  }, new mp.Vector3(-1490.028, 851.5502, 181.7178), {
     locked: true,
     key: 'key_ukr',
     permission: '11',
     name: 'Украинского посольства',
     pair: 114
   }),
-  '114': _objectSpread(_objectSpread({
+  '114': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_doormaf"
-  }, new mp.Vector3(-1491.461, 853.1818, 181.718)), {}, {
+  }, new mp.Vector3(-1491.461, 853.1818, 181.718), {
     locked: true,
     key: 'key_ukr',
     permission: '11',
     name: 'Украинского посольства',
     pair: 113
   }),
-  '115': _objectSpread(_objectSpread({
+  '115': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_doormaf"
-  }, new mp.Vector3(-1520.761, 848.3218, 181.718)), {}, {
+  }, new mp.Vector3(-1520.761, 848.3218, 181.718), {
     locked: true,
     key: 'key_ukr',
     permission: '11',
     name: 'Украинского посольства'
   }),
-  '116': _objectSpread(_objectSpread({
+  '116': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_doormaf"
-  }, new mp.Vector3(-1500.631, 856.6718, 181.718)), {}, {
+  }, new mp.Vector3(-1500.631, 856.6718, 181.718), {
     locked: true,
     key: 'key_ukr',
     permission: '11',
     name: 'Украинского посольства'
   }),
-  '117': _objectSpread(_objectSpread({
+  '117': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ph_cellgate"
-  }, new mp.Vector3(2499.446, -413.6485, 90.25725)), {}, {
+  }, new mp.Vector3(2499.446, -413.6485, 90.25725), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB'
   }),
-  '118': _objectSpread(_objectSpread({
+  '118': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ph_cellgate"
-  }, new mp.Vector3(2496.587, -410.7944, 90.25725)), {}, {
+  }, new mp.Vector3(2496.587, -410.7944, 90.25725), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB'
   }),
-  '119': _objectSpread(_objectSpread({
+  '119': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ph_cellgate"
-  }, new mp.Vector3(2493.942, -408.1546, 90.25725)), {}, {
+  }, new mp.Vector3(2493.942, -408.1546, 90.25725), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB'
   }),
-  '120': _objectSpread(_objectSpread({
+  '120': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "v_ilev_ph_cellgate"
-  }, new mp.Vector3(2490.966, -405.1835, 94.25725)), {}, {
+  }, new mp.Vector3(2490.966, -405.1835, 94.25725), {
     locked: true,
     key: 'key_fib',
     permission: '3',
     name: 'FIB'
   }),
-  '121': _objectSpread(_objectSpread({
+  '121': _objectSpread({
     offset: -1.2,
     mystatus: false,
     hash: "prop_facgate_01"
-  }, new mp.Vector3(2491.868, -303.4783, 91.99238)), {}, {
+  }, new mp.Vector3(2491.868, -303.4783, 91.99238), {
     locked: true,
     key: 'key_fib',
     permission: '3',
@@ -30826,9 +30824,9 @@ exports.doorsData = doorsData;
 
 var _doors = require("../../util/doors");
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -30877,7 +30875,7 @@ function doorSync() {
 function explodeSync() {
   let pos = player.position;
   models.forEach(([x, y, z, hash, exploded, ent], index) => {
-    if (hash == 3309500160) {
+    if (hash == -1042390945) {
       if (mp.game.gameplay.getDistanceBetweenCoords(pos.x, pos.y, pos.z, x, y, z, true) < 100) {
         if (exploded) {
           if (mp.objects.exists(models[index][5])) {
@@ -30944,7 +30942,7 @@ mp.events.add('client:openDoorRestore', (x, y, z, hash) => {
 mp.events.add('client:explodeDoorsAll', data => {
   models = JSON.parse(data);
   models.forEach(itm => {
-    if (itm[3] == 3309500160) {
+    if (itm[3] == -1042390945) {
       mp.game.entity.createModelHide(itm[0], itm[1], itm[2], 20, mp.game.joaat('p_fin_vaultdoor_s'), true);
     }
 
@@ -31009,7 +31007,7 @@ setTimeout(() => {
     });
   });
 }, 1000);
-},{"./gui":"bk91","./methods":"qXSp"}],"GLPL":[function(require,module,exports) {
+},{"./gui":"bk91","./methods":"+qXS"}],"GLP/":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("../modules/methods");
@@ -31656,7 +31654,7 @@ setTimeout(() => {
     });
   });
 }, 100);
-},{"../modules/methods":"qXSp","../../util/methods":"Z5QB"}],"YrmO":[function(require,module,exports) {
+},{"../modules/methods":"+qXS","../../util/methods":"Z5QB"}],"YrmO":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31879,7 +31877,7 @@ setTimeout(() => {
     });
   });
 }, 1000);
-},{"./cameraManager":"YrmO","../modules/ui":"zOnK"}],"VXTb":[function(require,module,exports) {
+},{"./cameraManager":"YrmO","../modules/ui":"zOnK"}],"4+VX":[function(require,module,exports) {
 const player = mp.players.local;
 let regs = false;
 mp.events.add('renderHalf', () => {
@@ -33347,7 +33345,7 @@ mp.events.add('render', () => {
     }
   }
 });
-},{"../../../shared/casino_roulette/helpers":"Ikcx","../../managers/cameraManager":"YrmO","../gui":"bk91","../../user":"QE3B","../methods":"qXSp"}],"Rr1D":[function(require,module,exports) {
+},{"../../../shared/casino_roulette/helpers":"Ikcx","../../managers/cameraManager":"YrmO","../gui":"bk91","../../user":"+QE3","../methods":"+qXS"}],"5Rr1":[function(require,module,exports) {
 "use strict";
 
 var _cameraManager = _interopRequireDefault(require("../../managers/cameraManager"));
@@ -33579,7 +33577,7 @@ mp.events.add('render', () => {
 
   mp.game.controls.disableAllControlActions(0);
 });
-},{"../../managers/cameraManager":"YrmO","./slotMachineData":"Dmc2","../gui":"bk91","../../user":"QE3B","../casino_roulette":"XMgA"}],"A84v":[function(require,module,exports) {
+},{"../../managers/cameraManager":"YrmO","./slotMachineData":"Dmc2","../gui":"bk91","../../user":"+QE3","../casino_roulette":"XMgA"}],"A84v":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33706,7 +33704,7 @@ function bezier(mX1, mY1, mX2, mY2) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.toRad = exports.normalizeAngle = exports.lerpVector3 = exports.getObjectOffsetFromCoords = void 0;
+exports.getObjectOffsetFromCoords = exports.normalizeAngle = exports.toRad = exports.lerpVector3 = void 0;
 
 const lerpVector3 = (vector1, vector2, deltaTime) => {
   return new mp.Vector3((1 - deltaTime) * vector1.x + deltaTime * vector2.x, (1 - deltaTime) * vector1.y + deltaTime * vector2.y, (1 - deltaTime) * vector1.z + deltaTime * vector2.z);
@@ -33737,7 +33735,7 @@ exports.normalizeAngle = normalizeAngle;
 const getObjectOffsetFromCoords = (v, heading, offset) => mp.game.object.getObjectOffsetFromCoords(v.x, v.y, v.z, heading, offset.x, offset.y, offset.z);
 
 exports.getObjectOffsetFromCoords = getObjectOffsetFromCoords;
-},{}],"RICX":[function(require,module,exports) {
+},{}],"RIC/":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33747,9 +33745,7 @@ exports.default = void 0;
 
 var helpers = _interopRequireWildcard(require("./index"));
 
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 class Quaternion {
   constructor(x, y, z, w) {
@@ -33861,15 +33857,13 @@ var _user = require("../../user");
 
 var _casino_roulette = require("../casino_roulette");
 
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -33929,7 +33923,7 @@ const defaultOptions = {
 };
 
 const startCardAnimation = (pipeline, options = {}) => {
-  options = _objectSpread(_objectSpread({}, defaultOptions), options);
+  options = _objectSpread({}, defaultOptions, {}, options);
   const animatedCard = mp.objects.exists(options.object) ? options.object : mp.objects.new(mp.game.joaat(options.objectModel), helpers.getObjectOffsetFromCoords(thisInfo.currentTablePosition, thisInfo.currentTableHeading, new mp.Vector3(0, 0.55, -1)), {
     dimension: -1,
     rotation: new mp.Vector3(90, 0, 0)
@@ -34631,7 +34625,7 @@ mp.events.add('render', () => {
     }
   }
 });
-},{"../../managers/cameraManager":"YrmO","./helpers/bezierEasing":"A84v","./helpers":"qncG","./helpers/Quaternion":"RICX","../gui":"bk91","../../user":"QE3B","../casino_roulette":"XMgA"}],"JvB6":[function(require,module,exports) {
+},{"../../managers/cameraManager":"YrmO","./helpers/bezierEasing":"A84v","./helpers":"qncG","./helpers/Quaternion":"RIC/","../gui":"bk91","../../user":"+QE3","../casino_roulette":"XMgA"}],"JvB6":[function(require,module,exports) {
 "use strict";
 
 var _gui = require("../gui");
@@ -34642,9 +34636,7 @@ var _user = require("../../user");
 
 var _casino_roulette = require("../casino_roulette");
 
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 const thisInfo = {
   dealerActive: false,
@@ -34957,7 +34949,7 @@ mp.events.add('render', () => {
     }
   }
 });
-},{"../gui":"bk91","../casino_threecard_poker/helpers":"qncG","../../user":"QE3B","../casino_roulette":"XMgA"}],"LKpP":[function(require,module,exports) {
+},{"../gui":"bk91","../casino_threecard_poker/helpers":"qncG","../../user":"+QE3","../casino_roulette":"XMgA"}],"/9L+":[function(require,module,exports) {
 "use strict";
 
 var _methods = require("../../util/methods");
@@ -35139,7 +35131,7 @@ setInterval(() => {
     timePressKey = 0;
   }
 }, 1000);
-},{"../../util/newrage":"mgLX","../user":"QE3B"}],"Sogq":[function(require,module,exports) {
+},{"../../util/newrage":"mgLX","../user":"+QE3"}],"Sogq":[function(require,module,exports) {
 let giftpos;
 let pickupedData;
 mp.events.add("holidayPickups", datas => {
@@ -35191,9 +35183,9 @@ var _ui = require("../modules/ui");
 
 var _methods = require("../modules/methods");
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -35211,7 +35203,7 @@ mp.events.add("render", () => {
 
   mp.game.graphics.drawLine(mp.players.local.position.x, mp.players.local.position.y, mp.players.local.position.z, rulletPos.x, rulletPos.y, rulletPos.z, 255, 0, 0, 255);
 });
-},{"../modules/ui":"zOnK","../modules/methods":"qXSp"}],"QCba":[function(require,module,exports) {
+},{"../modules/ui":"zOnK","../modules/methods":"+qXS"}],"7QCb":[function(require,module,exports) {
 "use strict";
 
 var _newrage = require("../util/newrage");
@@ -35421,5 +35413,5 @@ setTimeout(() => {
     });
   });
 }, 5000);
-},{"../util/newrage":"mgLX","./customEvent":"ARQI","./modules/gui":"bk91","./modules/data":"Edcz","./modules/afk":"X2Af","./modules/pickups":"xTdX","./modules/test":"ce6v","./modules/events":"d3wo","./managers/sync":"ia7M","./managers/shooting":"R6P3","./managers/fingerpoint":"Tpi6","./managers/anticheat":"Klt7","./managers/attach_system":"uwcG","./managers/anim_auto":"ufbL","./managers/npc":"pqyY","./managers/menu":"BkU5","./managers/crouch":"o6Co","./managers/custom_sound":"FPvd","./modules/race2":"n1sh","./modules/socket":"WcPp","./modules/savezone":"ehdN","./ragevoice":"VUJK","./fly":"p3bl","./control":"E081","./enums":"ZRYf","./items":"nuVl","./user":"QE3B","./modules/methods":"qXSp","./betternotifs":"zMA7","./managers/object":"o1IG","./weapons":"YeMF","./jobs/trucker":"kruA","./managers/breakLight":"nEWc","./auth":"yieC","./hud":"Lsp6","./modules/spectate":"Sf2B","./modules/doors":"H2nx","./modules/minigame":"KnNo","./modules/npc":"jKJb","./managers/autoschool":"GLPL","./managers/cameraRecord":"zg97","./managers/sync.elements":"fsEp","./business/autosalon":"V6sO","./modules/spikes":"VXTb","./modules/casino_slot_machines":"Rr1D","./modules/casino_roulette":"XMgA","./modules/casino_threecard_poker":"hevW","./modules/casino_dice":"JvB6","./modules/skate":"LKpP","./modules/rappel":"GXij","./managers/pickup.gift":"Sogq","./managers/admin":"vGK9"}]},{},["QCba"], null)
+},{"../util/newrage":"mgLX","./customEvent":"ARQI","./modules/gui":"bk91","./modules/data":"5Edc","./modules/afk":"X2Af","./modules/pickups":"xTdX","./modules/test":"ce+6","./modules/events":"d3wo","./managers/sync":"9ia7","./managers/shooting":"R6P3","./managers/fingerpoint":"Tpi6","./managers/anticheat":"Klt7","./managers/attach_system":"uwcG","./managers/anim_auto":"ufbL","./managers/npc":"pqyY","./managers/menu":"BkU5","./managers/crouch":"o6Co","./managers/custom_sound":"FPvd","./modules/race2":"n1sh","./modules/socket":"WcPp","./modules/savezone":"ehdN","./ragevoice":"0VUJ","./fly":"p3bl","./control":"E081","./enums":"9ZRY","./items":"nuVl","./user":"+QE3","./modules/methods":"+qXS","./betternotifs":"49zM","./managers/object":"o1IG","./weapons":"YeMF","./jobs/trucker":"kruA","./managers/breakLight":"nEWc","./auth":"yieC","./hud":"Lsp6","./modules/spectate":"Sf2B","./modules/doors":"H2nx","./modules/minigame":"8KnN","./modules/npc":"jKJb","./managers/autoschool":"GLP/","./managers/cameraRecord":"zg97","./managers/sync.elements":"fsEp","./business/autosalon":"V6sO","./modules/spikes":"4+VX","./modules/casino_slot_machines":"5Rr1","./modules/casino_roulette":"XMgA","./modules/casino_threecard_poker":"hevW","./modules/casino_dice":"JvB6","./modules/skate":"/9L+","./modules/rappel":"GXij","./managers/pickup.gift":"Sogq","./managers/admin":"vGK9"}]},{},["7QCb"], null)
 //# sourceMappingURL=/index.js.map

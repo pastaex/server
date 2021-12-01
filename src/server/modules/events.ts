@@ -6216,7 +6216,7 @@ mp.events.addRemoteCounted('server:user:getTaxi', (player, type, price) => {
         if (
           user.isLogin(p) &&
           (user.get(p, 'job') == 'taxi1' || user.get(p, 'job') == 'taxi2') &&
-          p.seat == -1
+          p.seat == 0
         ) {
           switch (type) {
             case 0:
@@ -6337,7 +6337,7 @@ mp.events.addRemoteCounted('server:user:sendTaxiAccept', (player, phone, id) => 
       p.notify(`~y~Пожалуйста оставайтесь на месте`);
     }
 
-    if (p.vehicle && p.seat == -1 && user.get(p, 'job') == user.get(player, 'job'))
+    if (p.vehicle && p.seat == 0 && user.get(p, 'job') == user.get(player, 'job'))
       p.notifyWithPicture(
         user.getRpName(player),
         'Диспетчер',
@@ -6353,13 +6353,13 @@ mp.events.addRemoteCounted('server:user:sendTaxiAccept', (player, phone, id) => 
 });
 
 mp.events.add('playerEnterVehicle', (player: PlayerMp, vehicle: VehicleMp, seat: number) => {
-  if (seat == -1) return;
+  if (seat == 0) return;
 
   if (!user.has(player, 'taxiType')) return;
 
   if (vehicle.getVariable('job') == 'taxi1' || vehicle.getVariable('job') == 'taxi2') {
     vehicle.getOccupants().forEach(function(p) {
-      if (p.seat == -1) {
+      if (p.seat == 0) {
         if (user.getLevel(player) == levelAccess.freeTaxi) player.notify('~g~Акция от компании, поездка бесплатна');
 
         p.notify('~g~Ваш клиент сел к вам в такси');

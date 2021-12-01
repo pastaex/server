@@ -8,7 +8,7 @@ import { randomArrayEl } from '../../util/methods';
 
 let isProcess = false;
 let isStart = false;
-let currentPedId = -1;
+let currentPedId = 1;
 let posStart = new mp.Vector3(0, 0, 0);
 let posEnd = new mp.Vector3(0, 0, 0);
 let countPeds = 0;
@@ -128,7 +128,7 @@ let taxi = {
 
                         //methods.deleteGlobalPed(currentPedId);
                         mp.events.call('client:methods:deleteGlobalPed', currentPedId);
-                        currentPedId = -1;
+                        currentPedId = 1;
 
                         let price = taxi.getTaxiDistPrice(posStart, posEnd, taxi.getTaxiModalClass(mp.players.local.vehicle.model));
 
