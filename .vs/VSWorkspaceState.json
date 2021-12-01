@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\mobile",
+    "\\src\\mobile\\src",
+    "\\src\\mobile\\src\\api",
+    "\\src\\server",
+    "\\src\\server\\modules",
+    "\\src\\server\\modules\\entity"
+  ],
+  "SelectedNode": "\\src\\server\\modules\\entity\\whiteListTest.ts",
+  "PreviewInSolutionExplorer": false
+}

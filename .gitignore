@@ -1,0 +1,6 @@
+
+node_modules
+/web
+/game_resources
+/.cache
+client_packages/game_resources

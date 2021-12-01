@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "db_user": "admin",
+  "password": "123123z123Z",
+  "database": "diamond",
+  "port": 3306
+}
