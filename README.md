@@ -1,23 +1,5 @@
-## RAGEMP: Diamond RolePlay (0.3.7 and 1.1)
-![](https://gcdn.pbrd.co/images/yFaXdx6C64DG.png)
-
-# Resources
-
-| Name | Link | Password |
-| ------ | ------ | ------ |
-| DLCpacks | https://cutt.ly/zR5hnGk (GD) | 'nJjXtYmRhFcBdFz;tYoByFVjZ!2020
-| Databases | https://cutt.ly/rR5koQX (GD) | 'NsCfVfZKexIfZRCdjtb!d20Ujle!2020
-| CLEAR DATABASE | https://cutt.ly/aR6hEDX (GD) | 'NsCfVfZKexIfZRCdjtb!d20Ujle!2020
-
-# Installation
-Let's break it down so it's clear to everyone.
-
-1. You need to download the complete resource on GitHub, as well as the database (there are two provided, one clean, the other with real player accounts).
-2. Unpack the resulting archives in a convenient place for you.
-3. Next you need to install NodeJS modules. To do this we write `npm i` (You must have NodeJS installed).
-4. Now you can build the project, type `npm run build` to start the build.
-![](https://user-images.githubusercontent.com/93782623/140576375-376b16e3-5948-4457-9f70-5a073f04bd7e.png)
-5. After installing all the modules and building the project, you will be able to start this resource.
+## RAGEMP: Veyron RolePlay (0.3.7 and 1.1)
+![](https://media.discordapp.net/attachments/911878251473944596/914885851798974494/a_ba2a09cdd37c2501997c397484f1fa43.gif)
 
 # © Copyrights
 All rights reserved by the laws of your country.<br>
