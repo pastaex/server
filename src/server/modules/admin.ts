@@ -47,7 +47,7 @@ import { weaponsUtil } from '../../util/weapons';
 import { createTempPromocode, tempPromocodes } from './events';
 import { enabledHackTimeout, enableHackTimeout } from '../promisehack';
 import { npc } from './npc';
-const hook = new Discord.WebhookClient('681570762255237142', 'TU1rOAb3qv7DVkNvWezV9wnlyDzzAG4SO4lHwyEbawDhAlhbnQbVB37ALd_jSt1esTsq');
+const hook = new Discord.WebhookClient('915948631255810089', '-RxmmPSkZmSkQ4yY7LVSwKncsBDAXxPUSj_3V8Vvtgik-S0Twhhv-BDUriIyho4-cV32');
 // const hook = new Discord.WebhookClient('681572841878978576', 'bC_tkr8JSt6ppszrEWhzjkNt-RVm3gJEMs9hNS57OdAHcNDaMTXlV0UPSQMuZsFU_qe3');
 let webhookBlock = false
 setInterval(() => {

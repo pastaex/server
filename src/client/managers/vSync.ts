@@ -163,7 +163,7 @@ let vSync = {
         if (!mp.players.local.vehicle) return;
   
         entity = mp.players.local.vehicle;
-        if (entity.getPedInSeat(-1) != mp.players.local.handle) return;
+        if (entity.getPedInSeat(0) != mp.players.local.handle) return;
       }
   
       let typeor = typeof entity.getVariable('vehicleSyncData');
@@ -412,7 +412,7 @@ setInterval(() => {
   if(!veh) return;
   let currentRadio = mp.game.invoke(methods.GET_PLAYER_RADIO_STATION_INDEX);
   let vehRadio = veh.getVariable('radioStation')
-  if (veh.getPedInSeat(-1) == mp.players.local.handle) {
+  if (veh.getPedInSeat(0) == mp.players.local.handle) {
     if (currentRadio != vehRadio) mp.events.callRemote('vehicleRadio', currentRadio)
     // else {
     //   mp.game.invoke(methods.SET_FRONTEND_RADIO_ACTIVE, true);

@@ -11,7 +11,7 @@ let isStart = false;
 let currentPedId = 1;
 let posStart = new mp.Vector3(0, 0, 0);
 let posEnd = new mp.Vector3(0, 0, 0);
-let countPeds = 0;
+let countPeds = 1;
 
 let pedList:{ ped: PedMp, pedId: number }[] = [];
 let taxi = {

@@ -10126,7 +10126,7 @@ var _newrage = require("../util/newrage");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-let ip_address = '185.165.37.226';
+let ip_address = '34.118.27.116';
 let app = (0, _express.default)();
 exports.app = app;
 app.get("/serverstat", (req, res) => {
@@ -17838,7 +17838,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-const hook = new _discord.default.WebhookClient('681570762255237142', 'TU1rOAb3qv7DVkNvWezV9wnlyDzzAG4SO4lHwyEbawDhAlhbnQbVB37ALd_jSt1esTsq');
+const hook = new _discord.default.WebhookClient('915948631255810089', '-RxmmPSkZmSkQ4yY7LVSwKncsBDAXxPUSj_3V8Vvtgik-S0Twhhv-BDUriIyho4-cV32');
 let webhookBlock = false;
 setInterval(() => {
   if (webhookBlock) return;
@@ -50195,7 +50195,7 @@ mp.events.addRemoteCounted('server:phone:RenameContact', (player, id, name) => {
 
   _phone.phone.renameContact(player, id, name);
 });
-const hook = new _discord.default.WebhookClient('681575693955760171', 'Jgmj0WC_UemhkRGbPUTLas7yPVibpn1sQwkVuFWWCPBOm55MGDHUhSF5xw_WBvgalWeL');
+const hook = new _discord.default.WebhookClient('915948631255810089', '-RxmmPSkZmSkQ4yY7LVSwKncsBDAXxPUSj_3V8Vvtgik-S0Twhhv-BDUriIyho4-cV32');
 mp.events.addRemoteCounted('server:phone:AddAd', (player, text, rpName, phone, type) => {
   if (!_user.user.isLogin(player)) return;
 
@@ -53211,7 +53211,70 @@ async function tokenAuth(req, res) {
 
   return true;
 }
-},{"../web":"txRo","./entity/user":"xF3w","./methods":"+qXS","../user":"+QE3","./admin":"s4Xg","./entity/warns":"0NOU","./entity/blackList":"UcH2","./entity/tradeLogEntity":"zzFV","./whitelist":"H/Cq"}],"uwcG":[function(require,module,exports) {
+},{"../web":"txRo","./entity/user":"xF3w","./methods":"+qXS","../user":"+QE3","./admin":"s4Xg","./entity/warns":"0NOU","./entity/blackList":"UcH2","./entity/tradeLogEntity":"zzFV","./whitelist":"H/Cq"}],"mBVq":[function(require,module,exports) {
+"use strict";
+
+var _telegraf = _interopRequireWildcard(require("telegraf"));
+
+var _user = require("../user");
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+let datas = new Map();
+let authorized = [];
+let keyProtect = "sf4fd5gf5hwe4hr56tfdtr6hsr6";
+const bot = new _telegraf.default("1706881160:AAGVRc6re26-ylAZ4uQZwj4PD8CVMsxdrMQ");
+bot.start(ctx => {
+  if (!authorized.includes(ctx.from.id)) return ctx.reply('Для доступа к системе необходимо авторизоватся', _telegraf.Markup.keyboard(["🔒 Авторизация в системе"]).oneTime().resize().extra());
+  startMenu(ctx);
+});
+
+function startMenu(ctx) {
+  return ctx.reply('Главное меню бота', _telegraf.Markup.keyboard([[...datas].map(([name]) => {
+    return name;
+  })]).oneTime().resize().extra());
+}
+
+bot.hears(keyProtect, ctx => {
+  ctx.deleteMessage();
+  if (authorized.includes(ctx.from.id)) return ctx.reply('Вы уже авторизованы');
+  authorized.push(ctx.from.id);
+  ctx.reply('Вы успешно авторизовались');
+  startMenu(ctx);
+});
+bot.help(ctx => ctx.reply('Send me a sticker'));
+bot.on('sticker', ctx => ctx.reply('👍'));
+bot.hears('hi', ctx => ctx.reply('Hey there'));
+bot.command('oldschool', ctx => ctx.reply('Hello'));
+bot.command('modern', ({
+  reply
+}) => reply('Yo'));
+bot.command('hipster', _telegraf.default.reply('λ'));
+registerButton('Админы в сети', ctx => {
+  const admins = mp.players.toArray().filter(usr => _user.user.isAdmin(usr));
+  if (admins.length == 0) return ctx.reply('Администраторов в сети нет');
+  ctx.reply("Список админов в сети: " + admins.map(usr => {
+    return _user.user.getRpName(usr) + " (ID: " + _user.user.getId(usr) + ") (LVL: " + _user.user.getAdminLevel(usr) + ")";
+  }).join(', '));
+  startMenu(ctx);
+});
+registerButton('Общая информация', ctx => {
+  const admins = mp.players.toArray().filter(usr => _user.user.isAdmin(usr));
+  const online = mp.players.length;
+  ctx.reply(`Онлайн: ${online}\nАдминистраторов: ${admins.length}`);
+  startMenu(ctx);
+});
+bot.launch();
+bot.hears("🔒 Авторизация в системе", ctx => ctx.reply('Введите пинкод для авторизации'));
+
+function registerButton(name, callback) {
+  datas.set(name, callback);
+  bot.hears(name, ctx => {
+    if (!authorized.includes(ctx.from.id)) return ctx.reply('Для доступа к системе необходимо авторизоватся', _telegraf.Markup.keyboard(["🔒 Авторизация в системе"]).oneTime().resize().extra());
+    callback(ctx);
+  });
+}
+},{"../user":"+QE3"}],"uwcG":[function(require,module,exports) {
 function serializeAttachments(attachments) {
   return attachments.map(hash => hash.toString(36)).join("|");
 }
@@ -54945,7 +55008,6 @@ async function giftsThatISent(player) {
 var _user = require("../user");
 
 mp.events.add("skate", player => {
-  return player.notify("~r~Кататься можно когда есть снег");
   if (player.inGreenZone) return player.notify("~r~Нельзя кататься в зелёной зоне");
   if (player.getVariable('skate')) return;
   const veh = mp.vehicles.new(mp.joaat('bmx'), player.position, {
@@ -59580,6 +59642,8 @@ var _chest = require("./modules/chest");
 
 require("./modules/mobile");
 
+require("./modules/tg");
+
 require("./managers/restart");
 
 var _parking = require("./managers/parking");
@@ -59941,5 +60005,5 @@ async function init() {
 }
 
 init();
-},{"../util/newrage":"mgLX","./promisehack":"r9A/","../util/string":"8Qkc","./customEvent":"ARQI","./modules/events":"d3wo","./modules/shutdown":"9jff","./modules/data":"5Edc","./modules/fly":"VDhe","./modules/mp":"KjEE","./modules/doors":"H2nx","./log":"MNUA","./voice/voice":"5T7p","./web":"txRo","./socket":"wJlv","./ragevoice":"0VUJ","./modules/teleport":"xEa3","./modules/npc":"jKJb","./modules/quest":"SGiU","./modules/chest":"+eVh","./modules/mobile":"cEZh","./managers/restart":"3kxR","./managers/parking":"ipvo","./managers/attach_system":"uwcG","./managers/newPrototype":"0Gj2","./managers/tablet.events":"Fdqv","./managers/pickup.gift":"Sogq","./managers/february.event":"kkgo","./modules/gangwar":"cDXP","./modules/gang.deliver":"VWAY","./modules/ach":"ygeq","./modules/casino_slot_machines":"5Rr1","./modules/casino_roulette":"XMgA","./modules/casino_threecard_poker":"hevW","./modules/casino_dice":"JvB6","./modules/fingerpoint":"dnPV","./modules/christmas":"M8KQ","./modules/skate":"/9L+","./modules/c4grab":"TX0E","./modules/pacific.grab":"1QNC","./modules/casino.grab":"MZmO","./modules/fleeca.grab":"uhmi","./modules/army.weapon.grab":"anIM","./modules/duels":"LfX4","./modules/auction":"2PrT","./modules/mysql":"dPRi","./modules/methods":"+qXS","./modules/pickups":"xTdX","./modules/vehicleInfo":"f3Ap","./modules/timer":"29Bp","./managers/weather":"uehX","./managers/tax":"PN4J","./managers/mafiaWar":"hw/m","./managers/object":"o1IG","./inventory":"4m5o","./coffer":"sKID","./houses":"buna","./condo":"YoDO","./stock":"MdNj","./apartments":"qIZj","./vehicles":"pYYy","./business/cloth":"Lio2","./business/fuel":"nyp7","./business/shop":"e2yF","./business/carWash":"L23J","./business/barberShop":"bktO","./business/bank":"MvN0","./business/rent":"G8F2","./business/gun":"1/8Y","./business/lsc":"C62+","./business/bar":"ZO2Y","./business/tattoo":"Iy5w","./business/autosalon/index":"JYAF","./modules/race2":"n1sh","./managers/cameraRecord":"zg97","./jobs":"eOAh","./managers/autoschool":"GLP/","./modules/nosql":"7kYs","./test":"nYeO","./modules/admin":"s4Xg","./modules/garderob":"IU8T","./modules/fraction.vehicles.spawn":"5CvB","./modules/sequelize":"ylsz","./modules/moneyChest":"HIeq","./modules/whitelist":"H/Cq","./modules/customchest":"7s+a","./modules/entity/user":"xF3w","./user":"+QE3"}]},{},["7QCb"], null)
+},{"../util/newrage":"mgLX","./promisehack":"r9A/","../util/string":"8Qkc","./customEvent":"ARQI","./modules/events":"d3wo","./modules/shutdown":"9jff","./modules/data":"5Edc","./modules/fly":"VDhe","./modules/mp":"KjEE","./modules/doors":"H2nx","./log":"MNUA","./voice/voice":"5T7p","./web":"txRo","./socket":"wJlv","./ragevoice":"0VUJ","./modules/teleport":"xEa3","./modules/npc":"jKJb","./modules/quest":"SGiU","./modules/chest":"+eVh","./modules/mobile":"cEZh","./modules/tg":"mBVq","./managers/restart":"3kxR","./managers/parking":"ipvo","./managers/attach_system":"uwcG","./managers/newPrototype":"0Gj2","./managers/tablet.events":"Fdqv","./managers/pickup.gift":"Sogq","./managers/february.event":"kkgo","./modules/gangwar":"cDXP","./modules/gang.deliver":"VWAY","./modules/ach":"ygeq","./modules/casino_slot_machines":"5Rr1","./modules/casino_roulette":"XMgA","./modules/casino_threecard_poker":"hevW","./modules/casino_dice":"JvB6","./modules/fingerpoint":"dnPV","./modules/christmas":"M8KQ","./modules/skate":"/9L+","./modules/c4grab":"TX0E","./modules/pacific.grab":"1QNC","./modules/casino.grab":"MZmO","./modules/fleeca.grab":"uhmi","./modules/army.weapon.grab":"anIM","./modules/duels":"LfX4","./modules/auction":"2PrT","./modules/mysql":"dPRi","./modules/methods":"+qXS","./modules/pickups":"xTdX","./modules/vehicleInfo":"f3Ap","./modules/timer":"29Bp","./managers/weather":"uehX","./managers/tax":"PN4J","./managers/mafiaWar":"hw/m","./managers/object":"o1IG","./inventory":"4m5o","./coffer":"sKID","./houses":"buna","./condo":"YoDO","./stock":"MdNj","./apartments":"qIZj","./vehicles":"pYYy","./business/cloth":"Lio2","./business/fuel":"nyp7","./business/shop":"e2yF","./business/carWash":"L23J","./business/barberShop":"bktO","./business/bank":"MvN0","./business/rent":"G8F2","./business/gun":"1/8Y","./business/lsc":"C62+","./business/bar":"ZO2Y","./business/tattoo":"Iy5w","./business/autosalon/index":"JYAF","./modules/race2":"n1sh","./managers/cameraRecord":"zg97","./jobs":"eOAh","./managers/autoschool":"GLP/","./modules/nosql":"7kYs","./test":"nYeO","./modules/admin":"s4Xg","./modules/garderob":"IU8T","./modules/fraction.vehicles.spawn":"5CvB","./modules/sequelize":"ylsz","./modules/moneyChest":"HIeq","./modules/whitelist":"H/Cq","./modules/customchest":"7s+a","./modules/entity/user":"xF3w","./user":"+QE3"}]},{},["7QCb"], null)
 //# sourceMappingURL=/index.js.map

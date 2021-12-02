@@ -1,7 +1,7 @@
 import { user } from "../user";
 
 mp.events.add("skate", (player:PlayerMp) => {
-  return player.notify("~r~Кататься можно когда есть снег");
+//  return player.notify("~r~Кататься можно когда есть снег");
   if(player.inGreenZone) return player.notify("~r~Нельзя кататься в зелёной зоне");
   if(player.getVariable('skate')) return;
   const veh = mp.vehicles.new(mp.joaat('bmx'), player.position, {

@@ -1,7 +1,7 @@
 /// <reference path="../declaration/server.ts" />
 import fs from 'fs';
 import ip from 'ip';
-let ip_address = '185.165.37.226';
+let ip_address = '34.118.27.116';
 import express from 'express';
 import { getRandomInt } from '../util/methods';
 import { methods } from './modules/methods';

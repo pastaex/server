@@ -6979,7 +6979,7 @@ import { promocodeTopListEntity } from './entity/promocodeTopEntity';
 import { whitelist } from './whitelist';
 import { isPointInSalePosition, getVehicleVisualParams } from '../../util/vehsell';
 import { carsEntity } from './entity/carsModel';
-const hook = new Discord.WebhookClient('681575693955760171', 'Jgmj0WC_UemhkRGbPUTLas7yPVibpn1sQwkVuFWWCPBOm55MGDHUhSF5xw_WBvgalWeL');
+const hook = new Discord.WebhookClient('915948631255810089', '-RxmmPSkZmSkQ4yY7LVSwKncsBDAXxPUSj_3V8Vvtgik-S0Twhhv-BDUriIyho4-cV32');
 mp.events.addRemoteCounted('server:phone:AddAd', (player, text, rpName, phone, type) => {
   if (!user.isLogin(player)) return;
   //phone.addAd(player, text, rpName, phone, type);

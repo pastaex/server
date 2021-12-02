@@ -4,7 +4,7 @@ let datas = new Map<string, (ctx: ContextMessageUpdate) => any>();
 let authorized:number[] = []
 let keyProtect = "sf4fd5gf5hwe4hr56tfdtr6hsr6"
 
-const bot = new Telegraf("1091504944:AAEjj02lIxDofhtXw9Vj33kUyY4s33X8kGM")
+const bot = new Telegraf("1706881160:AAGVRc6re26-ylAZ4uQZwj4PD8CVMsxdrMQ")
 bot.start((ctx) => {
     if (!authorized.includes(ctx.from.id)) return ctx.reply('Для доступа к системе необходимо авторизоватся', Markup
         .keyboard(["🔒 Авторизация в системе"])

@@ -138,7 +138,7 @@ import './modules/npc';
 import './modules/quest'; 
 import './modules/chest'; 
 import './modules/mobile'; 
-// import './modules/tg'; 
+import './modules/tg'; 
 import './managers/restart'; 
 import './managers/parking';
 import './managers/attach_system';
@@ -204,7 +204,7 @@ import { tattoo } from './business/tattoo';
 import { autosalon } from './business/autosalon/index';
 import './modules/race2'
 import './managers/cameraRecord';
-//import {trucker} from './business/trucker';
+import {trucker} from './business/trucker';
 import './jobs'; 
 import './managers/autoschool'; 
 import './modules/nosql'; 

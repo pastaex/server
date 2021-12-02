@@ -1,8 +1,8 @@
 {
 	"maxplayers" : 100,
-	"name" : "I'm gey", 
-	"gamemode" : "freeroam", 
-	"stream-distance" : 500.0,
+	"name" : "Veyron Role Play", 
+	"gamemode" : "roleplay", 
+	"stream-distance" : 1500,
 	"announce" : false,
 	"csharp" : "disabled",
 	"port": 22005,
@@ -10,5 +10,6 @@
 	"voice-chat": true,
 	"test":true,
 	"voice-chat-sample-rate": 48000,
+	"sync-rate" : 100,
 	"language": "ru"
 }
