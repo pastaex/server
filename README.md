@@ -5,5 +5,5 @@
 All rights reserved by the laws of your country.<br>
 Any copying (re-downloading to other sites/forums) and use for commercial purposes is prohibited by Copyright Law.<br>
 This page is not official, and it is the first public resource of this mod.<br>
-**Here are the sources of Diamond RolePlay.**
+**Here are the sources of Veyron RolePlay.**
 
