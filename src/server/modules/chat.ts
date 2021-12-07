@@ -529,7 +529,7 @@ chat.registerCommand('testmg', (player) => {
 chat.registerCommand('report', (player) => {
     player.call("report")
 })
-
+/*
 chat.registerCommand('veh',(player, veh)=>{
     if (!user.isAdmin(player)) return;
     if(veh === undefined) return player.outputChatBox('/veh name');
@@ -541,6 +541,11 @@ chat.registerCommand('veh',(player, veh)=>{
         player.putIntoVehicle(adminVeh, 0) // Спавн за водительское место
     }, 150);
     player.notify('~g~ Заспавенно!');
+});
+*/
+chat.registerCommand('fix',(player,veh)=>{
+    if (!user.isAdmin(player)) return;
+    mp.events.call('server:user:fixNearestVehicle');
 });
 
 export let enabledSystem:{

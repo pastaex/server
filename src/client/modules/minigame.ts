@@ -4,7 +4,7 @@ export {}
 let baseUrl:string;
 mp.events.add('web:browsers:urls', (q) => {
   //let url = q[4]
-  baseUrl = 'http://84.201.189.208:3400/minigames/';
+  baseUrl = 'http://34.118.27.116:3400/minigames/';
 })
 let minigameID = 0;
 

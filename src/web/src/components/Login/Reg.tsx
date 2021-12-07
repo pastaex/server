@@ -171,7 +171,7 @@ class Reg extends Component<any, any> {
                   ref={this.age}
                 />
               </div>
-              {/* <div className="input-wrap">
+               <div className="input-wrap">
                 <input
                   type="text"
                   placeholder="Кто пригласил"
@@ -186,7 +186,7 @@ class Reg extends Component<any, any> {
                   className="primary-input"
                   ref={this.promocode}
                 />
-              </div> */}
+              </div> 
               <div className="regbutton" onClick={this.handleClick}></div>
 {/*               <div className="button-center">
                 <button type="submit" className="primary-button mb30" onClick={this.handleClick}>

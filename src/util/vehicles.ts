@@ -6,7 +6,8 @@ export interface vehicleInfoCarConf {
     stock:number;
     // stock_full: number;
     fuel_full: number;
-    fuel_min: number
+    fuel_min: number;
+    sm:number
 }
 
 export type vehClassNameConf = "Emergency" | "Planes" | "Helicopters" | "Cycles" | "Boats" | 'Commercials' | 'Compacts' | 'Coupes' | 'Industrial' | 'Motorcycles' | 'Muscle' | 'Off-Road' | 'Sedans' | 'Sports' | 'Sports Classics' | 'Super' | 'SUVs' | 'Utility' | 'Vans' | 'Unknown';

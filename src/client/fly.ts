@@ -34,7 +34,7 @@ const gameplayCam = mp.cameras.new('gameplay');
 
 function switchFly(status:boolean){
   if(status && mp.players.local.vehicle) return mp.game.ui.notifications.show("Покиньте транспорт");
-  if (status && user.get('is6Duty') && !methods.isTestServer()) return mp.game.ui.notifications.show("Не стоит летать пока вы работаете инкассатором");
+  //if (status && user.get('is6Duty') && !methods.isTestServer()) return mp.game.ui.notifications.show("Не стоит летать пока вы работаете инкассатором");
   fly.flying = !fly.flying;
 
   const player = mp.players.local;

@@ -1446,15 +1446,16 @@ doneOffer: function (player:PlayerMp, offerId:number) {
     }
     else {
 
-        let trailerId = player.vehicle.getVariable('trailer');
+        let trailer = null;
+        mp.vehicles.forEach(function (v) {
+            if (v.getVariable('trOwner') == user.getId(player)) trailer = v;
+        });
 
-        if (!trailerId) {
+        if (trailer == null) {
             trucker.notify(player, '~r~У Вас нет прицепа');
             trucker.removeOffer(offerId);
             return;
         }
-
-        let trailer = mp.vehicles.at(player.vehicle.getVariable('trailer'));
 
         if (!vehicles.exists(trailer)) {
             trucker.removeOffer(offerId);
@@ -1469,6 +1470,7 @@ doneOffer: function (player:PlayerMp, offerId:number) {
         }
 
         let heal = trailer.bodyHealth / 1000;
+
 
         trucker.notify(player, 'Вы доставили груз', 'Доставка');
         player.notify(`~b~Состояние вашего груза: ~s~${heal * 100}%`);

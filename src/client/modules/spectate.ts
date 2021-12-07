@@ -20,4 +20,5 @@ mp.events.add('render', () => {
   if (!mp.players.exists(targetSpectate)) return mp.events.callSocket('client:spectate:revive'), targetSpectate = null;
   if (!targetSpectate.handle) return mp.events.callSocket('client:spectate:revive'), targetSpectate = null;
   player.position = new mp.Vector3(targetSpectate.position.x,targetSpectate.position.y,targetSpectate.position.z + 2);
+
 })

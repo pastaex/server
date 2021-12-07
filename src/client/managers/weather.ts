@@ -34,7 +34,7 @@ const weather = {
           */
   
       if (
-        weatherName == 'XMAS' 
+        weatherName == 'CLEAR' 
         // ||
         // weatherName == 'SNOWLIGHT' ||
         // weatherName == 'BLIZZARD' ||

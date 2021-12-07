@@ -8773,3 +8773,1233 @@
 
 
   
+[03/12/21] [00:00:40] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638489640,"id":null,"user":66928,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638489640,"id":null,"user":66928,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  ["weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","coffer.save","weather.saveTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.saveTimer","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.getWeather","weather.getWeather","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer"]
+  --------
+
+
+
+
+  
+[04/12/21] [00:00:34] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638576034,"id":null,"user":66929,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638576034,"id":null,"user":66929,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  ["weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.saveTimer","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.getWeather","weather.getWeather","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.saveTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer"]
+  --------
+
+
+
+
+  
+[05/12/21] [00:00:57] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638662457,"id":null,"user":66929,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638662457,"id":null,"user":66929,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  ["weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.saveTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.saveTimer","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.setWeather","CURRENT WEATHER: SNOW","weather.getWeather","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer"]
+  --------
+
+
+
+
+  
+[06/12/21] [00:00:37] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638748837,"id":null,"user":66928,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638748837,"id":null,"user":66928,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  ["weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.saveTimer","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.getWeather","weather.getWeather","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","coffer.save","weather.timeSyncTimer","weather.saveTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer","weather.timeSyncTimer"]
+  --------
+
+
+
+
+  
+[06/12/21] [17:02:28] 
+  !!! unhandledRejection !!!
+  reason
+  {}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{}}
+  --------
+  LAST DEBUG
+  ["init","houses.loadAll","condo.loadAll","stock.loadAll","apartments.loadAll","mafiaWar.loadAll","barberShop.loadAll","weather.loadAll","vehicleInfo.loadAll","createPickups","coffer.load","vehicles.loadAllTimers","dispatcher.loadAll","Spawned object",0,"tattoo.loadAll","lsc.loadAll","fuel.loadAll","shop.loadAll","bank.loadAll","LOAD ALL BANKS","barberShop.loadAll","rent.loadAll","gun.loadAll","bar.loadAll","carWash.loadAll","autosalon.loadAll","autosalon.loadCars","autosalon.loadRentCars","All Houses Loaded: 806","All Houses Loaded: 490","All Stock Loaded: 190","weather.load","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.setWeather","CURRENT WEATHER: SNOW","weather.getWeather","weather.weatherTimer","weather.timeSyncTimer","weather.saveTimer","All apartments Loaded: 864","Vehicle Info Loaded: 714"]
+  --------
+
+
+
+
+  
+[06/12/21] [17:03:19] 
+  !!! unhandledRejection !!!
+  reason
+  {}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{}}
+  --------
+  LAST DEBUG
+  ["init","houses.loadAll","condo.loadAll","stock.loadAll","apartments.loadAll","mafiaWar.loadAll","barberShop.loadAll","weather.loadAll","vehicleInfo.loadAll","createPickups","coffer.load","vehicles.loadAllTimers","dispatcher.loadAll","Spawned object",0,"tattoo.loadAll","lsc.loadAll","fuel.loadAll","shop.loadAll","bank.loadAll","LOAD ALL BANKS","barberShop.loadAll","rent.loadAll","gun.loadAll","bar.loadAll","carWash.loadAll","autosalon.loadAll","autosalon.loadCars","autosalon.loadRentCars","All Houses Loaded: 806","All Houses Loaded: 490","All Stock Loaded: 190","All apartments Loaded: 864","weather.load","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.setWeather","CURRENT WEATHER: SNOW","weather.getWeather","weather.weatherTimer","weather.timeSyncTimer","weather.saveTimer","Vehicle Info Loaded: 714"]
+  --------
+
+
+
+
+  
+[06/12/21] [17:04:11] 
+  !!! unhandledRejection !!!
+  reason
+  {}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{}}
+  --------
+  LAST DEBUG
+  ["init","houses.loadAll","condo.loadAll","stock.loadAll","apartments.loadAll","mafiaWar.loadAll","barberShop.loadAll","weather.loadAll","vehicleInfo.loadAll","createPickups","coffer.load","vehicles.loadAllTimers","dispatcher.loadAll","Spawned object",0,"tattoo.loadAll","lsc.loadAll","fuel.loadAll","shop.loadAll","bank.loadAll","LOAD ALL BANKS","barberShop.loadAll","rent.loadAll","gun.loadAll","bar.loadAll","carWash.loadAll","autosalon.loadAll","autosalon.loadCars","autosalon.loadRentCars","All Houses Loaded: 806","All Houses Loaded: 490","All Stock Loaded: 190","All apartments Loaded: 864","weather.load","weather.randomTimer","weather.nextRandomWeather","weather.getWeatherType","weather.nextRandomWeatherByType","weather.setWeather","CURRENT WEATHER: SNOW","weather.getWeather","weather.weatherTimer","weather.timeSyncTimer","weather.saveTimer","Vehicle Info Loaded: 714"]
+  --------
+
+
+
+
+  
+[06/12/21] [17:08:25] 
+  !!! unhandledRejection !!!
+  reason
+  {}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:12:35] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:12:38] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:12:51] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:12:53] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:12:56] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3357409,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:23:24] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":7830812,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:09] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:14] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:18] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"INSERT INTO `pAFk3qiAgG1_log_data` (`id`,`type`,`timestamp`,`interractions`,`reason`) VALUES (NULL,'PlayerSystem',1638811818,'[66953]','@user66953 смена баланса на руках с 706$ на 1006$');"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"INSERT INTO `pAFk3qiAgG1_log_data` (`id`,`type`,`timestamp`,`interractions`,`reason`) VALUES (NULL,'PlayerSystem',1638811818,'[66953]','@user66953 смена баланса на руках с 706$ на 1006$');"},"sql":"INSERT INTO `pAFk3qiAgG1_log_data` (`id`,`type`,`timestamp`,`interractions`,`reason`) VALUES (NULL,'PlayerSystem',1638811818,'[66953]','@user66953 смена баланса на руках с 706$ на 1006$');"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"INSERT INTO `pAFk3qiAgG1_log_data` (`id`,`type`,`timestamp`,`interractions`,`reason`) VALUES (NULL,'PlayerSystem',1638811818,'[66953]','@user66953 смена баланса на руках с 706$ на 1006$');"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"INSERT INTO `pAFk3qiAgG1_log_data` (`id`,`type`,`timestamp`,`interractions`,`reason`) VALUES (NULL,'PlayerSystem',1638811818,'[66953]','@user66953 смена баланса на руках с 706$ на 1006$');"},"sql":"INSERT INTO `pAFk3qiAgG1_log_data` (`id`,`type`,`timestamp`,`interractions`,`reason`) VALUES (NULL,'PlayerSystem',1638811818,'[66953]','@user66953 смена баланса на руках с 706$ на 1006$');"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:24] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811825,1]},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811825,1]},"sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811825,1]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811825,1]},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811825,1]},"sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811825,1]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:29] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:34] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:39] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:44] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:49] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:30:54] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811855,1]},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811855,1]},"sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811855,1]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811855,1]},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811855,1]},"sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811855,1]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:00] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:05] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:10] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:15] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:20] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:24] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811885,1]},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811885,1]},"sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811885,1]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811885,1]},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811885,1]},"sql":"UPDATE `pAFk3qiAgG1_monitoring` SET `online`=?,`last_update`=? WHERE `id` = ?","parameters":[3,1638811885,1]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:31:30] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"original":{"fatal":false,"errno":1146,"sqlState":"42S02","code":"ER_NO_SUCH_TABLE","sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"},"sql":"SELECT `id`, `type`, `item_id`, `action`, `params` FROM `pAFk3qiAgG1_event_to_server` AS `pAFk3qiAgG1_event_to_server`;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:37:04] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:37:06] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11143880,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:37:34] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11307711,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:38:24] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11480450,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:39:23] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11674859,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:40:50] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":11845718,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:44:40] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:44:45] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:44:50] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:44:54] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:00] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:03] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:10] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:15] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:20] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:24] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:30] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:35] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:40] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:45] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:50] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:45:54] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:46:00] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:46:05] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:46:10] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:49:37] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:49:42] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:49:47] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:49:52] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:49:56] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:01] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:07] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:12] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:17] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:22] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:27] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:32] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:37] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:42] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:47] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:52] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:50:57] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [17:51:02] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeConnectionRefusedError","parent":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:25:53] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1067,"sqlState":"42000","code":"ER_INVALID_DEFAULT","sql":"CREATE TABLE IF NOT EXISTS `pAFk3qiAgG1_users` (`id` INTEGER auto_increment DEFAULT 0 , `name` VARCHAR(512), `name2` BIGINT(20) DEFAULT 0, `rp_name` VARCHAR(128), `lic` VARCHAR(512), `password` VARCHAR(256), `reg_status` INT(11) DEFAULT 0, `reg_time` INT(11) DEFAULT 0, `age` INT(11) DEFAULT 18, `exp_age` INT(11) DEFAULT 0, `money` INT(11) DEFAULT 0, `money_bank` INT(11) DEFAULT 0, `money_payday` INT(11) DEFAULT 0, `money_tax` INT(11) DEFAULT 300, `bank_prefix` INT(11) DEFAULT 0, `bank_number` INT(11) DEFAULT 0, `posob` TINYINT(1) DEFAULT 0, `id_house` INT(11) DEFAULT 0, `apartment_id` INT(11) DEFAULT 0, `condo_id` INT(11) DEFAULT 0, `business_id` INT(11) DEFAULT 0, `stock_id` INT(11) DEFAULT 0, `car_id1` INT(11) DEFAULT 0, `car_id2` INT(11) DEFAULT 0, `car_id3` INT(11) DEFAULT 0, `car_id4` INT(11) DEFAULT 0, `car_id5` INT(11) DEFAULT 0, `car_id6` INT(11) DEFAULT 0, `car_id7` INT(11) DEFAULT 0, `car_id8` INT(11) DEFAULT 0, `fraction_id` INT(11) DEFAULT 0, `rank` INT(11) DEFAULT 0, `fraction_id2` INT(11) DEFAULT 0, `rank2` INT(11) DEFAULT 0, `tag` VARCHAR(64) DEFAULT NULL, `job` VARCHAR(16) DEFAULT '', `is_gos_blacklist` TINYINT(1) DEFAULT 0, `gos_blacklist_reason` VARCHAR(300) DEFAULT '', `admin_level` INT(11) DEFAULT 0, `helper_level` INT(11) DEFAULT 0, `skin` TEXT, `tattoo_head_c` VARCHAR(64) DEFAULT '', `tattoo_head_o` VARCHAR(64) DEFAULT '', `tattoo_torso_c` VARCHAR(64) DEFAULT '', `tattoo_torso_o` VARCHAR(64) DEFAULT '', `tattoo_left_arm_c` VARCHAR(64) DEFAULT '', `tattoo_left_arm_o` VARCHAR(64) DEFAULT '', `tattoo_right_arm_c` VARCHAR(64) DEFAULT '', `tattoo_right_arm_o` VARCHAR(64) DEFAULT '', `tattoo_left_leg_c` VARCHAR(64) DEFAULT '', `tattoo_left_leg_o` VARCHAR(64) DEFAULT '', `tattoo_right_leg_c` VARCHAR(64) DEFAULT '', `tattoo_right_leg_o` VARCHAR(64) DEFAULT '', `tprint_c` VARCHAR(128) DEFAULT '', `tprint_o` VARCHAR(128) DEFAULT '', `date_reg` INT(11) DEFAULT 0, `last_login` INT(11) DEFAULT 0, `date_ban` INT(11) DEFAULT 0, `date_mute` INT(11) DEFAULT 0, `warn` INT(11) DEFAULT 0, `wanted_level` INT(11) DEFAULT 0, `wanted_reason` VARCHAR(512) DEFAULT '', `phone_code` INT(11) DEFAULT 0, `phone` INT(11) DEFAULT 0, `is_buy_walkietalkie` TINYINT(1) DEFAULT 0, `is_old_money` TINYINT(1) DEFAULT 0, `item_clock` TINYINT(1) DEFAULT 0, `walkietalkie_num` VARCHAR(7) DEFAULT '0', `jailed` TINYINT(1) DEFAULT 0, `jail_time` INT(11) DEFAULT 0, `med_time` INT(11) DEFAULT 0, `mask` INT(11) DEFAULT 0, `mask_color` INT(11) DEFAULT 0, `head` INT(11) DEFAULT 0, `head_color` INT(11) DEFAULT 0, `body` INT(11) DEFAULT 0, `body_color` INT(11) DEFAULT 0, `torso` INT(11) DEFAULT 0, `torso_color` INT(11) DEFAULT 0, `leg` INT(11) DEFAULT 0, `leg_color` INT(11) DEFAULT 0, `hand` INT(11) DEFAULT 0, `hand_color` INT(11) DEFAULT 0, `parachute` INT(11) DEFAULT 0, `parachute_color` INT(11) DEFAULT 0, `foot` INT(11) DEFAULT 0, `foot_color` INT(11) DEFAULT 0, `accessorie` INT(11) DEFAULT 0, `accessorie_color` INT(11) DEFAULT 0, `armor` INT(11) DEFAULT 0, `armor_color` INT(11) DEFAULT 0, `decal` INT(11) DEFAULT 0, `decal_color` INT(11) DEFAULT 0, `hat` INT(11) DEFAULT -1, `hat_color` INT(11) DEFAULT -1, `glasses` INT(11) DEFAULT -1, `glasses_color` INT(11) DEFAULT -1, `ear` INT(11) DEFAULT -1, `ear_color` INT(11) DEFAULT -1, `watch` INT(11) DEFAULT -1, `watch_color` INT(11) DEFAULT -1, `bracelet` INT(11) DEFAULT -1, `bracelet_color` INT(11) DEFAULT -1, `allow_marg` TINYINT(1) DEFAULT 0, `allow_antipohmel` TINYINT(1) DEFAULT 0, `health` INT(11) DEFAULT 100, `water_level` INT(11) DEFAULT 100, `eat_level` INT(11) DEFAULT 1000, `health_level` INT(11) DEFAULT 100, `temp_level` FLOAT DEFAULT 36.6, `sick_cold` INT(11) DEFAULT 0, `sick_poisoning` INT(11) DEFAULT 0, `mp0_stamina` INT(11) DEFAULT 24, `mp0_strength` INT(11) DEFAULT 0, `mp0_lung_capacity` INT(11) DEFAULT 0, `mp0_wheelie_ability` INT(11) DEFAULT 0, `mp0_flying_ability` INT(11) DEFAULT 0, `mp0_shooting_ability` INT(11) DEFAULT 0, `mp0_stealth_ability` INT(11) DEFAULT 0, `mp0_watchdogs` INT(11) DEFAULT 0, `a_lic` TINYINT(1) DEFAULT 0, `b_lic` TINYINT(1) DEFAULT 0, `c_lic` TINYINT(1) DEFAULT 0, `air_lic` TINYINT(1) DEFAULT 0, `ship_lic` TINYINT(1) DEFAULT 0, `gun_lic` TINYINT(1) DEFAULT 0, `taxi_lic` TINYINT(1) DEFAULT 0, `law_lic` TINYINT(1) DEFAULT 0, `med_lic` TINYINT(1) DEFAULT 0, `biz_lic` TINYINT(1) DEFAULT 0, `animal_lic` TINYINT(1) DEFAULT 0, `fish_lic` TINYINT(1) DEFAULT 0, `animal` VARCHAR(32) DEFAULT '', `animal_name` VARCHAR(64) DEFAULT '', `story_1` INT(11) DEFAULT 0, `story_timeout_1` INT(11) DEFAULT 3, `skill_builder` INT(11) DEFAULT 0, `skill_scrap` INT(11) DEFAULT 0, `skill_shop` INT(11) DEFAULT 0, `skill_taxi` INT(11) DEFAULT 0, `skill_mail` INT(11) DEFAULT 0, `skill_mail2` INT(11) DEFAULT 0, `skill_photo` INT(11) DEFAULT 0, `skill_sunb` INT(11) DEFAULT 0, `skill_bgstar` INT(11) DEFAULT 0, `skill_bshot` INT(11) DEFAULT 0, `skill_three` INT(11) DEFAULT 0, `skill_water` INT(11) DEFAULT 0, `skill_bus1` INT(11) DEFAULT 0, `skill_bus2` INT(11) DEFAULT 0, `skill_bus3` INT(11) DEFAULT 0, `skill_gr6` INT(11) DEFAULT 0, `skill_trucker` INT(11) DEFAULT 0, `vip_status` VARCHAR(20) DEFAULT '', `vip_time` BIGINT(20) DEFAULT 0, `count_hask` INT(11) DEFAULT 0, `count_aask` INT(11) DEFAULT 0, `token` VARCHAR(128) DEFAULT '', `token_rp` VARCHAR(128) DEFAULT '', `ip_reg` VARCHAR(64) DEFAULT '', `ip_last` VARCHAR(64) DEFAULT '', `money_donate` INT(11) DEFAULT 0, `is_online` TINYINT(1) DEFAULT 0, `s_is_pay_type_bank` TINYINT(1) DEFAULT 0, `s_is_load_blip_house` TINYINT(1) DEFAULT 1, `s_is_characher` TINYINT(1) DEFAULT 0, `s_is_spawn_aprt` TINYINT(1) DEFAULT 0, `s_lang` VARCHAR(4) DEFAULT 'RU', `s_clipset` VARCHAR(32) DEFAULT '', `s_is_usehackerphone` TINYINT(1) DEFAULT 0, `s_radio_balance` INT(11) DEFAULT 1, `s_radio_vol` FLOAT DEFAULT 0.4, `s_voice_vol` FLOAT DEFAULT 0.4, `s_voice_balance` TINYINT(1) DEFAULT 1, `sell_car_time` INT(6) DEFAULT 0, `sell_car` TINYINT(1) DEFAULT 0, `mailhouses` VARCHAR(4048) DEFAULT '', `house_grab` INT(3) DEFAULT 0, `email` VARCHAR(128) DEFAULT '', `referer` VARCHAR(64) DEFAULT '', `promocode` VARCHAR(100) DEFAULT '', `parthner_procent` INT(11) DEFAULT 0, `parthner_promocode` VARCHAR(64) DEFAULT '', `parthner_payment` VARCHAR(128) DEFAULT '', `empty_col` VARCHAR(4) DEFAULT 'null', `rp_weight` SMALLINT(6) DEFAULT 70, `rp_growth` SMALLINT(6) DEFAULT 180, `rp_nationality` VARCHAR(128) DEFAULT 'Американец', `rp_qualities` VARCHAR(256) DEFAULT NULL, `rp_distinctive_features` VARCHAR(256) DEFAULT NULL, `rp_diseases` VARCHAR(256) DEFAULT NULL, `rp_character` VARCHAR(256) DEFAULT NULL, `rp_biography` TEXT, `rp_avatar` VARCHAR(512) DEFAULT 'https://i.imgur.com/MUxgy8v.png', `rp_is_public` TINYINT(1) DEFAULT 1, `jailed_admin` INT(2) DEFAULT 0, `quests` VARCHAR(1024) DEFAULT '[]', `chipsBalance` INT(11) DEFAULT 0, `holidayPickups` VARCHAR(1024) DEFAULT '[]', `shootingPickups` VARCHAR(1024) DEFAULT '[]', `rgscid` BIGINT(20), `level` INT(11) DEFAULT 1, `level_exp` INT(11) DEFAULT 0, `tablet_equip` INT(11) DEFAULT 0, `played_time` INT(11) DEFAULT 0, `tattoos_list` VARCHAR(3000) DEFAULT '[]', PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;"},"original":{"fatal":false,"errno":1067,"sqlState":"42000","code":"ER_INVALID_DEFAULT","sql":"CREATE TABLE IF NOT EXISTS `pAFk3qiAgG1_users` (`id` INTEGER auto_increment DEFAULT 0 , `name` VARCHAR(512), `name2` BIGINT(20) DEFAULT 0, `rp_name` VARCHAR(128), `lic` VARCHAR(512), `password` VARCHAR(256), `reg_status` INT(11) DEFAULT 0, `reg_time` INT(11) DEFAULT 0, `age` INT(11) DEFAULT 18, `exp_age` INT(11) DEFAULT 0, `money` INT(11) DEFAULT 0, `money_bank` INT(11) DEFAULT 0, `money_payday` INT(11) DEFAULT 0, `money_tax` INT(11) DEFAULT 300, `bank_prefix` INT(11) DEFAULT 0, `bank_number` INT(11) DEFAULT 0, `posob` TINYINT(1) DEFAULT 0, `id_house` INT(11) DEFAULT 0, `apartment_id` INT(11) DEFAULT 0, `condo_id` INT(11) DEFAULT 0, `business_id` INT(11) DEFAULT 0, `stock_id` INT(11) DEFAULT 0, `car_id1` INT(11) DEFAULT 0, `car_id2` INT(11) DEFAULT 0, `car_id3` INT(11) DEFAULT 0, `car_id4` INT(11) DEFAULT 0, `car_id5` INT(11) DEFAULT 0, `car_id6` INT(11) DEFAULT 0, `car_id7` INT(11) DEFAULT 0, `car_id8` INT(11) DEFAULT 0, `fraction_id` INT(11) DEFAULT 0, `rank` INT(11) DEFAULT 0, `fraction_id2` INT(11) DEFAULT 0, `rank2` INT(11) DEFAULT 0, `tag` VARCHAR(64) DEFAULT NULL, `job` VARCHAR(16) DEFAULT '', `is_gos_blacklist` TINYINT(1) DEFAULT 0, `gos_blacklist_reason` VARCHAR(300) DEFAULT '', `admin_level` INT(11) DEFAULT 0, `helper_level` INT(11) DEFAULT 0, `skin` TEXT, `tattoo_head_c` VARCHAR(64) DEFAULT '', `tattoo_head_o` VARCHAR(64) DEFAULT '', `tattoo_torso_c` VARCHAR(64) DEFAULT '', `tattoo_torso_o` VARCHAR(64) DEFAULT '', `tattoo_left_arm_c` VARCHAR(64) DEFAULT '', `tattoo_left_arm_o` VARCHAR(64) DEFAULT '', `tattoo_right_arm_c` VARCHAR(64) DEFAULT '', `tattoo_right_arm_o` VARCHAR(64) DEFAULT '', `tattoo_left_leg_c` VARCHAR(64) DEFAULT '', `tattoo_left_leg_o` VARCHAR(64) DEFAULT '', `tattoo_right_leg_c` VARCHAR(64) DEFAULT '', `tattoo_right_leg_o` VARCHAR(64) DEFAULT '', `tprint_c` VARCHAR(128) DEFAULT '', `tprint_o` VARCHAR(128) DEFAULT '', `date_reg` INT(11) DEFAULT 0, `last_login` INT(11) DEFAULT 0, `date_ban` INT(11) DEFAULT 0, `date_mute` INT(11) DEFAULT 0, `warn` INT(11) DEFAULT 0, `wanted_level` INT(11) DEFAULT 0, `wanted_reason` VARCHAR(512) DEFAULT '', `phone_code` INT(11) DEFAULT 0, `phone` INT(11) DEFAULT 0, `is_buy_walkietalkie` TINYINT(1) DEFAULT 0, `is_old_money` TINYINT(1) DEFAULT 0, `item_clock` TINYINT(1) DEFAULT 0, `walkietalkie_num` VARCHAR(7) DEFAULT '0', `jailed` TINYINT(1) DEFAULT 0, `jail_time` INT(11) DEFAULT 0, `med_time` INT(11) DEFAULT 0, `mask` INT(11) DEFAULT 0, `mask_color` INT(11) DEFAULT 0, `head` INT(11) DEFAULT 0, `head_color` INT(11) DEFAULT 0, `body` INT(11) DEFAULT 0, `body_color` INT(11) DEFAULT 0, `torso` INT(11) DEFAULT 0, `torso_color` INT(11) DEFAULT 0, `leg` INT(11) DEFAULT 0, `leg_color` INT(11) DEFAULT 0, `hand` INT(11) DEFAULT 0, `hand_color` INT(11) DEFAULT 0, `parachute` INT(11) DEFAULT 0, `parachute_color` INT(11) DEFAULT 0, `foot` INT(11) DEFAULT 0, `foot_color` INT(11) DEFAULT 0, `accessorie` INT(11) DEFAULT 0, `accessorie_color` INT(11) DEFAULT 0, `armor` INT(11) DEFAULT 0, `armor_color` INT(11) DEFAULT 0, `decal` INT(11) DEFAULT 0, `decal_color` INT(11) DEFAULT 0, `hat` INT(11) DEFAULT -1, `hat_color` INT(11) DEFAULT -1, `glasses` INT(11) DEFAULT -1, `glasses_color` INT(11) DEFAULT -1, `ear` INT(11) DEFAULT -1, `ear_color` INT(11) DEFAULT -1, `watch` INT(11) DEFAULT -1, `watch_color` INT(11) DEFAULT -1, `bracelet` INT(11) DEFAULT -1, `bracelet_color` INT(11) DEFAULT -1, `allow_marg` TINYINT(1) DEFAULT 0, `allow_antipohmel` TINYINT(1) DEFAULT 0, `health` INT(11) DEFAULT 100, `water_level` INT(11) DEFAULT 100, `eat_level` INT(11) DEFAULT 1000, `health_level` INT(11) DEFAULT 100, `temp_level` FLOAT DEFAULT 36.6, `sick_cold` INT(11) DEFAULT 0, `sick_poisoning` INT(11) DEFAULT 0, `mp0_stamina` INT(11) DEFAULT 24, `mp0_strength` INT(11) DEFAULT 0, `mp0_lung_capacity` INT(11) DEFAULT 0, `mp0_wheelie_ability` INT(11) DEFAULT 0, `mp0_flying_ability` INT(11) DEFAULT 0, `mp0_shooting_ability` INT(11) DEFAULT 0, `mp0_stealth_ability` INT(11) DEFAULT 0, `mp0_watchdogs` INT(11) DEFAULT 0, `a_lic` TINYINT(1) DEFAULT 0, `b_lic` TINYINT(1) DEFAULT 0, `c_lic` TINYINT(1) DEFAULT 0, `air_lic` TINYINT(1) DEFAULT 0, `ship_lic` TINYINT(1) DEFAULT 0, `gun_lic` TINYINT(1) DEFAULT 0, `taxi_lic` TINYINT(1) DEFAULT 0, `law_lic` TINYINT(1) DEFAULT 0, `med_lic` TINYINT(1) DEFAULT 0, `biz_lic` TINYINT(1) DEFAULT 0, `animal_lic` TINYINT(1) DEFAULT 0, `fish_lic` TINYINT(1) DEFAULT 0, `animal` VARCHAR(32) DEFAULT '', `animal_name` VARCHAR(64) DEFAULT '', `story_1` INT(11) DEFAULT 0, `story_timeout_1` INT(11) DEFAULT 3, `skill_builder` INT(11) DEFAULT 0, `skill_scrap` INT(11) DEFAULT 0, `skill_shop` INT(11) DEFAULT 0, `skill_taxi` INT(11) DEFAULT 0, `skill_mail` INT(11) DEFAULT 0, `skill_mail2` INT(11) DEFAULT 0, `skill_photo` INT(11) DEFAULT 0, `skill_sunb` INT(11) DEFAULT 0, `skill_bgstar` INT(11) DEFAULT 0, `skill_bshot` INT(11) DEFAULT 0, `skill_three` INT(11) DEFAULT 0, `skill_water` INT(11) DEFAULT 0, `skill_bus1` INT(11) DEFAULT 0, `skill_bus2` INT(11) DEFAULT 0, `skill_bus3` INT(11) DEFAULT 0, `skill_gr6` INT(11) DEFAULT 0, `skill_trucker` INT(11) DEFAULT 0, `vip_status` VARCHAR(20) DEFAULT '', `vip_time` BIGINT(20) DEFAULT 0, `count_hask` INT(11) DEFAULT 0, `count_aask` INT(11) DEFAULT 0, `token` VARCHAR(128) DEFAULT '', `token_rp` VARCHAR(128) DEFAULT '', `ip_reg` VARCHAR(64) DEFAULT '', `ip_last` VARCHAR(64) DEFAULT '', `money_donate` INT(11) DEFAULT 0, `is_online` TINYINT(1) DEFAULT 0, `s_is_pay_type_bank` TINYINT(1) DEFAULT 0, `s_is_load_blip_house` TINYINT(1) DEFAULT 1, `s_is_characher` TINYINT(1) DEFAULT 0, `s_is_spawn_aprt` TINYINT(1) DEFAULT 0, `s_lang` VARCHAR(4) DEFAULT 'RU', `s_clipset` VARCHAR(32) DEFAULT '', `s_is_usehackerphone` TINYINT(1) DEFAULT 0, `s_radio_balance` INT(11) DEFAULT 1, `s_radio_vol` FLOAT DEFAULT 0.4, `s_voice_vol` FLOAT DEFAULT 0.4, `s_voice_balance` TINYINT(1) DEFAULT 1, `sell_car_time` INT(6) DEFAULT 0, `sell_car` TINYINT(1) DEFAULT 0, `mailhouses` VARCHAR(4048) DEFAULT '', `house_grab` INT(3) DEFAULT 0, `email` VARCHAR(128) DEFAULT '', `referer` VARCHAR(64) DEFAULT '', `promocode` VARCHAR(100) DEFAULT '', `parthner_procent` INT(11) DEFAULT 0, `parthner_promocode` VARCHAR(64) DEFAULT '', `parthner_payment` VARCHAR(128) DEFAULT '', `empty_col` VARCHAR(4) DEFAULT 'null', `rp_weight` SMALLINT(6) DEFAULT 70, `rp_growth` SMALLINT(6) DEFAULT 180, `rp_nationality` VARCHAR(128) DEFAULT 'Американец', `rp_qualities` VARCHAR(256) DEFAULT NULL, `rp_distinctive_features` VARCHAR(256) DEFAULT NULL, `rp_diseases` VARCHAR(256) DEFAULT NULL, `rp_character` VARCHAR(256) DEFAULT NULL, `rp_biography` TEXT, `rp_avatar` VARCHAR(512) DEFAULT 'https://i.imgur.com/MUxgy8v.png', `rp_is_public` TINYINT(1) DEFAULT 1, `jailed_admin` INT(2) DEFAULT 0, `quests` VARCHAR(1024) DEFAULT '[]', `chipsBalance` INT(11) DEFAULT 0, `holidayPickups` VARCHAR(1024) DEFAULT '[]', `shootingPickups` VARCHAR(1024) DEFAULT '[]', `rgscid` BIGINT(20), `level` INT(11) DEFAULT 1, `level_exp` INT(11) DEFAULT 0, `tablet_equip` INT(11) DEFAULT 0, `played_time` INT(11) DEFAULT 0, `tattoos_list` VARCHAR(3000) DEFAULT '[]', PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;"},"sql":"CREATE TABLE IF NOT EXISTS `pAFk3qiAgG1_users` (`id` INTEGER auto_increment DEFAULT 0 , `name` VARCHAR(512), `name2` BIGINT(20) DEFAULT 0, `rp_name` VARCHAR(128), `lic` VARCHAR(512), `password` VARCHAR(256), `reg_status` INT(11) DEFAULT 0, `reg_time` INT(11) DEFAULT 0, `age` INT(11) DEFAULT 18, `exp_age` INT(11) DEFAULT 0, `money` INT(11) DEFAULT 0, `money_bank` INT(11) DEFAULT 0, `money_payday` INT(11) DEFAULT 0, `money_tax` INT(11) DEFAULT 300, `bank_prefix` INT(11) DEFAULT 0, `bank_number` INT(11) DEFAULT 0, `posob` TINYINT(1) DEFAULT 0, `id_house` INT(11) DEFAULT 0, `apartment_id` INT(11) DEFAULT 0, `condo_id` INT(11) DEFAULT 0, `business_id` INT(11) DEFAULT 0, `stock_id` INT(11) DEFAULT 0, `car_id1` INT(11) DEFAULT 0, `car_id2` INT(11) DEFAULT 0, `car_id3` INT(11) DEFAULT 0, `car_id4` INT(11) DEFAULT 0, `car_id5` INT(11) DEFAULT 0, `car_id6` INT(11) DEFAULT 0, `car_id7` INT(11) DEFAULT 0, `car_id8` INT(11) DEFAULT 0, `fraction_id` INT(11) DEFAULT 0, `rank` INT(11) DEFAULT 0, `fraction_id2` INT(11) DEFAULT 0, `rank2` INT(11) DEFAULT 0, `tag` VARCHAR(64) DEFAULT NULL, `job` VARCHAR(16) DEFAULT '', `is_gos_blacklist` TINYINT(1) DEFAULT 0, `gos_blacklist_reason` VARCHAR(300) DEFAULT '', `admin_level` INT(11) DEFAULT 0, `helper_level` INT(11) DEFAULT 0, `skin` TEXT, `tattoo_head_c` VARCHAR(64) DEFAULT '', `tattoo_head_o` VARCHAR(64) DEFAULT '', `tattoo_torso_c` VARCHAR(64) DEFAULT '', `tattoo_torso_o` VARCHAR(64) DEFAULT '', `tattoo_left_arm_c` VARCHAR(64) DEFAULT '', `tattoo_left_arm_o` VARCHAR(64) DEFAULT '', `tattoo_right_arm_c` VARCHAR(64) DEFAULT '', `tattoo_right_arm_o` VARCHAR(64) DEFAULT '', `tattoo_left_leg_c` VARCHAR(64) DEFAULT '', `tattoo_left_leg_o` VARCHAR(64) DEFAULT '', `tattoo_right_leg_c` VARCHAR(64) DEFAULT '', `tattoo_right_leg_o` VARCHAR(64) DEFAULT '', `tprint_c` VARCHAR(128) DEFAULT '', `tprint_o` VARCHAR(128) DEFAULT '', `date_reg` INT(11) DEFAULT 0, `last_login` INT(11) DEFAULT 0, `date_ban` INT(11) DEFAULT 0, `date_mute` INT(11) DEFAULT 0, `warn` INT(11) DEFAULT 0, `wanted_level` INT(11) DEFAULT 0, `wanted_reason` VARCHAR(512) DEFAULT '', `phone_code` INT(11) DEFAULT 0, `phone` INT(11) DEFAULT 0, `is_buy_walkietalkie` TINYINT(1) DEFAULT 0, `is_old_money` TINYINT(1) DEFAULT 0, `item_clock` TINYINT(1) DEFAULT 0, `walkietalkie_num` VARCHAR(7) DEFAULT '0', `jailed` TINYINT(1) DEFAULT 0, `jail_time` INT(11) DEFAULT 0, `med_time` INT(11) DEFAULT 0, `mask` INT(11) DEFAULT 0, `mask_color` INT(11) DEFAULT 0, `head` INT(11) DEFAULT 0, `head_color` INT(11) DEFAULT 0, `body` INT(11) DEFAULT 0, `body_color` INT(11) DEFAULT 0, `torso` INT(11) DEFAULT 0, `torso_color` INT(11) DEFAULT 0, `leg` INT(11) DEFAULT 0, `leg_color` INT(11) DEFAULT 0, `hand` INT(11) DEFAULT 0, `hand_color` INT(11) DEFAULT 0, `parachute` INT(11) DEFAULT 0, `parachute_color` INT(11) DEFAULT 0, `foot` INT(11) DEFAULT 0, `foot_color` INT(11) DEFAULT 0, `accessorie` INT(11) DEFAULT 0, `accessorie_color` INT(11) DEFAULT 0, `armor` INT(11) DEFAULT 0, `armor_color` INT(11) DEFAULT 0, `decal` INT(11) DEFAULT 0, `decal_color` INT(11) DEFAULT 0, `hat` INT(11) DEFAULT -1, `hat_color` INT(11) DEFAULT -1, `glasses` INT(11) DEFAULT -1, `glasses_color` INT(11) DEFAULT -1, `ear` INT(11) DEFAULT -1, `ear_color` INT(11) DEFAULT -1, `watch` INT(11) DEFAULT -1, `watch_color` INT(11) DEFAULT -1, `bracelet` INT(11) DEFAULT -1, `bracelet_color` INT(11) DEFAULT -1, `allow_marg` TINYINT(1) DEFAULT 0, `allow_antipohmel` TINYINT(1) DEFAULT 0, `health` INT(11) DEFAULT 100, `water_level` INT(11) DEFAULT 100, `eat_level` INT(11) DEFAULT 1000, `health_level` INT(11) DEFAULT 100, `temp_level` FLOAT DEFAULT 36.6, `sick_cold` INT(11) DEFAULT 0, `sick_poisoning` INT(11) DEFAULT 0, `mp0_stamina` INT(11) DEFAULT 24, `mp0_strength` INT(11) DEFAULT 0, `mp0_lung_capacity` INT(11) DEFAULT 0, `mp0_wheelie_ability` INT(11) DEFAULT 0, `mp0_flying_ability` INT(11) DEFAULT 0, `mp0_shooting_ability` INT(11) DEFAULT 0, `mp0_stealth_ability` INT(11) DEFAULT 0, `mp0_watchdogs` INT(11) DEFAULT 0, `a_lic` TINYINT(1) DEFAULT 0, `b_lic` TINYINT(1) DEFAULT 0, `c_lic` TINYINT(1) DEFAULT 0, `air_lic` TINYINT(1) DEFAULT 0, `ship_lic` TINYINT(1) DEFAULT 0, `gun_lic` TINYINT(1) DEFAULT 0, `taxi_lic` TINYINT(1) DEFAULT 0, `law_lic` TINYINT(1) DEFAULT 0, `med_lic` TINYINT(1) DEFAULT 0, `biz_lic` TINYINT(1) DEFAULT 0, `animal_lic` TINYINT(1) DEFAULT 0, `fish_lic` TINYINT(1) DEFAULT 0, `animal` VARCHAR(32) DEFAULT '', `animal_name` VARCHAR(64) DEFAULT '', `story_1` INT(11) DEFAULT 0, `story_timeout_1` INT(11) DEFAULT 3, `skill_builder` INT(11) DEFAULT 0, `skill_scrap` INT(11) DEFAULT 0, `skill_shop` INT(11) DEFAULT 0, `skill_taxi` INT(11) DEFAULT 0, `skill_mail` INT(11) DEFAULT 0, `skill_mail2` INT(11) DEFAULT 0, `skill_photo` INT(11) DEFAULT 0, `skill_sunb` INT(11) DEFAULT 0, `skill_bgstar` INT(11) DEFAULT 0, `skill_bshot` INT(11) DEFAULT 0, `skill_three` INT(11) DEFAULT 0, `skill_water` INT(11) DEFAULT 0, `skill_bus1` INT(11) DEFAULT 0, `skill_bus2` INT(11) DEFAULT 0, `skill_bus3` INT(11) DEFAULT 0, `skill_gr6` INT(11) DEFAULT 0, `skill_trucker` INT(11) DEFAULT 0, `vip_status` VARCHAR(20) DEFAULT '', `vip_time` BIGINT(20) DEFAULT 0, `count_hask` INT(11) DEFAULT 0, `count_aask` INT(11) DEFAULT 0, `token` VARCHAR(128) DEFAULT '', `token_rp` VARCHAR(128) DEFAULT '', `ip_reg` VARCHAR(64) DEFAULT '', `ip_last` VARCHAR(64) DEFAULT '', `money_donate` INT(11) DEFAULT 0, `is_online` TINYINT(1) DEFAULT 0, `s_is_pay_type_bank` TINYINT(1) DEFAULT 0, `s_is_load_blip_house` TINYINT(1) DEFAULT 1, `s_is_characher` TINYINT(1) DEFAULT 0, `s_is_spawn_aprt` TINYINT(1) DEFAULT 0, `s_lang` VARCHAR(4) DEFAULT 'RU', `s_clipset` VARCHAR(32) DEFAULT '', `s_is_usehackerphone` TINYINT(1) DEFAULT 0, `s_radio_balance` INT(11) DEFAULT 1, `s_radio_vol` FLOAT DEFAULT 0.4, `s_voice_vol` FLOAT DEFAULT 0.4, `s_voice_balance` TINYINT(1) DEFAULT 1, `sell_car_time` INT(6) DEFAULT 0, `sell_car` TINYINT(1) DEFAULT 0, `mailhouses` VARCHAR(4048) DEFAULT '', `house_grab` INT(3) DEFAULT 0, `email` VARCHAR(128) DEFAULT '', `referer` VARCHAR(64) DEFAULT '', `promocode` VARCHAR(100) DEFAULT '', `parthner_procent` INT(11) DEFAULT 0, `parthner_promocode` VARCHAR(64) DEFAULT '', `parthner_payment` VARCHAR(128) DEFAULT '', `empty_col` VARCHAR(4) DEFAULT 'null', `rp_weight` SMALLINT(6) DEFAULT 70, `rp_growth` SMALLINT(6) DEFAULT 180, `rp_nationality` VARCHAR(128) DEFAULT 'Американец', `rp_qualities` VARCHAR(256) DEFAULT NULL, `rp_distinctive_features` VARCHAR(256) DEFAULT NULL, `rp_diseases` VARCHAR(256) DEFAULT NULL, `rp_character` VARCHAR(256) DEFAULT NULL, `rp_biography` TEXT, `rp_avatar` VARCHAR(512) DEFAULT 'https://i.imgur.com/MUxgy8v.png', `rp_is_public` TINYINT(1) DEFAULT 1, `jailed_admin` INT(2) DEFAULT 0, `quests` VARCHAR(1024) DEFAULT '[]', `chipsBalance` INT(11) DEFAULT 0, `holidayPickups` VARCHAR(1024) DEFAULT '[]', `shootingPickups` VARCHAR(1024) DEFAULT '[]', `rgscid` BIGINT(20), `level` INT(11) DEFAULT 1, `level_exp` INT(11) DEFAULT 0, `tablet_equip` INT(11) DEFAULT 0, `played_time` INT(11) DEFAULT 0, `tattoos_list` VARCHAR(3000) DEFAULT '[]', PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;"}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1067,"sqlState":"42000","code":"ER_INVALID_DEFAULT","sql":"CREATE TABLE IF NOT EXISTS `pAFk3qiAgG1_users` (`id` INTEGER auto_increment DEFAULT 0 , `name` VARCHAR(512), `name2` BIGINT(20) DEFAULT 0, `rp_name` VARCHAR(128), `lic` VARCHAR(512), `password` VARCHAR(256), `reg_status` INT(11) DEFAULT 0, `reg_time` INT(11) DEFAULT 0, `age` INT(11) DEFAULT 18, `exp_age` INT(11) DEFAULT 0, `money` INT(11) DEFAULT 0, `money_bank` INT(11) DEFAULT 0, `money_payday` INT(11) DEFAULT 0, `money_tax` INT(11) DEFAULT 300, `bank_prefix` INT(11) DEFAULT 0, `bank_number` INT(11) DEFAULT 0, `posob` TINYINT(1) DEFAULT 0, `id_house` INT(11) DEFAULT 0, `apartment_id` INT(11) DEFAULT 0, `condo_id` INT(11) DEFAULT 0, `business_id` INT(11) DEFAULT 0, `stock_id` INT(11) DEFAULT 0, `car_id1` INT(11) DEFAULT 0, `car_id2` INT(11) DEFAULT 0, `car_id3` INT(11) DEFAULT 0, `car_id4` INT(11) DEFAULT 0, `car_id5` INT(11) DEFAULT 0, `car_id6` INT(11) DEFAULT 0, `car_id7` INT(11) DEFAULT 0, `car_id8` INT(11) DEFAULT 0, `fraction_id` INT(11) DEFAULT 0, `rank` INT(11) DEFAULT 0, `fraction_id2` INT(11) DEFAULT 0, `rank2` INT(11) DEFAULT 0, `tag` VARCHAR(64) DEFAULT NULL, `job` VARCHAR(16) DEFAULT '', `is_gos_blacklist` TINYINT(1) DEFAULT 0, `gos_blacklist_reason` VARCHAR(300) DEFAULT '', `admin_level` INT(11) DEFAULT 0, `helper_level` INT(11) DEFAULT 0, `skin` TEXT, `tattoo_head_c` VARCHAR(64) DEFAULT '', `tattoo_head_o` VARCHAR(64) DEFAULT '', `tattoo_torso_c` VARCHAR(64) DEFAULT '', `tattoo_torso_o` VARCHAR(64) DEFAULT '', `tattoo_left_arm_c` VARCHAR(64) DEFAULT '', `tattoo_left_arm_o` VARCHAR(64) DEFAULT '', `tattoo_right_arm_c` VARCHAR(64) DEFAULT '', `tattoo_right_arm_o` VARCHAR(64) DEFAULT '', `tattoo_left_leg_c` VARCHAR(64) DEFAULT '', `tattoo_left_leg_o` VARCHAR(64) DEFAULT '', `tattoo_right_leg_c` VARCHAR(64) DEFAULT '', `tattoo_right_leg_o` VARCHAR(64) DEFAULT '', `tprint_c` VARCHAR(128) DEFAULT '', `tprint_o` VARCHAR(128) DEFAULT '', `date_reg` INT(11) DEFAULT 0, `last_login` INT(11) DEFAULT 0, `date_ban` INT(11) DEFAULT 0, `date_mute` INT(11) DEFAULT 0, `warn` INT(11) DEFAULT 0, `wanted_level` INT(11) DEFAULT 0, `wanted_reason` VARCHAR(512) DEFAULT '', `phone_code` INT(11) DEFAULT 0, `phone` INT(11) DEFAULT 0, `is_buy_walkietalkie` TINYINT(1) DEFAULT 0, `is_old_money` TINYINT(1) DEFAULT 0, `item_clock` TINYINT(1) DEFAULT 0, `walkietalkie_num` VARCHAR(7) DEFAULT '0', `jailed` TINYINT(1) DEFAULT 0, `jail_time` INT(11) DEFAULT 0, `med_time` INT(11) DEFAULT 0, `mask` INT(11) DEFAULT 0, `mask_color` INT(11) DEFAULT 0, `head` INT(11) DEFAULT 0, `head_color` INT(11) DEFAULT 0, `body` INT(11) DEFAULT 0, `body_color` INT(11) DEFAULT 0, `torso` INT(11) DEFAULT 0, `torso_color` INT(11) DEFAULT 0, `leg` INT(11) DEFAULT 0, `leg_color` INT(11) DEFAULT 0, `hand` INT(11) DEFAULT 0, `hand_color` INT(11) DEFAULT 0, `parachute` INT(11) DEFAULT 0, `parachute_color` INT(11) DEFAULT 0, `foot` INT(11) DEFAULT 0, `foot_color` INT(11) DEFAULT 0, `accessorie` INT(11) DEFAULT 0, `accessorie_color` INT(11) DEFAULT 0, `armor` INT(11) DEFAULT 0, `armor_color` INT(11) DEFAULT 0, `decal` INT(11) DEFAULT 0, `decal_color` INT(11) DEFAULT 0, `hat` INT(11) DEFAULT -1, `hat_color` INT(11) DEFAULT -1, `glasses` INT(11) DEFAULT -1, `glasses_color` INT(11) DEFAULT -1, `ear` INT(11) DEFAULT -1, `ear_color` INT(11) DEFAULT -1, `watch` INT(11) DEFAULT -1, `watch_color` INT(11) DEFAULT -1, `bracelet` INT(11) DEFAULT -1, `bracelet_color` INT(11) DEFAULT -1, `allow_marg` TINYINT(1) DEFAULT 0, `allow_antipohmel` TINYINT(1) DEFAULT 0, `health` INT(11) DEFAULT 100, `water_level` INT(11) DEFAULT 100, `eat_level` INT(11) DEFAULT 1000, `health_level` INT(11) DEFAULT 100, `temp_level` FLOAT DEFAULT 36.6, `sick_cold` INT(11) DEFAULT 0, `sick_poisoning` INT(11) DEFAULT 0, `mp0_stamina` INT(11) DEFAULT 24, `mp0_strength` INT(11) DEFAULT 0, `mp0_lung_capacity` INT(11) DEFAULT 0, `mp0_wheelie_ability` INT(11) DEFAULT 0, `mp0_flying_ability` INT(11) DEFAULT 0, `mp0_shooting_ability` INT(11) DEFAULT 0, `mp0_stealth_ability` INT(11) DEFAULT 0, `mp0_watchdogs` INT(11) DEFAULT 0, `a_lic` TINYINT(1) DEFAULT 0, `b_lic` TINYINT(1) DEFAULT 0, `c_lic` TINYINT(1) DEFAULT 0, `air_lic` TINYINT(1) DEFAULT 0, `ship_lic` TINYINT(1) DEFAULT 0, `gun_lic` TINYINT(1) DEFAULT 0, `taxi_lic` TINYINT(1) DEFAULT 0, `law_lic` TINYINT(1) DEFAULT 0, `med_lic` TINYINT(1) DEFAULT 0, `biz_lic` TINYINT(1) DEFAULT 0, `animal_lic` TINYINT(1) DEFAULT 0, `fish_lic` TINYINT(1) DEFAULT 0, `animal` VARCHAR(32) DEFAULT '', `animal_name` VARCHAR(64) DEFAULT '', `story_1` INT(11) DEFAULT 0, `story_timeout_1` INT(11) DEFAULT 3, `skill_builder` INT(11) DEFAULT 0, `skill_scrap` INT(11) DEFAULT 0, `skill_shop` INT(11) DEFAULT 0, `skill_taxi` INT(11) DEFAULT 0, `skill_mail` INT(11) DEFAULT 0, `skill_mail2` INT(11) DEFAULT 0, `skill_photo` INT(11) DEFAULT 0, `skill_sunb` INT(11) DEFAULT 0, `skill_bgstar` INT(11) DEFAULT 0, `skill_bshot` INT(11) DEFAULT 0, `skill_three` INT(11) DEFAULT 0, `skill_water` INT(11) DEFAULT 0, `skill_bus1` INT(11) DEFAULT 0, `skill_bus2` INT(11) DEFAULT 0, `skill_bus3` INT(11) DEFAULT 0, `skill_gr6` INT(11) DEFAULT 0, `skill_trucker` INT(11) DEFAULT 0, `vip_status` VARCHAR(20) DEFAULT '', `vip_time` BIGINT(20) DEFAULT 0, `count_hask` INT(11) DEFAULT 0, `count_aask` INT(11) DEFAULT 0, `token` VARCHAR(128) DEFAULT '', `token_rp` VARCHAR(128) DEFAULT '', `ip_reg` VARCHAR(64) DEFAULT '', `ip_last` VARCHAR(64) DEFAULT '', `money_donate` INT(11) DEFAULT 0, `is_online` TINYINT(1) DEFAULT 0, `s_is_pay_type_bank` TINYINT(1) DEFAULT 0, `s_is_load_blip_house` TINYINT(1) DEFAULT 1, `s_is_characher` TINYINT(1) DEFAULT 0, `s_is_spawn_aprt` TINYINT(1) DEFAULT 0, `s_lang` VARCHAR(4) DEFAULT 'RU', `s_clipset` VARCHAR(32) DEFAULT '', `s_is_usehackerphone` TINYINT(1) DEFAULT 0, `s_radio_balance` INT(11) DEFAULT 1, `s_radio_vol` FLOAT DEFAULT 0.4, `s_voice_vol` FLOAT DEFAULT 0.4, `s_voice_balance` TINYINT(1) DEFAULT 1, `sell_car_time` INT(6) DEFAULT 0, `sell_car` TINYINT(1) DEFAULT 0, `mailhouses` VARCHAR(4048) DEFAULT '', `house_grab` INT(3) DEFAULT 0, `email` VARCHAR(128) DEFAULT '', `referer` VARCHAR(64) DEFAULT '', `promocode` VARCHAR(100) DEFAULT '', `parthner_procent` INT(11) DEFAULT 0, `parthner_promocode` VARCHAR(64) DEFAULT '', `parthner_payment` VARCHAR(128) DEFAULT '', `empty_col` VARCHAR(4) DEFAULT 'null', `rp_weight` SMALLINT(6) DEFAULT 70, `rp_growth` SMALLINT(6) DEFAULT 180, `rp_nationality` VARCHAR(128) DEFAULT 'Американец', `rp_qualities` VARCHAR(256) DEFAULT NULL, `rp_distinctive_features` VARCHAR(256) DEFAULT NULL, `rp_diseases` VARCHAR(256) DEFAULT NULL, `rp_character` VARCHAR(256) DEFAULT NULL, `rp_biography` TEXT, `rp_avatar` VARCHAR(512) DEFAULT 'https://i.imgur.com/MUxgy8v.png', `rp_is_public` TINYINT(1) DEFAULT 1, `jailed_admin` INT(2) DEFAULT 0, `quests` VARCHAR(1024) DEFAULT '[]', `chipsBalance` INT(11) DEFAULT 0, `holidayPickups` VARCHAR(1024) DEFAULT '[]', `shootingPickups` VARCHAR(1024) DEFAULT '[]', `rgscid` BIGINT(20), `level` INT(11) DEFAULT 1, `level_exp` INT(11) DEFAULT 0, `tablet_equip` INT(11) DEFAULT 0, `played_time` INT(11) DEFAULT 0, `tattoos_list` VARCHAR(3000) DEFAULT '[]', PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;"},"original":{"fatal":false,"errno":1067,"sqlState":"42000","code":"ER_INVALID_DEFAULT","sql":"CREATE TABLE IF NOT EXISTS `pAFk3qiAgG1_users` (`id` INTEGER auto_increment DEFAULT 0 , `name` VARCHAR(512), `name2` BIGINT(20) DEFAULT 0, `rp_name` VARCHAR(128), `lic` VARCHAR(512), `password` VARCHAR(256), `reg_status` INT(11) DEFAULT 0, `reg_time` INT(11) DEFAULT 0, `age` INT(11) DEFAULT 18, `exp_age` INT(11) DEFAULT 0, `money` INT(11) DEFAULT 0, `money_bank` INT(11) DEFAULT 0, `money_payday` INT(11) DEFAULT 0, `money_tax` INT(11) DEFAULT 300, `bank_prefix` INT(11) DEFAULT 0, `bank_number` INT(11) DEFAULT 0, `posob` TINYINT(1) DEFAULT 0, `id_house` INT(11) DEFAULT 0, `apartment_id` INT(11) DEFAULT 0, `condo_id` INT(11) DEFAULT 0, `business_id` INT(11) DEFAULT 0, `stock_id` INT(11) DEFAULT 0, `car_id1` INT(11) DEFAULT 0, `car_id2` INT(11) DEFAULT 0, `car_id3` INT(11) DEFAULT 0, `car_id4` INT(11) DEFAULT 0, `car_id5` INT(11) DEFAULT 0, `car_id6` INT(11) DEFAULT 0, `car_id7` INT(11) DEFAULT 0, `car_id8` INT(11) DEFAULT 0, `fraction_id` INT(11) DEFAULT 0, `rank` INT(11) DEFAULT 0, `fraction_id2` INT(11) DEFAULT 0, `rank2` INT(11) DEFAULT 0, `tag` VARCHAR(64) DEFAULT NULL, `job` VARCHAR(16) DEFAULT '', `is_gos_blacklist` TINYINT(1) DEFAULT 0, `gos_blacklist_reason` VARCHAR(300) DEFAULT '', `admin_level` INT(11) DEFAULT 0, `helper_level` INT(11) DEFAULT 0, `skin` TEXT, `tattoo_head_c` VARCHAR(64) DEFAULT '', `tattoo_head_o` VARCHAR(64) DEFAULT '', `tattoo_torso_c` VARCHAR(64) DEFAULT '', `tattoo_torso_o` VARCHAR(64) DEFAULT '', `tattoo_left_arm_c` VARCHAR(64) DEFAULT '', `tattoo_left_arm_o` VARCHAR(64) DEFAULT '', `tattoo_right_arm_c` VARCHAR(64) DEFAULT '', `tattoo_right_arm_o` VARCHAR(64) DEFAULT '', `tattoo_left_leg_c` VARCHAR(64) DEFAULT '', `tattoo_left_leg_o` VARCHAR(64) DEFAULT '', `tattoo_right_leg_c` VARCHAR(64) DEFAULT '', `tattoo_right_leg_o` VARCHAR(64) DEFAULT '', `tprint_c` VARCHAR(128) DEFAULT '', `tprint_o` VARCHAR(128) DEFAULT '', `date_reg` INT(11) DEFAULT 0, `last_login` INT(11) DEFAULT 0, `date_ban` INT(11) DEFAULT 0, `date_mute` INT(11) DEFAULT 0, `warn` INT(11) DEFAULT 0, `wanted_level` INT(11) DEFAULT 0, `wanted_reason` VARCHAR(512) DEFAULT '', `phone_code` INT(11) DEFAULT 0, `phone` INT(11) DEFAULT 0, `is_buy_walkietalkie` TINYINT(1) DEFAULT 0, `is_old_money` TINYINT(1) DEFAULT 0, `item_clock` TINYINT(1) DEFAULT 0, `walkietalkie_num` VARCHAR(7) DEFAULT '0', `jailed` TINYINT(1) DEFAULT 0, `jail_time` INT(11) DEFAULT 0, `med_time` INT(11) DEFAULT 0, `mask` INT(11) DEFAULT 0, `mask_color` INT(11) DEFAULT 0, `head` INT(11) DEFAULT 0, `head_color` INT(11) DEFAULT 0, `body` INT(11) DEFAULT 0, `body_color` INT(11) DEFAULT 0, `torso` INT(11) DEFAULT 0, `torso_color` INT(11) DEFAULT 0, `leg` INT(11) DEFAULT 0, `leg_color` INT(11) DEFAULT 0, `hand` INT(11) DEFAULT 0, `hand_color` INT(11) DEFAULT 0, `parachute` INT(11) DEFAULT 0, `parachute_color` INT(11) DEFAULT 0, `foot` INT(11) DEFAULT 0, `foot_color` INT(11) DEFAULT 0, `accessorie` INT(11) DEFAULT 0, `accessorie_color` INT(11) DEFAULT 0, `armor` INT(11) DEFAULT 0, `armor_color` INT(11) DEFAULT 0, `decal` INT(11) DEFAULT 0, `decal_color` INT(11) DEFAULT 0, `hat` INT(11) DEFAULT -1, `hat_color` INT(11) DEFAULT -1, `glasses` INT(11) DEFAULT -1, `glasses_color` INT(11) DEFAULT -1, `ear` INT(11) DEFAULT -1, `ear_color` INT(11) DEFAULT -1, `watch` INT(11) DEFAULT -1, `watch_color` INT(11) DEFAULT -1, `bracelet` INT(11) DEFAULT -1, `bracelet_color` INT(11) DEFAULT -1, `allow_marg` TINYINT(1) DEFAULT 0, `allow_antipohmel` TINYINT(1) DEFAULT 0, `health` INT(11) DEFAULT 100, `water_level` INT(11) DEFAULT 100, `eat_level` INT(11) DEFAULT 1000, `health_level` INT(11) DEFAULT 100, `temp_level` FLOAT DEFAULT 36.6, `sick_cold` INT(11) DEFAULT 0, `sick_poisoning` INT(11) DEFAULT 0, `mp0_stamina` INT(11) DEFAULT 24, `mp0_strength` INT(11) DEFAULT 0, `mp0_lung_capacity` INT(11) DEFAULT 0, `mp0_wheelie_ability` INT(11) DEFAULT 0, `mp0_flying_ability` INT(11) DEFAULT 0, `mp0_shooting_ability` INT(11) DEFAULT 0, `mp0_stealth_ability` INT(11) DEFAULT 0, `mp0_watchdogs` INT(11) DEFAULT 0, `a_lic` TINYINT(1) DEFAULT 0, `b_lic` TINYINT(1) DEFAULT 0, `c_lic` TINYINT(1) DEFAULT 0, `air_lic` TINYINT(1) DEFAULT 0, `ship_lic` TINYINT(1) DEFAULT 0, `gun_lic` TINYINT(1) DEFAULT 0, `taxi_lic` TINYINT(1) DEFAULT 0, `law_lic` TINYINT(1) DEFAULT 0, `med_lic` TINYINT(1) DEFAULT 0, `biz_lic` TINYINT(1) DEFAULT 0, `animal_lic` TINYINT(1) DEFAULT 0, `fish_lic` TINYINT(1) DEFAULT 0, `animal` VARCHAR(32) DEFAULT '', `animal_name` VARCHAR(64) DEFAULT '', `story_1` INT(11) DEFAULT 0, `story_timeout_1` INT(11) DEFAULT 3, `skill_builder` INT(11) DEFAULT 0, `skill_scrap` INT(11) DEFAULT 0, `skill_shop` INT(11) DEFAULT 0, `skill_taxi` INT(11) DEFAULT 0, `skill_mail` INT(11) DEFAULT 0, `skill_mail2` INT(11) DEFAULT 0, `skill_photo` INT(11) DEFAULT 0, `skill_sunb` INT(11) DEFAULT 0, `skill_bgstar` INT(11) DEFAULT 0, `skill_bshot` INT(11) DEFAULT 0, `skill_three` INT(11) DEFAULT 0, `skill_water` INT(11) DEFAULT 0, `skill_bus1` INT(11) DEFAULT 0, `skill_bus2` INT(11) DEFAULT 0, `skill_bus3` INT(11) DEFAULT 0, `skill_gr6` INT(11) DEFAULT 0, `skill_trucker` INT(11) DEFAULT 0, `vip_status` VARCHAR(20) DEFAULT '', `vip_time` BIGINT(20) DEFAULT 0, `count_hask` INT(11) DEFAULT 0, `count_aask` INT(11) DEFAULT 0, `token` VARCHAR(128) DEFAULT '', `token_rp` VARCHAR(128) DEFAULT '', `ip_reg` VARCHAR(64) DEFAULT '', `ip_last` VARCHAR(64) DEFAULT '', `money_donate` INT(11) DEFAULT 0, `is_online` TINYINT(1) DEFAULT 0, `s_is_pay_type_bank` TINYINT(1) DEFAULT 0, `s_is_load_blip_house` TINYINT(1) DEFAULT 1, `s_is_characher` TINYINT(1) DEFAULT 0, `s_is_spawn_aprt` TINYINT(1) DEFAULT 0, `s_lang` VARCHAR(4) DEFAULT 'RU', `s_clipset` VARCHAR(32) DEFAULT '', `s_is_usehackerphone` TINYINT(1) DEFAULT 0, `s_radio_balance` INT(11) DEFAULT 1, `s_radio_vol` FLOAT DEFAULT 0.4, `s_voice_vol` FLOAT DEFAULT 0.4, `s_voice_balance` TINYINT(1) DEFAULT 1, `sell_car_time` INT(6) DEFAULT 0, `sell_car` TINYINT(1) DEFAULT 0, `mailhouses` VARCHAR(4048) DEFAULT '', `house_grab` INT(3) DEFAULT 0, `email` VARCHAR(128) DEFAULT '', `referer` VARCHAR(64) DEFAULT '', `promocode` VARCHAR(100) DEFAULT '', `parthner_procent` INT(11) DEFAULT 0, `parthner_promocode` VARCHAR(64) DEFAULT '', `parthner_payment` VARCHAR(128) DEFAULT '', `empty_col` VARCHAR(4) DEFAULT 'null', `rp_weight` SMALLINT(6) DEFAULT 70, `rp_growth` SMALLINT(6) DEFAULT 180, `rp_nationality` VARCHAR(128) DEFAULT 'Американец', `rp_qualities` VARCHAR(256) DEFAULT NULL, `rp_distinctive_features` VARCHAR(256) DEFAULT NULL, `rp_diseases` VARCHAR(256) DEFAULT NULL, `rp_character` VARCHAR(256) DEFAULT NULL, `rp_biography` TEXT, `rp_avatar` VARCHAR(512) DEFAULT 'https://i.imgur.com/MUxgy8v.png', `rp_is_public` TINYINT(1) DEFAULT 1, `jailed_admin` INT(2) DEFAULT 0, `quests` VARCHAR(1024) DEFAULT '[]', `chipsBalance` INT(11) DEFAULT 0, `holidayPickups` VARCHAR(1024) DEFAULT '[]', `shootingPickups` VARCHAR(1024) DEFAULT '[]', `rgscid` BIGINT(20), `level` INT(11) DEFAULT 1, `level_exp` INT(11) DEFAULT 0, `tablet_equip` INT(11) DEFAULT 0, `played_time` INT(11) DEFAULT 0, `tattoos_list` VARCHAR(3000) DEFAULT '[]', PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;"},"sql":"CREATE TABLE IF NOT EXISTS `pAFk3qiAgG1_users` (`id` INTEGER auto_increment DEFAULT 0 , `name` VARCHAR(512), `name2` BIGINT(20) DEFAULT 0, `rp_name` VARCHAR(128), `lic` VARCHAR(512), `password` VARCHAR(256), `reg_status` INT(11) DEFAULT 0, `reg_time` INT(11) DEFAULT 0, `age` INT(11) DEFAULT 18, `exp_age` INT(11) DEFAULT 0, `money` INT(11) DEFAULT 0, `money_bank` INT(11) DEFAULT 0, `money_payday` INT(11) DEFAULT 0, `money_tax` INT(11) DEFAULT 300, `bank_prefix` INT(11) DEFAULT 0, `bank_number` INT(11) DEFAULT 0, `posob` TINYINT(1) DEFAULT 0, `id_house` INT(11) DEFAULT 0, `apartment_id` INT(11) DEFAULT 0, `condo_id` INT(11) DEFAULT 0, `business_id` INT(11) DEFAULT 0, `stock_id` INT(11) DEFAULT 0, `car_id1` INT(11) DEFAULT 0, `car_id2` INT(11) DEFAULT 0, `car_id3` INT(11) DEFAULT 0, `car_id4` INT(11) DEFAULT 0, `car_id5` INT(11) DEFAULT 0, `car_id6` INT(11) DEFAULT 0, `car_id7` INT(11) DEFAULT 0, `car_id8` INT(11) DEFAULT 0, `fraction_id` INT(11) DEFAULT 0, `rank` INT(11) DEFAULT 0, `fraction_id2` INT(11) DEFAULT 0, `rank2` INT(11) DEFAULT 0, `tag` VARCHAR(64) DEFAULT NULL, `job` VARCHAR(16) DEFAULT '', `is_gos_blacklist` TINYINT(1) DEFAULT 0, `gos_blacklist_reason` VARCHAR(300) DEFAULT '', `admin_level` INT(11) DEFAULT 0, `helper_level` INT(11) DEFAULT 0, `skin` TEXT, `tattoo_head_c` VARCHAR(64) DEFAULT '', `tattoo_head_o` VARCHAR(64) DEFAULT '', `tattoo_torso_c` VARCHAR(64) DEFAULT '', `tattoo_torso_o` VARCHAR(64) DEFAULT '', `tattoo_left_arm_c` VARCHAR(64) DEFAULT '', `tattoo_left_arm_o` VARCHAR(64) DEFAULT '', `tattoo_right_arm_c` VARCHAR(64) DEFAULT '', `tattoo_right_arm_o` VARCHAR(64) DEFAULT '', `tattoo_left_leg_c` VARCHAR(64) DEFAULT '', `tattoo_left_leg_o` VARCHAR(64) DEFAULT '', `tattoo_right_leg_c` VARCHAR(64) DEFAULT '', `tattoo_right_leg_o` VARCHAR(64) DEFAULT '', `tprint_c` VARCHAR(128) DEFAULT '', `tprint_o` VARCHAR(128) DEFAULT '', `date_reg` INT(11) DEFAULT 0, `last_login` INT(11) DEFAULT 0, `date_ban` INT(11) DEFAULT 0, `date_mute` INT(11) DEFAULT 0, `warn` INT(11) DEFAULT 0, `wanted_level` INT(11) DEFAULT 0, `wanted_reason` VARCHAR(512) DEFAULT '', `phone_code` INT(11) DEFAULT 0, `phone` INT(11) DEFAULT 0, `is_buy_walkietalkie` TINYINT(1) DEFAULT 0, `is_old_money` TINYINT(1) DEFAULT 0, `item_clock` TINYINT(1) DEFAULT 0, `walkietalkie_num` VARCHAR(7) DEFAULT '0', `jailed` TINYINT(1) DEFAULT 0, `jail_time` INT(11) DEFAULT 0, `med_time` INT(11) DEFAULT 0, `mask` INT(11) DEFAULT 0, `mask_color` INT(11) DEFAULT 0, `head` INT(11) DEFAULT 0, `head_color` INT(11) DEFAULT 0, `body` INT(11) DEFAULT 0, `body_color` INT(11) DEFAULT 0, `torso` INT(11) DEFAULT 0, `torso_color` INT(11) DEFAULT 0, `leg` INT(11) DEFAULT 0, `leg_color` INT(11) DEFAULT 0, `hand` INT(11) DEFAULT 0, `hand_color` INT(11) DEFAULT 0, `parachute` INT(11) DEFAULT 0, `parachute_color` INT(11) DEFAULT 0, `foot` INT(11) DEFAULT 0, `foot_color` INT(11) DEFAULT 0, `accessorie` INT(11) DEFAULT 0, `accessorie_color` INT(11) DEFAULT 0, `armor` INT(11) DEFAULT 0, `armor_color` INT(11) DEFAULT 0, `decal` INT(11) DEFAULT 0, `decal_color` INT(11) DEFAULT 0, `hat` INT(11) DEFAULT -1, `hat_color` INT(11) DEFAULT -1, `glasses` INT(11) DEFAULT -1, `glasses_color` INT(11) DEFAULT -1, `ear` INT(11) DEFAULT -1, `ear_color` INT(11) DEFAULT -1, `watch` INT(11) DEFAULT -1, `watch_color` INT(11) DEFAULT -1, `bracelet` INT(11) DEFAULT -1, `bracelet_color` INT(11) DEFAULT -1, `allow_marg` TINYINT(1) DEFAULT 0, `allow_antipohmel` TINYINT(1) DEFAULT 0, `health` INT(11) DEFAULT 100, `water_level` INT(11) DEFAULT 100, `eat_level` INT(11) DEFAULT 1000, `health_level` INT(11) DEFAULT 100, `temp_level` FLOAT DEFAULT 36.6, `sick_cold` INT(11) DEFAULT 0, `sick_poisoning` INT(11) DEFAULT 0, `mp0_stamina` INT(11) DEFAULT 24, `mp0_strength` INT(11) DEFAULT 0, `mp0_lung_capacity` INT(11) DEFAULT 0, `mp0_wheelie_ability` INT(11) DEFAULT 0, `mp0_flying_ability` INT(11) DEFAULT 0, `mp0_shooting_ability` INT(11) DEFAULT 0, `mp0_stealth_ability` INT(11) DEFAULT 0, `mp0_watchdogs` INT(11) DEFAULT 0, `a_lic` TINYINT(1) DEFAULT 0, `b_lic` TINYINT(1) DEFAULT 0, `c_lic` TINYINT(1) DEFAULT 0, `air_lic` TINYINT(1) DEFAULT 0, `ship_lic` TINYINT(1) DEFAULT 0, `gun_lic` TINYINT(1) DEFAULT 0, `taxi_lic` TINYINT(1) DEFAULT 0, `law_lic` TINYINT(1) DEFAULT 0, `med_lic` TINYINT(1) DEFAULT 0, `biz_lic` TINYINT(1) DEFAULT 0, `animal_lic` TINYINT(1) DEFAULT 0, `fish_lic` TINYINT(1) DEFAULT 0, `animal` VARCHAR(32) DEFAULT '', `animal_name` VARCHAR(64) DEFAULT '', `story_1` INT(11) DEFAULT 0, `story_timeout_1` INT(11) DEFAULT 3, `skill_builder` INT(11) DEFAULT 0, `skill_scrap` INT(11) DEFAULT 0, `skill_shop` INT(11) DEFAULT 0, `skill_taxi` INT(11) DEFAULT 0, `skill_mail` INT(11) DEFAULT 0, `skill_mail2` INT(11) DEFAULT 0, `skill_photo` INT(11) DEFAULT 0, `skill_sunb` INT(11) DEFAULT 0, `skill_bgstar` INT(11) DEFAULT 0, `skill_bshot` INT(11) DEFAULT 0, `skill_three` INT(11) DEFAULT 0, `skill_water` INT(11) DEFAULT 0, `skill_bus1` INT(11) DEFAULT 0, `skill_bus2` INT(11) DEFAULT 0, `skill_bus3` INT(11) DEFAULT 0, `skill_gr6` INT(11) DEFAULT 0, `skill_trucker` INT(11) DEFAULT 0, `vip_status` VARCHAR(20) DEFAULT '', `vip_time` BIGINT(20) DEFAULT 0, `count_hask` INT(11) DEFAULT 0, `count_aask` INT(11) DEFAULT 0, `token` VARCHAR(128) DEFAULT '', `token_rp` VARCHAR(128) DEFAULT '', `ip_reg` VARCHAR(64) DEFAULT '', `ip_last` VARCHAR(64) DEFAULT '', `money_donate` INT(11) DEFAULT 0, `is_online` TINYINT(1) DEFAULT 0, `s_is_pay_type_bank` TINYINT(1) DEFAULT 0, `s_is_load_blip_house` TINYINT(1) DEFAULT 1, `s_is_characher` TINYINT(1) DEFAULT 0, `s_is_spawn_aprt` TINYINT(1) DEFAULT 0, `s_lang` VARCHAR(4) DEFAULT 'RU', `s_clipset` VARCHAR(32) DEFAULT '', `s_is_usehackerphone` TINYINT(1) DEFAULT 0, `s_radio_balance` INT(11) DEFAULT 1, `s_radio_vol` FLOAT DEFAULT 0.4, `s_voice_vol` FLOAT DEFAULT 0.4, `s_voice_balance` TINYINT(1) DEFAULT 1, `sell_car_time` INT(6) DEFAULT 0, `sell_car` TINYINT(1) DEFAULT 0, `mailhouses` VARCHAR(4048) DEFAULT '', `house_grab` INT(3) DEFAULT 0, `email` VARCHAR(128) DEFAULT '', `referer` VARCHAR(64) DEFAULT '', `promocode` VARCHAR(100) DEFAULT '', `parthner_procent` INT(11) DEFAULT 0, `parthner_promocode` VARCHAR(64) DEFAULT '', `parthner_payment` VARCHAR(128) DEFAULT '', `empty_col` VARCHAR(4) DEFAULT 'null', `rp_weight` SMALLINT(6) DEFAULT 70, `rp_growth` SMALLINT(6) DEFAULT 180, `rp_nationality` VARCHAR(128) DEFAULT 'Американец', `rp_qualities` VARCHAR(256) DEFAULT NULL, `rp_distinctive_features` VARCHAR(256) DEFAULT NULL, `rp_diseases` VARCHAR(256) DEFAULT NULL, `rp_character` VARCHAR(256) DEFAULT NULL, `rp_biography` TEXT, `rp_avatar` VARCHAR(512) DEFAULT 'https://i.imgur.com/MUxgy8v.png', `rp_is_public` TINYINT(1) DEFAULT 1, `jailed_admin` INT(2) DEFAULT 0, `quests` VARCHAR(1024) DEFAULT '[]', `chipsBalance` INT(11) DEFAULT 0, `holidayPickups` VARCHAR(1024) DEFAULT '[]', `shootingPickups` VARCHAR(1024) DEFAULT '[]', `rgscid` BIGINT(20), `level` INT(11) DEFAULT 1, `level_exp` INT(11) DEFAULT 0, `tablet_equip` INT(11) DEFAULT 0, `played_time` INT(11) DEFAULT 0, `tattoos_list` VARCHAR(3000) DEFAULT '[]', PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;"}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:26:54] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:26:56] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:26:58] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3373613,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:28:23] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":3891811,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:32:09] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_coffers.nalog cannot be null","type":"notNull Violation","path":"nalog","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.nalog_bizz cannot be null","type":"notNull Violation","path":"nalog_bizz","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyOld cannot be null","type":"notNull Violation","path":"moneyOld","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyBomj cannot be null","type":"notNull Violation","path":"moneyBomj","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"pAFk3qiAgG1_coffers.moneyLimit cannot be null","type":"notNull Violation","path":"moneyLimit","value":null,"origin":"CORE","instance":{"name":"","id":null,"money":4465731,"moneyBomj":null,"nalog":null,"nalog_bizz":null,"moneyOld":null,"moneyLimit":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[06/12/21] [18:46:16] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1364,"sqlState":"HY000","code":"ER_NO_DEFAULT_FOR_FIELD","sql":"INSERT INTO `pAFk3qiAgG1_users` (`id`,`name`,`name2`,`rp_name`,`lic`,`password`,`reg_status`,`reg_time`,`age`,`exp_age`,`money`,`money_bank`,`money_payday`,`money_tax`,`bank_prefix`,`bank_number`,`posob`,`id_house`,`apartment_id`,`condo_id`,`business_id`,`stock_id`,`car_id1`,`car_id2`,`car_id3`,`car_id4`,`car_id5`,`car_id6`,`car_id7`,`car_id8`,`fraction_id`,`rank`,`fraction_id2`,`rank2`,`tag`,`job`,`is_gos_blacklist`,`gos_blacklist_reason`,`admin_level`,`helper_level`,`skin`,`tattoo_head_c`,`tattoo_head_o`,`tattoo_torso_c`,`tattoo_torso_o`,`tattoo_left_arm_c`,`tattoo_left_arm_o`,`tattoo_right_arm_c`,`tattoo_right_arm_o`,`tattoo_left_leg_c`,`tattoo_left_leg_o`,`tattoo_right_leg_c`,`tattoo_right_leg_o`,`tprint_c`,`tprint_o`,`date_reg`,`last_login`,`date_ban`,`date_mute`,`warn`,`wanted_level`,`wanted_reason`,`phone_code`,`phone`,`is_buy_walkietalkie`,`is_old_money`,`item_clock`,`walkietalkie_num`,`jailed`,`jail_time`,`med_time`,`mask`,`mask_color`,`head`,`head_color`,`body`,`body_color`,`torso`,`torso_color`,`leg`,`leg_color`,`hand`,`hand_color`,`parachute`,`parachute_color`,`foot`,`foot_color`,`accessorie`,`accessorie_color`,`armor`,`armor_color`,`decal`,`decal_color`,`hat`,`hat_color`,`glasses`,`glasses_color`,`ear`,`ear_color`,`watch`,`watch_color`,`bracelet`,`bracelet_color`,`allow_marg`,`allow_antipohmel`,`health`,`water_level`,`eat_level`,`health_level`,`temp_level`,`sick_cold`,`sick_poisoning`,`mp0_stamina`,`mp0_strength`,`mp0_lung_capacity`,`mp0_wheelie_ability`,`mp0_flying_ability`,`mp0_shooting_ability`,`mp0_stealth_ability`,`mp0_watchdogs`,`a_lic`,`b_lic`,`c_lic`,`air_lic`,`ship_lic`,`gun_lic`,`taxi_lic`,`law_lic`,`med_lic`,`biz_lic`,`animal_lic`,`fish_lic`,`animal`,`animal_name`,`story_1`,`story_timeout_1`,`skill_builder`,`skill_scrap`,`skill_shop`,`skill_taxi`,`skill_mail`,`skill_mail2`,`skill_photo`,`skill_sunb`,`skill_bgstar`,`skill_bshot`,`skill_three`,`skill_water`,`skill_bus1`,`skill_bus2`,`skill_bus3`,`skill_gr6`,`skill_trucker`,`vip_status`,`vip_time`,`count_hask`,`count_aask`,`token`,`token_rp`,`ip_reg`,`ip_last`,`money_donate`,`is_online`,`s_is_pay_type_bank`,`s_is_load_blip_house`,`s_is_characher`,`s_is_spawn_aprt`,`s_lang`,`s_clipset`,`s_is_usehackerphone`,`s_radio_balance`,`s_radio_vol`,`s_voice_vol`,`s_voice_balance`,`sell_car_time`,`sell_car`,`mailhouses`,`house_grab`,`email`,`referer`,`promocode`,`parthner_procent`,`parthner_promocode`,`parthner_payment`,`empty_col`,`rp_weight`,`rp_growth`,`rp_nationality`,`rp_qualities`,`rp_distinctive_features`,`rp_diseases`,`rp_character`,`rp_biography`,`rp_avatar`,`rp_is_public`,`jailed_admin`,`quests`,`chipsBalance`,`holidayPickups`,`shootingPickups`,`level`,`level_exp`,`tablet_equip`,`played_time`,`tattoos_list`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);","parameters":["_ERROR_KSOXZ_",0,"Alexandr Ksoxz","D8903A045B466D404C922F042742FD10B9E2730CC6366AB089F018C8DD223F6008587F54F77281F8D9BAE3ACDB44FF20721208A056B6E93853D0646C79482080","bfb30404f2474961afb70e916440825f478e8dd3c920baa05eaa6fdaa08e84e1",0,0,26,0,1296,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,"",0,"",0,0,null,"","","","","","","","","","","","","","",1638816376,0,0,0,0,0,"",0,0,0,0,0,"0",0,0,0,0,0,0,0,0,1,0,0,1,11,0,0,0,44,1,9,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,100,100,1000,100,36.6,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"","",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,0,"","","194.156.251.235","",0,0,0,1,0,0,"RU","",0,1,0.4,0.4,1,0,0,"",0,"gemeries9@gmail.com","","",0,"","","null",70,180,"Американец",null,null,null,null,"Нет","https://i.imgur.com/MUxgy8v.png",1,0,"[]",0,"[]","[]",1,0,0,0,"[]"]},"original":{"fatal":false,"errno":1364,"sqlState":"HY000","code":"ER_NO_DEFAULT_FOR_FIELD","sql":"INSERT INTO `pAFk3qiAgG1_users` (`id`,`name`,`name2`,`rp_name`,`lic`,`password`,`reg_status`,`reg_time`,`age`,`exp_age`,`money`,`money_bank`,`money_payday`,`money_tax`,`bank_prefix`,`bank_number`,`posob`,`id_house`,`apartment_id`,`condo_id`,`business_id`,`stock_id`,`car_id1`,`car_id2`,`car_id3`,`car_id4`,`car_id5`,`car_id6`,`car_id7`,`car_id8`,`fraction_id`,`rank`,`fraction_id2`,`rank2`,`tag`,`job`,`is_gos_blacklist`,`gos_blacklist_reason`,`admin_level`,`helper_level`,`skin`,`tattoo_head_c`,`tattoo_head_o`,`tattoo_torso_c`,`tattoo_torso_o`,`tattoo_left_arm_c`,`tattoo_left_arm_o`,`tattoo_right_arm_c`,`tattoo_right_arm_o`,`tattoo_left_leg_c`,`tattoo_left_leg_o`,`tattoo_right_leg_c`,`tattoo_right_leg_o`,`tprint_c`,`tprint_o`,`date_reg`,`last_login`,`date_ban`,`date_mute`,`warn`,`wanted_level`,`wanted_reason`,`phone_code`,`phone`,`is_buy_walkietalkie`,`is_old_money`,`item_clock`,`walkietalkie_num`,`jailed`,`jail_time`,`med_time`,`mask`,`mask_color`,`head`,`head_color`,`body`,`body_color`,`torso`,`torso_color`,`leg`,`leg_color`,`hand`,`hand_color`,`parachute`,`parachute_color`,`foot`,`foot_color`,`accessorie`,`accessorie_color`,`armor`,`armor_color`,`decal`,`decal_color`,`hat`,`hat_color`,`glasses`,`glasses_color`,`ear`,`ear_color`,`watch`,`watch_color`,`bracelet`,`bracelet_color`,`allow_marg`,`allow_antipohmel`,`health`,`water_level`,`eat_level`,`health_level`,`temp_level`,`sick_cold`,`sick_poisoning`,`mp0_stamina`,`mp0_strength`,`mp0_lung_capacity`,`mp0_wheelie_ability`,`mp0_flying_ability`,`mp0_shooting_ability`,`mp0_stealth_ability`,`mp0_watchdogs`,`a_lic`,`b_lic`,`c_lic`,`air_lic`,`ship_lic`,`gun_lic`,`taxi_lic`,`law_lic`,`med_lic`,`biz_lic`,`animal_lic`,`fish_lic`,`animal`,`animal_name`,`story_1`,`story_timeout_1`,`skill_builder`,`skill_scrap`,`skill_shop`,`skill_taxi`,`skill_mail`,`skill_mail2`,`skill_photo`,`skill_sunb`,`skill_bgstar`,`skill_bshot`,`skill_three`,`skill_water`,`skill_bus1`,`skill_bus2`,`skill_bus3`,`skill_gr6`,`skill_trucker`,`vip_status`,`vip_time`,`count_hask`,`count_aask`,`token`,`token_rp`,`ip_reg`,`ip_last`,`money_donate`,`is_online`,`s_is_pay_type_bank`,`s_is_load_blip_house`,`s_is_characher`,`s_is_spawn_aprt`,`s_lang`,`s_clipset`,`s_is_usehackerphone`,`s_radio_balance`,`s_radio_vol`,`s_voice_vol`,`s_voice_balance`,`sell_car_time`,`sell_car`,`mailhouses`,`house_grab`,`email`,`referer`,`promocode`,`parthner_procent`,`parthner_promocode`,`parthner_payment`,`empty_col`,`rp_weight`,`rp_growth`,`rp_nationality`,`rp_qualities`,`rp_distinctive_features`,`rp_diseases`,`rp_character`,`rp_biography`,`rp_avatar`,`rp_is_public`,`jailed_admin`,`quests`,`chipsBalance`,`holidayPickups`,`shootingPickups`,`level`,`level_exp`,`tablet_equip`,`played_time`,`tattoos_list`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);","parameters":["_ERROR_KSOXZ_",0,"Alexandr Ksoxz","D8903A045B466D404C922F042742FD10B9E2730CC6366AB089F018C8DD223F6008587F54F77281F8D9BAE3ACDB44FF20721208A056B6E93853D0646C79482080","bfb30404f2474961afb70e916440825f478e8dd3c920baa05eaa6fdaa08e84e1",0,0,26,0,1296,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,"",0,"",0,0,null,"","","","","","","","","","","","","","",1638816376,0,0,0,0,0,"",0,0,0,0,0,"0",0,0,0,0,0,0,0,0,1,0,0,1,11,0,0,0,44,1,9,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,100,100,1000,100,36.6,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"","",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,0,"","","194.156.251.235","",0,0,0,1,0,0,"RU","",0,1,0.4,0.4,1,0,0,"",0,"gemeries9@gmail.com","","",0,"","","null",70,180,"Американец",null,null,null,null,"Нет","https://i.imgur.com/MUxgy8v.png",1,0,"[]",0,"[]","[]",1,0,0,0,"[]"]},"sql":"INSERT INTO `pAFk3qiAgG1_users` (`id`,`name`,`name2`,`rp_name`,`lic`,`password`,`reg_status`,`reg_time`,`age`,`exp_age`,`money`,`money_bank`,`money_payday`,`money_tax`,`bank_prefix`,`bank_number`,`posob`,`id_house`,`apartment_id`,`condo_id`,`business_id`,`stock_id`,`car_id1`,`car_id2`,`car_id3`,`car_id4`,`car_id5`,`car_id6`,`car_id7`,`car_id8`,`fraction_id`,`rank`,`fraction_id2`,`rank2`,`tag`,`job`,`is_gos_blacklist`,`gos_blacklist_reason`,`admin_level`,`helper_level`,`skin`,`tattoo_head_c`,`tattoo_head_o`,`tattoo_torso_c`,`tattoo_torso_o`,`tattoo_left_arm_c`,`tattoo_left_arm_o`,`tattoo_right_arm_c`,`tattoo_right_arm_o`,`tattoo_left_leg_c`,`tattoo_left_leg_o`,`tattoo_right_leg_c`,`tattoo_right_leg_o`,`tprint_c`,`tprint_o`,`date_reg`,`last_login`,`date_ban`,`date_mute`,`warn`,`wanted_level`,`wanted_reason`,`phone_code`,`phone`,`is_buy_walkietalkie`,`is_old_money`,`item_clock`,`walkietalkie_num`,`jailed`,`jail_time`,`med_time`,`mask`,`mask_color`,`head`,`head_color`,`body`,`body_color`,`torso`,`torso_color`,`leg`,`leg_color`,`hand`,`hand_color`,`parachute`,`parachute_color`,`foot`,`foot_color`,`accessorie`,`accessorie_color`,`armor`,`armor_color`,`decal`,`decal_color`,`hat`,`hat_color`,`glasses`,`glasses_color`,`ear`,`ear_color`,`watch`,`watch_color`,`bracelet`,`bracelet_color`,`allow_marg`,`allow_antipohmel`,`health`,`water_level`,`eat_level`,`health_level`,`temp_level`,`sick_cold`,`sick_poisoning`,`mp0_stamina`,`mp0_strength`,`mp0_lung_capacity`,`mp0_wheelie_ability`,`mp0_flying_ability`,`mp0_shooting_ability`,`mp0_stealth_ability`,`mp0_watchdogs`,`a_lic`,`b_lic`,`c_lic`,`air_lic`,`ship_lic`,`gun_lic`,`taxi_lic`,`law_lic`,`med_lic`,`biz_lic`,`animal_lic`,`fish_lic`,`animal`,`animal_name`,`story_1`,`story_timeout_1`,`skill_builder`,`skill_scrap`,`skill_shop`,`skill_taxi`,`skill_mail`,`skill_mail2`,`skill_photo`,`skill_sunb`,`skill_bgstar`,`skill_bshot`,`skill_three`,`skill_water`,`skill_bus1`,`skill_bus2`,`skill_bus3`,`skill_gr6`,`skill_trucker`,`vip_status`,`vip_time`,`count_hask`,`count_aask`,`token`,`token_rp`,`ip_reg`,`ip_last`,`money_donate`,`is_online`,`s_is_pay_type_bank`,`s_is_load_blip_house`,`s_is_characher`,`s_is_spawn_aprt`,`s_lang`,`s_clipset`,`s_is_usehackerphone`,`s_radio_balance`,`s_radio_vol`,`s_voice_vol`,`s_voice_balance`,`sell_car_time`,`sell_car`,`mailhouses`,`house_grab`,`email`,`referer`,`promocode`,`parthner_procent`,`parthner_promocode`,`parthner_payment`,`empty_col`,`rp_weight`,`rp_growth`,`rp_nationality`,`rp_qualities`,`rp_distinctive_features`,`rp_diseases`,`rp_character`,`rp_biography`,`rp_avatar`,`rp_is_public`,`jailed_admin`,`quests`,`chipsBalance`,`holidayPickups`,`shootingPickups`,`level`,`level_exp`,`tablet_equip`,`played_time`,`tattoos_list`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);","parameters":["_ERROR_KSOXZ_",0,"Alexandr Ksoxz","D8903A045B466D404C922F042742FD10B9E2730CC6366AB089F018C8DD223F6008587F54F77281F8D9BAE3ACDB44FF20721208A056B6E93853D0646C79482080","bfb30404f2474961afb70e916440825f478e8dd3c920baa05eaa6fdaa08e84e1",0,0,26,0,1296,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,"",0,"",0,0,null,"","","","","","","","","","","","","","",1638816376,0,0,0,0,0,"",0,0,0,0,0,"0",0,0,0,0,0,0,0,0,1,0,0,1,11,0,0,0,44,1,9,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,100,100,1000,100,36.6,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"","",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,0,"","","194.156.251.235","",0,0,0,1,0,0,"RU","",0,1,0.4,0.4,1,0,0,"",0,"gemeries9@gmail.com","","",0,"","","null",70,180,"Американец",null,null,null,null,"Нет","https://i.imgur.com/MUxgy8v.png",1,0,"[]",0,"[]","[]",1,0,0,0,"[]"]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeDatabaseError","parent":{"fatal":false,"errno":1364,"sqlState":"HY000","code":"ER_NO_DEFAULT_FOR_FIELD","sql":"INSERT INTO `pAFk3qiAgG1_users` (`id`,`name`,`name2`,`rp_name`,`lic`,`password`,`reg_status`,`reg_time`,`age`,`exp_age`,`money`,`money_bank`,`money_payday`,`money_tax`,`bank_prefix`,`bank_number`,`posob`,`id_house`,`apartment_id`,`condo_id`,`business_id`,`stock_id`,`car_id1`,`car_id2`,`car_id3`,`car_id4`,`car_id5`,`car_id6`,`car_id7`,`car_id8`,`fraction_id`,`rank`,`fraction_id2`,`rank2`,`tag`,`job`,`is_gos_blacklist`,`gos_blacklist_reason`,`admin_level`,`helper_level`,`skin`,`tattoo_head_c`,`tattoo_head_o`,`tattoo_torso_c`,`tattoo_torso_o`,`tattoo_left_arm_c`,`tattoo_left_arm_o`,`tattoo_right_arm_c`,`tattoo_right_arm_o`,`tattoo_left_leg_c`,`tattoo_left_leg_o`,`tattoo_right_leg_c`,`tattoo_right_leg_o`,`tprint_c`,`tprint_o`,`date_reg`,`last_login`,`date_ban`,`date_mute`,`warn`,`wanted_level`,`wanted_reason`,`phone_code`,`phone`,`is_buy_walkietalkie`,`is_old_money`,`item_clock`,`walkietalkie_num`,`jailed`,`jail_time`,`med_time`,`mask`,`mask_color`,`head`,`head_color`,`body`,`body_color`,`torso`,`torso_color`,`leg`,`leg_color`,`hand`,`hand_color`,`parachute`,`parachute_color`,`foot`,`foot_color`,`accessorie`,`accessorie_color`,`armor`,`armor_color`,`decal`,`decal_color`,`hat`,`hat_color`,`glasses`,`glasses_color`,`ear`,`ear_color`,`watch`,`watch_color`,`bracelet`,`bracelet_color`,`allow_marg`,`allow_antipohmel`,`health`,`water_level`,`eat_level`,`health_level`,`temp_level`,`sick_cold`,`sick_poisoning`,`mp0_stamina`,`mp0_strength`,`mp0_lung_capacity`,`mp0_wheelie_ability`,`mp0_flying_ability`,`mp0_shooting_ability`,`mp0_stealth_ability`,`mp0_watchdogs`,`a_lic`,`b_lic`,`c_lic`,`air_lic`,`ship_lic`,`gun_lic`,`taxi_lic`,`law_lic`,`med_lic`,`biz_lic`,`animal_lic`,`fish_lic`,`animal`,`animal_name`,`story_1`,`story_timeout_1`,`skill_builder`,`skill_scrap`,`skill_shop`,`skill_taxi`,`skill_mail`,`skill_mail2`,`skill_photo`,`skill_sunb`,`skill_bgstar`,`skill_bshot`,`skill_three`,`skill_water`,`skill_bus1`,`skill_bus2`,`skill_bus3`,`skill_gr6`,`skill_trucker`,`vip_status`,`vip_time`,`count_hask`,`count_aask`,`token`,`token_rp`,`ip_reg`,`ip_last`,`money_donate`,`is_online`,`s_is_pay_type_bank`,`s_is_load_blip_house`,`s_is_characher`,`s_is_spawn_aprt`,`s_lang`,`s_clipset`,`s_is_usehackerphone`,`s_radio_balance`,`s_radio_vol`,`s_voice_vol`,`s_voice_balance`,`sell_car_time`,`sell_car`,`mailhouses`,`house_grab`,`email`,`referer`,`promocode`,`parthner_procent`,`parthner_promocode`,`parthner_payment`,`empty_col`,`rp_weight`,`rp_growth`,`rp_nationality`,`rp_qualities`,`rp_distinctive_features`,`rp_diseases`,`rp_character`,`rp_biography`,`rp_avatar`,`rp_is_public`,`jailed_admin`,`quests`,`chipsBalance`,`holidayPickups`,`shootingPickups`,`level`,`level_exp`,`tablet_equip`,`played_time`,`tattoos_list`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);","parameters":["_ERROR_KSOXZ_",0,"Alexandr Ksoxz","D8903A045B466D404C922F042742FD10B9E2730CC6366AB089F018C8DD223F6008587F54F77281F8D9BAE3ACDB44FF20721208A056B6E93853D0646C79482080","bfb30404f2474961afb70e916440825f478e8dd3c920baa05eaa6fdaa08e84e1",0,0,26,0,1296,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,"",0,"",0,0,null,"","","","","","","","","","","","","","",1638816376,0,0,0,0,0,"",0,0,0,0,0,"0",0,0,0,0,0,0,0,0,1,0,0,1,11,0,0,0,44,1,9,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,100,100,1000,100,36.6,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"","",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,0,"","","194.156.251.235","",0,0,0,1,0,0,"RU","",0,1,0.4,0.4,1,0,0,"",0,"gemeries9@gmail.com","","",0,"","","null",70,180,"Американец",null,null,null,null,"Нет","https://i.imgur.com/MUxgy8v.png",1,0,"[]",0,"[]","[]",1,0,0,0,"[]"]},"original":{"fatal":false,"errno":1364,"sqlState":"HY000","code":"ER_NO_DEFAULT_FOR_FIELD","sql":"INSERT INTO `pAFk3qiAgG1_users` (`id`,`name`,`name2`,`rp_name`,`lic`,`password`,`reg_status`,`reg_time`,`age`,`exp_age`,`money`,`money_bank`,`money_payday`,`money_tax`,`bank_prefix`,`bank_number`,`posob`,`id_house`,`apartment_id`,`condo_id`,`business_id`,`stock_id`,`car_id1`,`car_id2`,`car_id3`,`car_id4`,`car_id5`,`car_id6`,`car_id7`,`car_id8`,`fraction_id`,`rank`,`fraction_id2`,`rank2`,`tag`,`job`,`is_gos_blacklist`,`gos_blacklist_reason`,`admin_level`,`helper_level`,`skin`,`tattoo_head_c`,`tattoo_head_o`,`tattoo_torso_c`,`tattoo_torso_o`,`tattoo_left_arm_c`,`tattoo_left_arm_o`,`tattoo_right_arm_c`,`tattoo_right_arm_o`,`tattoo_left_leg_c`,`tattoo_left_leg_o`,`tattoo_right_leg_c`,`tattoo_right_leg_o`,`tprint_c`,`tprint_o`,`date_reg`,`last_login`,`date_ban`,`date_mute`,`warn`,`wanted_level`,`wanted_reason`,`phone_code`,`phone`,`is_buy_walkietalkie`,`is_old_money`,`item_clock`,`walkietalkie_num`,`jailed`,`jail_time`,`med_time`,`mask`,`mask_color`,`head`,`head_color`,`body`,`body_color`,`torso`,`torso_color`,`leg`,`leg_color`,`hand`,`hand_color`,`parachute`,`parachute_color`,`foot`,`foot_color`,`accessorie`,`accessorie_color`,`armor`,`armor_color`,`decal`,`decal_color`,`hat`,`hat_color`,`glasses`,`glasses_color`,`ear`,`ear_color`,`watch`,`watch_color`,`bracelet`,`bracelet_color`,`allow_marg`,`allow_antipohmel`,`health`,`water_level`,`eat_level`,`health_level`,`temp_level`,`sick_cold`,`sick_poisoning`,`mp0_stamina`,`mp0_strength`,`mp0_lung_capacity`,`mp0_wheelie_ability`,`mp0_flying_ability`,`mp0_shooting_ability`,`mp0_stealth_ability`,`mp0_watchdogs`,`a_lic`,`b_lic`,`c_lic`,`air_lic`,`ship_lic`,`gun_lic`,`taxi_lic`,`law_lic`,`med_lic`,`biz_lic`,`animal_lic`,`fish_lic`,`animal`,`animal_name`,`story_1`,`story_timeout_1`,`skill_builder`,`skill_scrap`,`skill_shop`,`skill_taxi`,`skill_mail`,`skill_mail2`,`skill_photo`,`skill_sunb`,`skill_bgstar`,`skill_bshot`,`skill_three`,`skill_water`,`skill_bus1`,`skill_bus2`,`skill_bus3`,`skill_gr6`,`skill_trucker`,`vip_status`,`vip_time`,`count_hask`,`count_aask`,`token`,`token_rp`,`ip_reg`,`ip_last`,`money_donate`,`is_online`,`s_is_pay_type_bank`,`s_is_load_blip_house`,`s_is_characher`,`s_is_spawn_aprt`,`s_lang`,`s_clipset`,`s_is_usehackerphone`,`s_radio_balance`,`s_radio_vol`,`s_voice_vol`,`s_voice_balance`,`sell_car_time`,`sell_car`,`mailhouses`,`house_grab`,`email`,`referer`,`promocode`,`parthner_procent`,`parthner_promocode`,`parthner_payment`,`empty_col`,`rp_weight`,`rp_growth`,`rp_nationality`,`rp_qualities`,`rp_distinctive_features`,`rp_diseases`,`rp_character`,`rp_biography`,`rp_avatar`,`rp_is_public`,`jailed_admin`,`quests`,`chipsBalance`,`holidayPickups`,`shootingPickups`,`level`,`level_exp`,`tablet_equip`,`played_time`,`tattoos_list`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);","parameters":["_ERROR_KSOXZ_",0,"Alexandr Ksoxz","D8903A045B466D404C922F042742FD10B9E2730CC6366AB089F018C8DD223F6008587F54F77281F8D9BAE3ACDB44FF20721208A056B6E93853D0646C79482080","bfb30404f2474961afb70e916440825f478e8dd3c920baa05eaa6fdaa08e84e1",0,0,26,0,1296,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,"",0,"",0,0,null,"","","","","","","","","","","","","","",1638816376,0,0,0,0,0,"",0,0,0,0,0,"0",0,0,0,0,0,0,0,0,1,0,0,1,11,0,0,0,44,1,9,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,100,100,1000,100,36.6,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"","",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,0,"","","194.156.251.235","",0,0,0,1,0,0,"RU","",0,1,0.4,0.4,1,0,0,"",0,"gemeries9@gmail.com","","",0,"","","null",70,180,"Американец",null,null,null,null,"Нет","https://i.imgur.com/MUxgy8v.png",1,0,"[]",0,"[]","[]",1,0,0,0,"[]"]},"sql":"INSERT INTO `pAFk3qiAgG1_users` (`id`,`name`,`name2`,`rp_name`,`lic`,`password`,`reg_status`,`reg_time`,`age`,`exp_age`,`money`,`money_bank`,`money_payday`,`money_tax`,`bank_prefix`,`bank_number`,`posob`,`id_house`,`apartment_id`,`condo_id`,`business_id`,`stock_id`,`car_id1`,`car_id2`,`car_id3`,`car_id4`,`car_id5`,`car_id6`,`car_id7`,`car_id8`,`fraction_id`,`rank`,`fraction_id2`,`rank2`,`tag`,`job`,`is_gos_blacklist`,`gos_blacklist_reason`,`admin_level`,`helper_level`,`skin`,`tattoo_head_c`,`tattoo_head_o`,`tattoo_torso_c`,`tattoo_torso_o`,`tattoo_left_arm_c`,`tattoo_left_arm_o`,`tattoo_right_arm_c`,`tattoo_right_arm_o`,`tattoo_left_leg_c`,`tattoo_left_leg_o`,`tattoo_right_leg_c`,`tattoo_right_leg_o`,`tprint_c`,`tprint_o`,`date_reg`,`last_login`,`date_ban`,`date_mute`,`warn`,`wanted_level`,`wanted_reason`,`phone_code`,`phone`,`is_buy_walkietalkie`,`is_old_money`,`item_clock`,`walkietalkie_num`,`jailed`,`jail_time`,`med_time`,`mask`,`mask_color`,`head`,`head_color`,`body`,`body_color`,`torso`,`torso_color`,`leg`,`leg_color`,`hand`,`hand_color`,`parachute`,`parachute_color`,`foot`,`foot_color`,`accessorie`,`accessorie_color`,`armor`,`armor_color`,`decal`,`decal_color`,`hat`,`hat_color`,`glasses`,`glasses_color`,`ear`,`ear_color`,`watch`,`watch_color`,`bracelet`,`bracelet_color`,`allow_marg`,`allow_antipohmel`,`health`,`water_level`,`eat_level`,`health_level`,`temp_level`,`sick_cold`,`sick_poisoning`,`mp0_stamina`,`mp0_strength`,`mp0_lung_capacity`,`mp0_wheelie_ability`,`mp0_flying_ability`,`mp0_shooting_ability`,`mp0_stealth_ability`,`mp0_watchdogs`,`a_lic`,`b_lic`,`c_lic`,`air_lic`,`ship_lic`,`gun_lic`,`taxi_lic`,`law_lic`,`med_lic`,`biz_lic`,`animal_lic`,`fish_lic`,`animal`,`animal_name`,`story_1`,`story_timeout_1`,`skill_builder`,`skill_scrap`,`skill_shop`,`skill_taxi`,`skill_mail`,`skill_mail2`,`skill_photo`,`skill_sunb`,`skill_bgstar`,`skill_bshot`,`skill_three`,`skill_water`,`skill_bus1`,`skill_bus2`,`skill_bus3`,`skill_gr6`,`skill_trucker`,`vip_status`,`vip_time`,`count_hask`,`count_aask`,`token`,`token_rp`,`ip_reg`,`ip_last`,`money_donate`,`is_online`,`s_is_pay_type_bank`,`s_is_load_blip_house`,`s_is_characher`,`s_is_spawn_aprt`,`s_lang`,`s_clipset`,`s_is_usehackerphone`,`s_radio_balance`,`s_radio_vol`,`s_voice_vol`,`s_voice_balance`,`sell_car_time`,`sell_car`,`mailhouses`,`house_grab`,`email`,`referer`,`promocode`,`parthner_procent`,`parthner_promocode`,`parthner_payment`,`empty_col`,`rp_weight`,`rp_growth`,`rp_nationality`,`rp_qualities`,`rp_distinctive_features`,`rp_diseases`,`rp_character`,`rp_biography`,`rp_avatar`,`rp_is_public`,`jailed_admin`,`quests`,`chipsBalance`,`holidayPickups`,`shootingPickups`,`level`,`level_exp`,`tablet_equip`,`played_time`,`tattoos_list`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);","parameters":["_ERROR_KSOXZ_",0,"Alexandr Ksoxz","D8903A045B466D404C922F042742FD10B9E2730CC6366AB089F018C8DD223F6008587F54F77281F8D9BAE3ACDB44FF20721208A056B6E93853D0646C79482080","bfb30404f2474961afb70e916440825f478e8dd3c920baa05eaa6fdaa08e84e1",0,0,26,0,1296,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,null,"",0,"",0,0,null,"","","","","","","","","","","","","","",1638816376,0,0,0,0,0,"",0,0,0,0,0,"0",0,0,0,0,0,0,0,0,1,0,0,1,11,0,0,0,44,1,9,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,100,100,1000,100,36.6,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"","",0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,0,"","","194.156.251.235","",0,0,0,1,0,0,"RU","",0,1,0.4,0.4,1,0,0,"",0,"gemeries9@gmail.com","","",0,"","","null",70,180,"Американец",null,null,null,null,"Нет","https://i.imgur.com/MUxgy8v.png",1,0,"[]",0,"[]","[]",1,0,0,0,"[]"]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  
+[07/12/21] [00:00:06] 
+  !!! unhandledRejection !!!
+  reason
+  {"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638835206,"id":null,"user":66929,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+  promise
+  {"isFulfilled":false,"isRejected":true,"rejectionReason":{"name":"SequelizeValidationError","errors":[{"message":"pAFk3qiAgG1_users_notify.title cannot be null","type":"notNull Violation","path":"title","value":null,"origin":"CORE","instance":{"notified":false,"timestamp":1638835206,"id":null,"user":66929,"title":null,"message":"Вы получили бонус как самый активный игрок дня (1 место): ~g~$100,000","position":"chat","type":"success","icon":"CHAR_ACTING_UP"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}}
+  --------
+  LAST DEBUG
+  []
+  --------
+
+
+
+
+  

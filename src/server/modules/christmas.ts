@@ -1,4 +1,4 @@
-import { methods } from "./methods";
+/*import { methods } from "./methods";
 import { menu } from "./menu";
 import { mysql } from '../modules/mysql';
 import { sequelize } from './sequelize'
@@ -8,15 +8,15 @@ import { inventory } from "../inventory";
 import { chat, enabledSystem } from "./chat";
 let data = new Date();
 
-// /** Координаты новогодней ёлки */
+// /** Координаты новогодней ёлки *//*
 const pos = new mp.Vector3(-1374, -558, 30);
-// /** С какого дня можно начать складывать подарки под ёлку */
+// /** С какого дня можно начать складывать подарки под ёлку *//*
 const minDayGive = 20;
-// /** До какого дня их можно забрать */
+// /** До какого дня их можно забрать *//*
 const maxDayTake = 7;
-// /** Статус доступа для дарения */
+// /** Статус доступа для дарения *//*
 let isTimeForGiveGift = (data.getMonth() == 10 && data.getDate() >= minDayGive)
-// /** Статус доступа для подбирания подарка */
+// /** Статус доступа для подбирания подарка *//*
 let isTimeForTakeGift = (data.getMonth() == 10 && data.getDate() <= maxDayTake)
 
  setInterval(() => {
@@ -42,7 +42,7 @@ const snowmangame = {
   winMoney: 1000,
   lobbys: <Map<number,SnowGame>> new Map(),
   lobbysids: 1000,
-  /** Минимальное количество участников для запуска лобби */
+  /** Минимальное количество участников для запуска лобби *//*
   lobbyminimal: 2
 }
 
@@ -526,3 +526,4 @@ async function giftsThatISent(player:PlayerMp){
   })
   m.open();
 }
+*/

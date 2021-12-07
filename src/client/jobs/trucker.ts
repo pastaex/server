@@ -74,7 +74,9 @@ let trucker = {
     doneOffer: function() {
     
         if (type == 2) {
-            if (!mp.players.local.vehicle || !mp.players.local.vehicle.isAttachedToTrailer()) {
+            let veh = mp.players.local.vehicle;
+            let trailer = mp.vehicles.atHandle(veh.getTrailer(0));
+            if (mp.players.local.vehicle && mp.players.local.vehicle.isAttachedToTrailer() && !veh.getTrailer(0)) {
                 trucker.notify('У Вас нет прицепа');
                 return;
             }
