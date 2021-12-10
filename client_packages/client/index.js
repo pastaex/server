@@ -1157,7 +1157,7 @@ const weather = {
     mp.game.gameplay.setWeatherTypeOverTime(weatherName, CurrentWeather == weatherName ? 1 : delay);
     CurrentWeather = weatherName;
     setTimeout(function () {
-      if (weatherName == 'XMAS') {} else {}
+      if (weatherName == 'CLEAR') {} else {}
     }, delay);
   },
   getWeatherId: weatherName => {
@@ -3099,7 +3099,7 @@ mp.events.add('client:methods:createGlobalPedInVehicle', (id, model, vehicleId) 
       _methods.methods.debug(e);
     }
 
-    mp.game.invoke(_methods.methods.TASK_ENTER_VEHICLE, ped.handle, veh.handle, 3, 0, 0, 0);
+    mp.game.invoke(_methods.methods.TASK_ENTER_VEHICLE, ped.handle, veh.handle, 3, 1, 0, 0);
     pedList.push({
       ped: ped,
       pedId: id
@@ -7809,7 +7809,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.playMinigame = playMinigame;
 let baseUrl;
 mp.events.add('web:browsers:urls', q => {
-  baseUrl = 'http://84.201.189.208:3400/minigames/';
+  baseUrl = 'http://34.118.27.116:3400/minigames/';
 });
 let minigameID = 0;
 let minigameCb = new Map();
@@ -17559,7 +17559,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 let items = _items_old.items_old;
 let flag1 = 8;
 let flag2 = 9;
-let maxSpeed = 350;
+let maxSpeed = 400;
 let seatBelt = false;
 exports.seatBelt = seatBelt;
 let _playerDisableAllControls = false;
@@ -22645,7 +22645,7 @@ const user = {
   },
   tpToWaypoint: () => {
     try {
-      let entity = mp.players.local.vehicle && mp.players.local.vehicle.getPedInSeat(0) == mp.players.local.handle ? mp.players.local.vehicle : mp.players.local;
+      let entity = mp.players.local.vehicle ? mp.players.local.vehicle : mp.players.local;
 
       let pos = _methods.methods.getWaypointPosition();
 
@@ -30992,7 +30992,7 @@ setTimeout(() => {
         }
 
         if (vehicle.getSpeed() < 3) {
-          mp.game.invoke(_methods.methods.TASK_ENTER_VEHICLE, ped.handle, vehicle.handle, 3, -1, 0, 16);
+          mp.game.invoke(_methods.methods.TASK_ENTER_VEHICLE, ped.handle, vehicle.handle, 3, 1, 0, 16);
           mp.game.invoke("0x158BB33F920D360C", ped.handle, vehicle.handle, endpos.x, endpos.y, endpos.z, 30 / 2.2, 786603, 5);
         }
 

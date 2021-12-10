@@ -53,7 +53,7 @@ setTimeout(() => {
           ped.setCollision(false, false);
         }
         if(vehicle.getSpeed() < 3){
-          mp.game.invoke(methods.TASK_ENTER_VEHICLE, ped.handle, vehicle.handle, 3, -1, 0, 16);
+          mp.game.invoke(methods.TASK_ENTER_VEHICLE, ped.handle, vehicle.handle, 3, 1, 0, 16);
           mp.game.invoke("0x158BB33F920D360C", ped.handle, vehicle.handle, endpos.x, endpos.y, endpos.z, 30 / 2.2, 786603, 5);
         }
         let distance = mp.game.gameplay.getDistanceBetweenCoords(endpos.x, endpos.y, endpos.z, vehicle.position.x, vehicle.position.y, vehicle.position.z, false);

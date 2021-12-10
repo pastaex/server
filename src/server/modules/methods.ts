@@ -858,16 +858,13 @@ export let methods = {
 			});
 	},
 	getVehicleInfo: function (model: number | string): vehicleInfoCar {
-		let hash: number;
-		if (typeof model == "string") hash = mp.joaat(model);
-		else hash = model;
 		let vehInfo = enums.vehicleInfo;
 		for (let item in vehInfo) {
 			let vItem = vehInfo[item];
 			if (vItem.hash == model || vItem.display_name == model || vItem.display_name.toLowerCase() == model.toString().toLowerCase() || mp.joaat(vItem.display_name.toString().toLowerCase()) == model)
 				return vItem;
 		}
-		return { id: 0, hash,  display_name: 'Unknown', class_name: 'Unknown', stock: 205000, fuel_full: 75, fuel_min: 8 };
+		return { id: 0, display_name: 'Unknown', class_name: 'Unknown', stock: 205000, fuel_full: 75, fuel_min: 8 };
 	},
 	getTaxiModalClass: function (model: any) {
 		if (methods.getVehicleInfo(model).display_name == 'Oracle2')

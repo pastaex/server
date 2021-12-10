@@ -17396,8 +17396,6 @@ exports.whitelist = void 0;
 
 var _whiteListTest = require("./entity/whiteListTest");
 
-var _methods = require("./methods");
-
 var _user = require("../user");
 
 const whitelist = {
@@ -17437,22 +17435,7 @@ const whitelist = {
   }
 };
 exports.whitelist = whitelist;
-mp.events.add('server:login:success:after', player => {
-  if (!_methods.methods.isTestServer()) return true;
-  if (whitelist.list.includes(player.socialClub.toLowerCase()) || player.ip == "127.0.0.1") return true;
-  setTimeout(() => {
-    if (!mp.players.exists(player)) return;
-
-    _user.user.disableAllControls(player, true);
-
-    _user.user.hideLoadDisplay(player);
-
-    _user.user.bigAlert(player, `У вас нет доступа к тестовому серверу`, "error", 120000);
-
-    _user.user.kick(player, 'У вас нет доступа к тестовому серверу');
-  }, 5000);
-});
-},{"./entity/whiteListTest":"GoOy","./methods":"+qXS","../user":"+QE3"}],"ES5W":[function(require,module,exports) {
+},{"./entity/whiteListTest":"GoOy","../user":"+QE3"}],"ES5W":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25165,14 +25148,12 @@ chat.registerCommand('report', player => {
 chat.registerCommand('veh', (player, veh) => {
   if (!_user.user.isAdmin(player)) return;
   if (veh === undefined) return player.outputChatBox('/veh name');
-  if (!veh) return player.notify("Некорректная модель");
-  let pos;
-  pos = player.position;
-  let adminVeh = mp.vehicles.new(mp.joaat(veh), new mp.Vector3(pos.x + 2, pos.y, pos.z));
-  setTimeout(() => {
-    player.putIntoVehicle(adminVeh, 0);
-  }, 150);
-  player.notify('~g~ Заспавенно!');
+  if (!model) return;
+
+  let vehicle = _vehicles.vehicles.spawnCar(player.position, player.heading, model);
+
+  vehicle.dimension = player.dimension;
+  player.putIntoVehicle(vehicle, RAGE_BETA ? 0 : -1);
 });
 let enabledSystem = {
   autoschool: true,
@@ -35870,8 +35851,6 @@ let methods = {
     });
   },
   getVehicleInfo: function (model) {
-    let hash;
-    if (typeof model == "string") hash = mp.joaat(model);else hash = model;
     let vehInfo = _enums.enums.vehicleInfo;
 
     for (let item in vehInfo) {
@@ -35881,7 +35860,6 @@ let methods = {
 
     return {
       id: 0,
-      hash,
       display_name: 'Unknown',
       class_name: 'Unknown',
       stock: 205000,

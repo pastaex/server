@@ -533,14 +533,10 @@ chat.registerCommand('report', (player) => {
 chat.registerCommand('veh',(player, veh)=>{
     if (!user.isAdmin(player)) return;
     if(veh === undefined) return player.outputChatBox('/veh name');
-    if (!veh) return player.notify("Некорректная модель");
-    let pos;
-    pos = player.position;
-    let adminVeh = mp.vehicles.new(mp.joaat(veh), new mp.Vector3(pos.x + 2, pos.y, pos.z));
-    setTimeout(() => {
-        player.putIntoVehicle(adminVeh, 0) // Спавн за водительское место
-    }, 150);
-    player.notify('~g~ Заспавенно!');
+    if (!model) return;
+    let vehicle = vehicles.spawnCar(player.position, player.heading, model);
+    vehicle.dimension = player.dimension;
+    player.putIntoVehicle(vehicle, RAGE_BETA ? 0 : -1);
 });
 
 export let enabledSystem:{

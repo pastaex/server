@@ -276,7 +276,7 @@ mp.events.add('client:methods:createGlobalPedInVehicle', (id, model, vehicleId) 
         catch (e) {
             methods.debug(e);
         }
-        mp.game.invoke(methods.TASK_ENTER_VEHICLE, ped.handle, veh.handle, 3, 0, 0, 0);
+        mp.game.invoke(methods.TASK_ENTER_VEHICLE, ped.handle, veh.handle, 3, 1, 0, 0);
         pedList.push({ ped: ped, pedId: id });
     }
 });

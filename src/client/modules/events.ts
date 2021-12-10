@@ -34,7 +34,7 @@ import { restartVoice } from '../ragevoice';
 export {}
 let flag1 = 8;
 let flag2 = 9;
-let maxSpeed = 350;
+let maxSpeed = 400;
 
 /** Ремень безопасности */
 export let seatBelt = false;

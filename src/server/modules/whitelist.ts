@@ -33,10 +33,10 @@ export const whitelist = {
         }
     },
 }
-
+/*
 mp.events.add('server:login:success:after', (player:PlayerMp) => { 
-    if(!methods.isTestServer()) return true;
-    if (whitelist.list.includes(player.socialClub.toLowerCase()) || player.ip == "127.0.0.1") return true;
+    //if(!methods.isTestServer()) return true;
+    //if (whitelist.list.includes(player.socialClub.toLowerCase()) || player.ip == "127.0.0.1") return true;
     setTimeout(() => {
         if (!mp.players.exists(player)) return;
         user.disableAllControls(player, true)
@@ -44,4 +44,4 @@ mp.events.add('server:login:success:after', (player:PlayerMp) => {
         user.bigAlert(player, `У вас нет доступа к тестовому серверу`, "error", 120000);
         user.kick(player, 'У вас нет доступа к тестовому серверу');
     }, 5000)
-});
+});*/

@@ -3,13 +3,12 @@
 	"name" : "Veyron Role Play", 
 	"gamemode" : "roleplay", 
 	"stream-distance" : 1500,
-	"announce" : false,
+	"announce" : true,
 	"csharp" : "disabled",
 	"port": 22005,
 	"allow-cef-debugging": true,
 	"voice-chat": true,
-	"test":true,
+	"test":false,
 	"voice-chat-sample-rate": 48000,
-	"sync-rate" : 100,
 	"language": "ru"
 }
